@@ -32,6 +32,15 @@ feed the final verdict.
 - **Tools:** sentence-transformers / embeddings → FAISS or Chroma → an LLM.
 - **Output:** retrieve-then-answer pipeline + all scored answers.
 
+> ⚠️ **`data/raw/medical/` is NOT in git** (25M of public CDC/ECDC PDFs, gitignored
+> to keep the repo lean). It's only needed here in Step 3 as retrieval distractors.
+> Before running RAG, place the 15 medical PDFs in `data/raw/medical/` — re-download
+> the source reports (US CDC *MMWR* `mm75xx-H.pdf`, ECDC communicable-disease-threat
+> weeklies, the Ebola tabletop doc, etc.) or copy them from your Phase A working set.
+> The 13 hospital PDFs (`data/raw/hospital/`) **are** committed, so the core
+> retrieve-then-answer pipeline runs without them; the distractors only make the
+> retrieval test realistic. Ground truth still comes **only** from the hospital docs.
+
 ---
 
 ## Phase B deliverable
