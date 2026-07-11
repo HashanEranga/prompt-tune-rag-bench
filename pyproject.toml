@@ -1,0 +1,13 @@
+[project]
+name = "agenticai-miniproject-01"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "pymupdf==1.28.0",        # primary PDF text/layout extraction (fitz)
+    "pdfplumber==0.11.10",    # table-aware extraction for pricing/catalog docs
+    "pandas==3.0.3",          # stratified train/test split + tabular analysis
+    "anthropic==0.116.0",     # documented Q&A generation path (build_dataset generate)
+    "python-dotenv==1.2.2",   # load API keys from .env
+    "python-slugify==8.0.4",  # deterministic clean-file slugs
+    "tqdm==4.68.4",           # progress bars
+]

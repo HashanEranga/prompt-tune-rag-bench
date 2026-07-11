@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Environment / secrets ----
+.env
+.env.*
+
+# ---- IDE (JetBrains / VS Code) ----
+.idea/
+.vscode/
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Raw data (large binary PDFs) ----
+# The 13 hospital source PDFs (fictional ground truth) ARE committed — the pipeline
+# needs them and they exist nowhere public. The 15 medical PDFs are large, public
+# CDC/ECDC reports used only as RAG distractors: re-download rather than bloat git.
+data/raw/medical/
