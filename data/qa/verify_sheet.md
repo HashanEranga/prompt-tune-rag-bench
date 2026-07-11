@@ -1,0 +1,1777 @@
+# Q&A verification sheet
+
+Verify every pair **against its source document** (`data/clean/<doc>.md`, and the original PDF when in doubt) — the source is the authority, not the drafted answer. Tick the box when confirmed; note any correction inline.
+
+- Total pairs: **433**
+- Flagged `needs_attention` (a number in the answer wasn't found verbatim in the evidence): **0**
+
+## SGH-ER-001 — Accident, Emergency and Casualty Services - Protocol Reference.pdf  (23 pairs)
+
+- [ ] **sgh-er-001-q001** · _EMERGENCY ENTRANCE AND ACCESS_ · `numeric`
+  - **Q:** Where is the emergency entrance at Serendib General Hospital and how is it accessed?
+  - **A:** The Accident, Emergency and Casualty (AEC) department operates 24 hours. The dedicated entrance is located on the Kirula Road side of the hospital, clearly identified by green emergency signage and continuous floodlighting. Ambulance access is via the covered bay adjoining the entrance. Walk-in patients are directed through the glass doors marked "Accident and Emergency." The main hospital lobby is not to be used for emergency presentations.
+  - **Evidence:** The Accident, Emergency and Casualty (AEC) department operates 24 hours. The dedicated entrance is located on the Kirula Road side of the hospital, clearly identified by green emergency signage and continuous floodlighting. Ambulance access is via the covered bay adjoining the entrance. Walk-in patients are directed through the glass doors marked "Accident and Emergency." The main hospital lobby is not to be used for emergency presentations.
+- [ ] **sgh-er-001-q002** · _CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE_ · `procedural`
+  - **Q:** Which conditions require immediate emergency (AEC) attendance at Serendib General Hospital?
+  - **A:** Chest pain or tightness, particularly when accompanied by sweating, nausea, or breathlessness Suspected stroke: sudden facial drooping, unilateral arm weakness, slurred speech, or abrupt vision loss Severe or rapidly worsening breathing difficulty; Uncontrolled or profuse external bleeding; Loss of consciousness or active seizure; Severe allergic reaction, including facial or throat swelling or difficulty swallowing; Major trauma arising from a road traffic accident, fall from height, or assault; Fever above 39°C with altered mental state or stiff neck; Suspected poisoning or drug overdose; Acute severe abdominal pain For non-urgent concerns such as minor lacerations, mild fever, or medication queries, patients are advised to attend OPD or contact the Nurse Advice Line at Ext. 1199.
+  - **Evidence:** Chest pain or tightness, particularly when accompanied by sweating, nausea, or breathlessness Suspected stroke: sudden facial drooping, unilateral arm weakness, slurred speech, or abrupt vision loss Severe or rapidly worsening breathing difficulty; Uncontrolled or profuse external bleeding; Loss of consciousness or active seizure; Severe allergic reaction, including facial or throat swelling or difficulty swallowing; Major trauma arising from a road traffic accident, fall from height, or assault; Fever above 39°C with altered mental state or stiff neck; Suspected poisoning or drug overdose; Acute severe abdominal pain For non-urgent concerns such as minor lacerations, mild fever, or medication queries, patients are advised to attend OPD or contact the Nurse Advice Line at Ext. 1199.
+- [ ] **sgh-er-001-q003** · _PAEDIATRIC EMERGENCY_ · `factual`
+  - **Q:** How does the paediatric emergency service work at Serendib General Hospital?
+  - **A:** A dedicated paediatric bay operates within AEC at all hours, staffed by a paediatric registrar around the clock. Children are triaged separately from the general adult population. One parent or legal guardian may remain with the child at all times. The paediatric bay entrance is marked with a blue floor line inside the AEC department.
+  - **Evidence:** A dedicated paediatric bay operates within AEC at all hours, staffed by a paediatric registrar around the clock. Children are triaged separately from the general adult population. One parent or legal guardian may remain with the child at all times. The paediatric bay entrance is marked with a blue floor line inside the AEC department.
+- [ ] **sgh-er-001-q004** · _EMERGENCY ENTRANCE AND ACCESS_ · `numeric`
+  - **Q:** What is the emergency hotline number for Serendib General Hospital?
+  - **A:** +94 11 2 456 911 (available 24 hours, 7 days a week).
+  - **Evidence:** Emergency Hotline | Ambulance Dispatch ;; +94 11 2 456 911 | +94 11 2 456 912 ;; 24 hours, 7 days a week | Covering Colombo and suburbs
+- [ ] **sgh-er-001-q005** · _EMERGENCY ENTRANCE AND ACCESS_ · `numeric`
+  - **Q:** What is the ambulance dispatch number at Serendib General Hospital?
+  - **A:** +94 11 2 456 912 (Covering Colombo and suburbs).
+  - **Evidence:** Emergency Hotline | Ambulance Dispatch ;; +94 11 2 456 911 | +94 11 2 456 912 ;; 24 hours, 7 days a week | Covering Colombo and suburbs
+- [ ] **sgh-er-001-q006** · _AEC CHARGES_ · `numeric`
+  - **Q:** What is the fee for AEC Registration (triage and initial nursing assessment) at Serendib's emergency department?
+  - **A:** 1,000 LKR.
+  - **Evidence:** AEC Registration (triage and initial nursing assessment) | 1,000
+- [ ] **sgh-er-001-q007** · _AEC CHARGES_ · `numeric`
+  - **Q:** What is the fee for Physician consultation at AEC rates at Serendib's emergency department?
+  - **A:** 3,500 LKR.
+  - **Evidence:** Physician consultation at AEC rates | 3,500
+- [ ] **sgh-er-001-q008** · _AEC CHARGES_ · `numeric`
+  - **Q:** What is the fee for Investigations and treatment at Serendib's emergency department?
+  - **A:** Billed as incurred.
+  - **Evidence:** Investigations and treatment | Billed as incurred
+- [ ] **sgh-er-001-q009** · _IN THE EVENT OF A MEDICAL EMERGENCY_ · `numeric`
+  - **Q:** What number should I call in a medical emergency at Serendib General Hospital?
+  - **A:** Call +94 11 2 456 911 (SGH Emergency) or 110 (National).
+  - **Evidence:** IN THE EVENT OF A MEDICAL EMERGENCY, CALL +94 11 2 456 911 (SGH EMERGENCY) OR 110 (NATIONAL).
+- [ ] **sgh-er-001-q010** · _IN THE EVENT OF A MEDICAL EMERGENCY_ · `factual`
+  - **Q:** Will emergency treatment be delayed for paperwork at Serendib General Hospital?
+  - **A:** No. Treatment will not be withheld pending administrative formalities.
+  - **Evidence:** Treatment will not be withheld pending administrative formalities.
+- [ ] **sgh-er-001-q011** · _EMERGENCY ENTRANCE AND ACCESS_ · `factual`
+  - **Q:** Where is the Serendib emergency (AEC) entrance located?
+  - **A:** On the Kirula Road side of the hospital, marked by green emergency signage and continuous floodlighting.
+  - **Evidence:** The dedicated entrance is located on the Kirula Road side of the hospital, clearly identified by green emergency signage and continuous floodlighting.
+- [ ] **sgh-er-001-q012** · _EMERGENCY ENTRANCE AND ACCESS_ · `factual`
+  - **Q:** Is the Serendib emergency department open around the clock?
+  - **A:** Yes. The Accident, Emergency and Casualty (AEC) department operates 24 hours.
+  - **Evidence:** The Accident, Emergency and Casualty (AEC) department operates 24 hours.
+- [ ] **sgh-er-001-q013** · _CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE_ · `factual`
+  - **Q:** What are the warning signs of a suspected stroke listed by Serendib General Hospital?
+  - **A:** Sudden facial drooping, unilateral arm weakness, slurred speech, or abrupt vision loss.
+  - **Evidence:** Suspected stroke: sudden facial drooping, unilateral arm weakness, slurred speech, or abrupt vision loss
+- [ ] **sgh-er-001-q014** · _CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE_ · `numeric`
+  - **Q:** At what fever does Serendib advise immediate emergency attendance?
+  - **A:** Fever above 39°C with altered mental state or a stiff neck.
+  - **Evidence:** Fever above 39°C with altered mental state or stiff neck
+- [ ] **sgh-er-001-q015** · _CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE_ · `procedural`
+  - **Q:** Where should I go for non-urgent concerns instead of the Serendib emergency department?
+  - **A:** Attend OPD or contact the Nurse Advice Line at Ext. 1199.
+  - **Evidence:** patients are advised to attend OPD or contact the Nurse Advice Line at Ext. 1199
+- [ ] **sgh-er-001-q016** · _PAEDIATRIC EMERGENCY_ · `factual`
+  - **Q:** Is there a dedicated paediatric emergency area at Serendib General Hospital?
+  - **A:** Yes. A dedicated paediatric bay operates within AEC at all hours, staffed by a paediatric registrar around the clock.
+  - **Evidence:** A dedicated paediatric bay operates within AEC at all hours, staffed by a paediatric registrar around the clock.
+- [ ] **sgh-er-001-q017** · _PAEDIATRIC EMERGENCY_ · `factual`
+  - **Q:** How is the paediatric bay marked in the Serendib emergency department?
+  - **A:** Its entrance is marked with a blue floor line inside the AEC department.
+  - **Evidence:** The paediatric bay entrance is marked with a blue floor line inside the AEC department.
+- [ ] **sgh-er-001-q018** · _TRIAGE CLASSIFICATION_ · `numeric`
+  - **Q:** How soon is every patient triaged on arrival at the Serendib emergency department?
+  - **A:** Within five minutes, by a triage nurse.
+  - **Evidence:** every patient is assessed by a triage nurse within five minutes
+- [ ] **sgh-er-001-q019** · _TRIAGE CLASSIFICATION_ · `factual`
+  - **Q:** Is emergency treatment order based on arrival time at Serendib General Hospital?
+  - **A:** No. Priority of treatment is determined by clinical severity and is not based on order of arrival.
+  - **Evidence:** Priority of treatment is determined by clinical severity and is not based on order of arrival.
+- [ ] **sgh-er-001-q020** · _AEC CHARGES_ · `procedural`
+  - **Q:** How is insurance handled for emergency admissions at Serendib General Hospital?
+  - **A:** Pre-authorisation may be processed after stabilisation; the Insurance Desk (Ext. 1200) initiates insurer notification once documentation is provided.
+  - **Evidence:** Insurance pre-authorisation for emergency admissions may be processed after stabilisation. The Insurance Desk (Ext. 1200) will initiate insurer notification
+- [ ] **sgh-er-001-q021** · _CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE_ · `factual`
+  - **Q:** What symptoms accompanying chest pain warrant immediate emergency attendance at Serendib?
+  - **A:** Chest pain or tightness, particularly when accompanied by sweating, nausea, or breathlessness.
+  - **Evidence:** Chest pain or tightness, particularly when accompanied by sweating, nausea, or breathlessness
+- [ ] **sgh-er-001-q022** · _CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE_ · `factual`
+  - **Q:** What signs of a severe allergic reaction require emergency attendance at Serendib?
+  - **A:** Facial or throat swelling or difficulty swallowing.
+  - **Evidence:** Severe allergic reaction, including facial or throat swelling or difficulty swallowing
+- [ ] **sgh-er-001-q023** · _EMERGENCY ENTRANCE AND ACCESS_ · `factual`
+  - **Q:** Should emergency patients use the main hospital lobby at Serendib General Hospital?
+  - **A:** No. The main hospital lobby is not to be used for emergency presentations; walk-in patients use the glass doors marked “Accident and Emergency.”
+  - **Evidence:** The main hospital lobby is not to be used for emergency presentations.
+
+## SGH-FAQ-002 — FAQ- Appointments and channelling.pdf  (19 pairs)
+
+- [ ] **sgh-faq-002-q001** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** How do I book an appointment?
+  - **A:** Appointments may be booked by calling the appointment hotline at 0112-456-789 (available 7:00 am to 8:00 pm daily), through the online portal at portal.serendibhospital.lk, or by walking in to the OPD Registration Desk, Ground Floor, Block A. A confirmation SMS is sent within 15 minutes of any online or telephone booking.
+  - **Evidence:** Appointments may be booked by calling the appointment hotline at 0112-456-789 (available 7:00 am to 8:00 pm daily), through the online portal at portal.serendibhospital.lk, or by walking in to the OPD Registration Desk, Ground Floor, Block A. A confirmation SMS is sent within 15 minutes of any online or telephone booking.
+- [ ] **sgh-faq-002-q002** · _BOOKING AN APPOINTMENT_ · `factual`
+  - **Q:** What is the channelling system?
+  - **A:** Channelling is the term used in Sri Lanka for booking a specific doctor for an outpatient consultation. At Serendib General Hospital, each channelled patient is assigned a numbered queue slot. Your number appears on the screen outside the consultation room and you receive an SMS alert when three patients remain ahead of your turn, allowing you to wait in the café or garden rather than the waiting area.
+  - **Evidence:** Channelling is the term used in Sri Lanka for booking a specific doctor for an outpatient consultation. At Serendib General Hospital, each channelled patient is assigned a numbered queue slot. Your number appears on the screen outside the consultation room and you receive an SMS alert when three patients remain ahead of your turn, allowing you to wait in the café or garden rather than the waiting area.
+- [ ] **sgh-faq-002-q003** · _BOOKING AN APPOINTMENT_ · `factual`
+  - **Q:** Can I request a specific doctor?
+  - **A:** Yes. When booking, you may request a specific consultant by name. Availability depends on the consultant's session schedule. If your preferred doctor is not available on your preferred date, the booking agent will offer the nearest available slot or suggest a colleague in the same specialty.
+  - **Evidence:** Yes. When booking, you may request a specific consultant by name. Availability depends on the consultant's session schedule. If your preferred doctor is not available on your preferred date, the booking agent will offer the nearest available slot or suggest a colleague in the same specialty.
+- [ ] **sgh-faq-002-q004** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** How early should I arrive for my appointment?
+  - **A:** Patients with a booked appointment are advised to arrive at the OPD Registration Desk at least 20 minutes before their session begins to complete registration formalities. Arriving late may result in your slot being forfeited in favour of waiting patients, particularly during peak hours.
+  - **Evidence:** Patients with a booked appointment are advised to arrive at the OPD Registration Desk at least 20 minutes before their session begins to complete registration formalities. Arriving late may result in your slot being forfeited in favour of waiting patients, particularly during peak hours.
+- [ ] **sgh-faq-002-q005** · _BOOKING AN APPOINTMENT_ · `procedural`
+  - **Q:** What documents should I bring to my appointment?
+  - **A:** Patients are required to bring a valid National Identity Card or passport, their hospital registration card if they are a returning patient, any previous investigation reports relevant to the consultation (originals and copies), a referral letter from a GP or specialist if applicable, and a list of current medications.
+  - **Evidence:** Patients are required to bring a valid National Identity Card or passport, their hospital registration card if they are a returning patient, any previous investigation reports relevant to the consultation (originals and copies), a referral letter from a GP or specialist if applicable, and a list of current medications.
+- [ ] **sgh-faq-002-q006** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** Can I cancel or reschedule my appointment?
+  - **A:** Yes. Cancellations and reschedules may be made by calling 0112-456-789 or through the patient portal. Patients are requested to cancel at least two hours before their appointment to allow the slot to be offered to another patient. Late cancellations within two hours attract a LKR 500 administrative fee, which is applied to the next booking.
+  - **Evidence:** Yes. Cancellations and reschedules may be made by calling 0112-456-789 or through the patient portal. Patients are requested to cancel at least two hours before their appointment to allow the slot to be offered to another patient. Late cancellations within two hours attract a LKR 500 administrative fee, which is applied to the next booking.
+- [ ] **sgh-faq-002-q007** · _BOOKING AN APPOINTMENT_ · `factual`
+  - **Q:** What is the difference between a GP and a consultant?
+  - **A:** A General Practitioner (GP) at Serendib manages common illnesses, preventive care, and initial assessments. A Consultant is a specialist doctor registered in a specific field such as cardiology, orthopaedics, or neurology, who typically sees patients following a referral. Consultation fees differ accordingly; see the OPD Services Directory (SGH-OPD-001) for current rates.
+  - **Evidence:** A General Practitioner (GP) at Serendib manages common illnesses, preventive care, and initial assessments. A Consultant is a specialist doctor registered in a specific field such as cardiology, orthopaedics, or neurology, who typically sees patients following a referral. Consultation fees differ accordingly; see the OPD Services Directory (SGH-OPD-001) for current rates.
+- [ ] **sgh-faq-002-q008** · _BOOKING AN APPOINTMENT_ · `procedural`
+  - **Q:** Can someone else book an appointment on my behalf?
+  - **A:** Yes. A family member or caregiver may book an appointment on behalf of a patient by providing the patient's full name, NIC number, date of birth, and contact number. The confirmation SMS is sent to the number provided at the time of booking.
+  - **Evidence:** Yes. A family member or caregiver may book an appointment on behalf of a patient by providing the patient's full name, NIC number, date of birth, and contact number. The confirmation SMS is sent to the number provided at the time of booking.
+- [ ] **sgh-faq-002-q009** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** Is walk-in available for all departments?
+  - **A:** Walk-in is accepted at all OPD departments, subject to the session being open and available capacity. Walk-in patients are attended to after all channelled patients within each session. During peak hours of 10:00 am to 12:00 pm and 4:00 pm to 6:00 pm, waiting times for walk-in patients may exceed 90 minutes. Advance channelling is strongly recommended for specialist consultations.
+  - **Evidence:** Walk-in is accepted at all OPD departments, subject to the session being open and available capacity. Walk-in patients are attended to after all channelled patients within each session. During peak hours of 10:00 am to 12:00 pm and 4:00 pm to 6:00 pm, waiting times for walk-in patients may exceed 90 minutes. Advance channelling is strongly recommended for specialist consultations.
+- [ ] **sgh-faq-002-q010** · _BOOKING AN APPOINTMENT_ · `factual`
+  - **Q:** What happens if the doctor is unavailable on the day?
+  - **A:** In the event that a consultant is unable to attend a scheduled session due to an emergency, patients are notified by SMS as early as possible. The registration desk will offer patients the option of seeing an available colleague in the same specialty, rescheduling at no charge, or obtaining a full refund of the consultation fee if already paid.
+  - **Evidence:** In the event that a consultant is unable to attend a scheduled session due to an emergency, patients are notified by SMS as early as possible. The registration desk will offer patients the option of seeing an available colleague in the same specialty, rescheduling at no charge, or obtaining a full refund of the consultation fee if already paid.
+- [ ] **sgh-faq-002-q011** · _BOOKING AN APPOINTMENT_ · `factual`
+  - **Q:** Can I get a same-day appointment?
+  - **A:** Same-day appointments are available for General Medicine and Paediatrics on most days, subject to capacity. For specialist departments, same-day availability depends on the consultant's session and is not guaranteed. Patients are advised to call early in the morning to check availability.
+  - **Evidence:** Same-day appointments are available for General Medicine and Paediatrics on most days, subject to capacity. For specialist departments, same-day availability depends on the consultant's session and is not guaranteed. Patients are advised to call early in the morning to check availability.
+- [ ] **sgh-faq-002-q012** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** How do I get a referral to a specialist?
+  - **A:** Referrals may be obtained from any GP at Serendib General Hospital following an OPD consultation. Internal referrals are transmitted electronically to the receiving department; patients are contacted with an appointment date by SMS within 24 hours for urgent referrals and within three working days for routine referrals. External referrals from other practitioners are also accepted at the OPD desk.
+  - **Evidence:** Referrals may be obtained from any GP at Serendib General Hospital following an OPD consultation. Internal referrals are transmitted electronically to the receiving department; patients are contacted with an appointment date by SMS within 24 hours for urgent referrals and within three working days for routine referrals. External referrals from other practitioners are also accepted at the OPD desk.
+- [ ] **sgh-faq-002-q013** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** What is a follow-up appointment and is there a reduced fee?
+  - **A:** A follow-up appointment is a return visit to the same consultant within 30 days of the original consultation for the same condition. The fee for a follow-up is 50% of the applicable consultation fee. Patients must present their previous consultation receipt or hospital registration card to receive the reduced rate.
+  - **Evidence:** A follow-up appointment is a return visit to the same consultant within 30 days of the original consultation for the same condition. The fee for a follow-up is 50% of the applicable consultation fee. Patients must present their previous consultation receipt or hospital registration card to receive the reduced rate.
+- [ ] **sgh-faq-002-q014** · _BOOKING AN APPOINTMENT_ · `procedural`
+  - **Q:** Are video consultations available?
+  - **A:** Yes. Selected consultants offer video consultations through the Serendib patient portal for follow-up appointments and non-emergency reviews. Video consultation availability and fees are listed on the portal under each consultant's profile. In-person attendance is required for initial consultations, physical examinations, and any procedure that cannot be completed remotely.
+  - **Evidence:** Yes. Selected consultants offer video consultations through the Serendib patient portal for follow-up appointments and non-emergency reviews. Video consultation availability and fees are listed on the portal under each consultant's profile. In-person attendance is required for initial consultations, physical examinations, and any procedure that cannot be completed remotely.
+- [ ] **sgh-faq-002-q015** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** What is the late-cancellation fee for an appointment at Serendib General Hospital?
+  - **A:** A LKR 500 administrative fee for cancellations within two hours of the appointment, applied to the next booking.
+  - **Evidence:** Late cancellations within two hours attract a LKR 500 administrative fee, which is applied to the next booking.
+- [ ] **sgh-faq-002-q016** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** How early should I arrive for a booked appointment at Serendib General Hospital?
+  - **A:** At least 20 minutes before the session begins, at the OPD Registration Desk.
+  - **Evidence:** advised to arrive at the OPD Registration Desk at least 20 minutes before their session begins
+- [ ] **sgh-faq-002-q017** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** How soon is an appointment confirmation SMS sent at Serendib General Hospital?
+  - **A:** Within 15 minutes of any online or telephone booking.
+  - **Evidence:** A confirmation SMS is sent within 15 minutes of any online or telephone booking.
+- [ ] **sgh-faq-002-q018** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** What is the fee for a follow-up appointment at Serendib General Hospital?
+  - **A:** 50% of the applicable consultation fee, for a return visit to the same consultant within 30 days for the same condition.
+  - **Evidence:** A follow-up appointment is a return visit to the same consultant within 30 days of the original consultation for the same condition. The fee for a follow-up is 50% of the applicable consultation fee.
+- [ ] **sgh-faq-002-q019** · _BOOKING AN APPOINTMENT_ · `numeric`
+  - **Q:** What is the appointment hotline number at Serendib General Hospital and its hours?
+  - **A:** 0112-456-789, available 7:00 am to 8:00 pm daily.
+  - **Evidence:** calling the appointment hotline at 0112-456-789 (available 7:00 am to 8:00 pm daily)
+
+## SGH-FAQ-003 — FAQ - Surgery and Pre Operative Care.pdf  (25 pairs)
+
+- [ ] **sgh-faq-003-q001** · _BEFORE SURGERY_ · `procedural`
+  - **Q:** How do I schedule a surgical procedure?
+  - **A:** Surgery is scheduled through the treating consultant's office following an outpatient consultation and any required pre-operative investigations. Once the consultant confirms surgical clearance, the Surgical Admissions Desk on Level 6, Block C will contact the patient to assign a theatre date. Patients may also contact the Surgical Helpline directly at 0112-456-800.
+  - **Evidence:** Surgery is scheduled through the treating consultant's office following an outpatient consultation and any required pre-operative investigations. Once the consultant confirms surgical clearance, the Surgical Admissions Desk on Level 6, Block C will contact the patient to assign a theatre date. Patients may also contact the Surgical Helpline directly at 0112-456-800.
+- [ ] **sgh-faq-003-q002** · _BEFORE SURGERY_ · `numeric`
+  - **Q:** What investigations are required before surgery?
+  - **A:** Pre-operative investigations vary by procedure and patient history but typically include a full blood count, blood group and crossmatch, ECG, chest X-ray, and relevant biochemistry. The treating consultant will specify the exact panel required. All results must be submitted and cleared by the consultant at least 48 hours before the scheduled theatre date.
+  - **Evidence:** Pre-operative investigations vary by procedure and patient history but typically include a full blood count, blood group and crossmatch, ECG, chest X-ray, and relevant biochemistry. The treating consultant will specify the exact panel required. All results must be submitted and cleared by the consultant at least 48 hours before the scheduled theatre date.
+- [ ] **sgh-faq-003-q003** · _BEFORE SURGERY_ · `procedural`
+  - **Q:** Should I stop any medications before surgery?
+  - **A:** Certain medications require adjustment or temporary discontinuation before surgery. These commonly include anticoagulants such as warfarin and aspirin, antidiabetic agents including insulin, and some antihypertensive drugs. Patients are advised not to stop any medication without explicit instruction from the treating surgeon or the pre- anaesthesia assessment team (Ext. 2210). Herbal preparations and dietary supplements should also be disclosed at the pre-anaesthesia assessment.
+  - **Evidence:** Certain medications require adjustment or temporary discontinuation before surgery. These commonly include anticoagulants such as warfarin and aspirin, antidiabetic agents including insulin, and some antihypertensive drugs. Patients are advised not to stop any medication without explicit instruction from the treating surgeon or the pre- anaesthesia assessment team (Ext. 2210). Herbal preparations and dietary supplements should also be disclosed at the pre-anaesthesia assessment.
+- [ ] **sgh-faq-003-q004** · _BEFORE SURGERY_ · `procedural`
+  - **Q:** Can I eat or drink before surgery?
+  - **A:** Patients scheduled for general anaesthesia must remain nil by mouth from midnight on the night before surgery. This means no food, drink, chewing gum, or sweets. Clear water may be permitted up to two hours before the procedure in some cases; this will be confirmed by the anaesthesiology team at the pre-anaesthesia assessment. Failure to observe fasting instructions may result in postponement of the procedure for patient safety.
+  - **Evidence:** Patients scheduled for general anaesthesia must remain nil by mouth from midnight on the night before surgery. This means no food, drink, chewing gum, or sweets. Clear water may be permitted up to two hours before the procedure in some cases; this will be confirmed by the anaesthesiology team at the pre-anaesthesia assessment. Failure to observe fasting instructions may result in postponement of the procedure for patient safety.
+- [ ] **sgh-faq-003-q005** · _BEFORE SURGERY_ · `numeric`
+  - **Q:** When do I meet the anaesthetist?
+  - **A:** A pre-anaesthesia assessment is conducted by a member of the Anaesthesiology team at least 48 hours before the scheduled procedure. This appointment may be arranged through Ext. 2210. The assessment covers medical history, allergy status, current medications, airway evaluation, and fasting instructions. Patients with complex medical histories may require an earlier assessment.
+  - **Evidence:** A pre-anaesthesia assessment is conducted by a member of the Anaesthesiology team at least 48 hours before the scheduled procedure. This appointment may be arranged through Ext. 2210. The assessment covers medical history, allergy status, current medications, airway evaluation, and fasting instructions. Patients with complex medical histories may require an earlier assessment.
+- [ ] **sgh-faq-003-q006** · _BEFORE SURGERY_ · `procedural`
+  - **Q:** What should I bring on the day of surgery?
+  - **A:** Patients are requested to bring their National Identity Card or passport, pre-operative investigation results (originals and one copy), current medications in original packaging, insurance card and pre-authorisation letter if applicable, and comfortable loose clothing for post-operative recovery. Valuables, jewellery, and nail polish should be left at home. Dentures, hearing aids, and contact lenses must be removed before entering the theatre.
+  - **Evidence:** Patients are requested to bring their National Identity Card or passport, pre-operative investigation results (originals and one copy), current medications in original packaging, insurance card and pre-authorisation letter if applicable, and comfortable loose clothing for post-operative recovery. Valuables, jewellery, and nail polish should be left at home. Dentures, hearing aids, and contact lenses must be removed before entering the theatre.
+- [ ] **sgh-faq-003-q007** · _ON THE DAY AND AFTER_ · `procedural`
+  - **Q:** Who can accompany me on the day of surgery?
+  - **A:** One responsible adult must accompany the patient on the day of surgery and remain on hospital premises until the patient is discharged from the recovery room. This person will be the primary contact for any updates from the surgical team. For day-case procedures, the accompanying adult must be available to transport the patient home, as patients may not drive or travel unaccompanied following anaesthesia.
+  - **Evidence:** One responsible adult must accompany the patient on the day of surgery and remain on hospital premises until the patient is discharged from the recovery room. This person will be the primary contact for any updates from the surgical team. For day-case procedures, the accompanying adult must be available to transport the patient home, as patients may not drive or travel unaccompanied following anaesthesia.
+- [ ] **sgh-faq-003-q008** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** What is day-case surgery?
+  - **A:** Day-case surgery refers to procedures where the patient is admitted, operated upon, monitored in the recovery room, and discharged on the same calendar day without an overnight stay. Common day-case procedures at Serendib include cataract surgery, minor orthopaedic procedures, and selected laparoscopic operations. Eligibility for day-case surgery is determined by the surgeon and anaesthetist based on the procedure and the patient's medical status.
+  - **Evidence:** Day-case surgery refers to procedures where the patient is admitted, operated upon, monitored in the recovery room, and discharged on the same calendar day without an overnight stay. Common day-case procedures at Serendib include cataract surgery, minor orthopaedic procedures, and selected laparoscopic operations. Eligibility for day-case surgery is determined by the surgeon and anaesthetist based on the procedure and the patient's medical status.
+- [ ] **sgh-faq-003-q009** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** Will I experience pain after surgery?
+  - **A:** Post-operative pain is expected and is actively managed by the clinical team. A post-operative pain management plan is prepared for each patient prior to surgery. Patients are encouraged to report pain levels honestly to the nursing staff, as adequate pain control supports faster recovery. The pain management team may adjust medication during the post-operative period based on the patient's response.
+  - **Evidence:** Post-operative pain is expected and is actively managed by the clinical team. A post-operative pain management plan is prepared for each patient prior to surgery. Patients are encouraged to report pain levels honestly to the nursing staff, as adequate pain control supports faster recovery. The pain management team may adjust medication during the post-operative period based on the patient's response.
+- [ ] **sgh-faq-003-q010** · _ON THE DAY AND AFTER_ · `procedural`
+  - **Q:** When can I return to normal activities after surgery?
+  - **A:** Return to activity timelines vary significantly by procedure. As a general guide, minor procedures may allow return to light activity within one to two weeks, whereas major joint replacements or cardiac surgery may require six to twelve weeks of graduated rehabilitation. The treating surgeon will provide a personalised recovery plan and restrictions at discharge. Patients should not return to driving, operating machinery, or strenuous physical activity without the surgeon's explicit clearance.
+  - **Evidence:** Return to activity timelines vary significantly by procedure. As a general guide, minor procedures may allow return to light activity within one to two weeks, whereas major joint replacements or cardiac surgery may require six to twelve weeks of graduated rehabilitation. The treating surgeon will provide a personalised recovery plan and restrictions at discharge. Patients should not return to driving, operating machinery, or strenuous physical activity without the surgeon's explicit clearance.
+- [ ] **sgh-faq-003-q011** · _ON THE DAY AND AFTER_ · `procedural`
+  - **Q:** How do I care for my wound after discharge?
+  - **A:** Wound care instructions are provided in writing at discharge. In general, the wound should be kept clean and dry, dressings changed as directed, and signs of infection (redness, swelling, warmth, discharge, or fever) reported promptly to the Surgical Helpline at 0112-456-800. Suture or staple removal dates will be specified in the discharge summary.
+  - **Evidence:** Wound care instructions are provided in writing at discharge. In general, the wound should be kept clean and dry, dressings changed as directed, and signs of infection (redness, swelling, warmth, discharge, or fever) reported promptly to the Surgical Helpline at 0112-456-800. Suture or staple removal dates will be specified in the discharge summary.
+- [ ] **sgh-faq-003-q012** · _ON THE DAY AND AFTER_ · `numeric`
+  - **Q:** What if I feel unwell after discharge from surgery?
+  - **A:** Patients experiencing post-operative fever above 38.5°C, wound discharge, unusual or worsening pain, shortness of breath, swelling of the limbs, or any other concerning symptom after discharge are advised to contact the Surgical Helpline at 0112-456-800 before presenting to Accident and Emergency. The helpline is staffed 24 hours and will direct the patient appropriately.
+  - **Evidence:** Patients experiencing post-operative fever above 38.5°C, wound discharge, unusual or worsening pain, shortness of breath, swelling of the limbs, or any other concerning symptom after discharge are advised to contact the Surgical Helpline at 0112-456-800 before presenting to Accident and Emergency. The helpline is staffed 24 hours and will direct the patient appropriately.
+- [ ] **sgh-faq-003-q013** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** Can I choose my surgeon?
+  - **A:** Patients are free to request a specific surgeon at the time of consultation. The surgeon's availability and specialisation in the relevant procedure will be confirmed by the consultant's office. Where a specific surgeon is unavailable, the patient will be offered an alternative of equivalent seniority and subspecialty experience.
+  - **Evidence:** Patients are free to request a specific surgeon at the time of consultation. The surgeon's availability and specialisation in the relevant procedure will be confirmed by the consultant's office. Where a specific surgeon is unavailable, the patient will be offered an alternative of equivalent seniority and subspecialty experience.
+- [ ] **sgh-faq-003-q014** · _BEFORE SURGERY_ · `numeric`
+  - **Q:** What is the Surgical Helpline number at Serendib General Hospital?
+  - **A:** 0112-456-800.
+  - **Evidence:** Patients may also contact the Surgical Helpline directly at 0112-456-800.
+- [ ] **sgh-faq-003-q015** · _BEFORE SURGERY_ · `numeric`
+  - **Q:** How long before the theatre date must pre-operative results be cleared at Serendib?
+  - **A:** At least 48 hours before the scheduled theatre date, cleared by the consultant.
+  - **Evidence:** All results must be submitted and cleared by the consultant at least 48 hours before the scheduled theatre date.
+- [ ] **sgh-faq-003-q016** · _BEFORE SURGERY_ · `factual`
+  - **Q:** Which medications commonly need adjusting before surgery at Serendib General Hospital?
+  - **A:** Anticoagulants such as warfarin and aspirin, antidiabetic agents including insulin, and some antihypertensive drugs — none stopped without explicit instruction.
+  - **Evidence:** These commonly include anticoagulants such as warfarin and aspirin, antidiabetic agents including insulin, and some antihypertensive drugs.
+- [ ] **sgh-faq-003-q017** · _BEFORE SURGERY_ · `numeric`
+  - **Q:** Can I drink water before general anaesthesia surgery at Serendib?
+  - **A:** Patients must be nil by mouth from midnight, but clear water may be permitted up to two hours before the procedure in some cases, as confirmed by the anaesthesiology team.
+  - **Evidence:** Clear water may be permitted up to two hours before the procedure in some cases
+- [ ] **sgh-faq-003-q018** · _BEFORE SURGERY_ · `procedural`
+  - **Q:** What items must be removed before entering the theatre at Serendib General Hospital?
+  - **A:** Dentures, hearing aids, and contact lenses must be removed; valuables, jewellery, and nail polish should be left at home.
+  - **Evidence:** Dentures, hearing aids, and contact lenses must be removed before entering the theatre.
+- [ ] **sgh-faq-003-q019** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** What is day-case surgery at Serendib General Hospital?
+  - **A:** A procedure where the patient is admitted, operated on, monitored in recovery, and discharged on the same calendar day without an overnight stay.
+  - **Evidence:** Day-case surgery refers to procedures where the patient is admitted, operated upon, monitored in the recovery room, and discharged on the same calendar day without an overnight stay.
+- [ ] **sgh-faq-003-q020** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** Which procedures are commonly done as day cases at Serendib General Hospital?
+  - **A:** Cataract surgery, minor orthopaedic procedures, and selected laparoscopic operations.
+  - **Evidence:** Common day-case procedures at Serendib include cataract surgery, minor orthopaedic procedures, and selected laparoscopic operations.
+- [ ] **sgh-faq-003-q021** · _ON THE DAY AND AFTER_ · `numeric`
+  - **Q:** At what post-operative temperature should I contact the Serendib Surgical Helpline?
+  - **A:** A fever above 38.5°C after discharge — contact the Surgical Helpline at 0112-456-800 before presenting to Accident and Emergency.
+  - **Evidence:** Patients experiencing post-operative fever above 38.5°C, wound discharge, unusual or worsening pain ... contact the Surgical Helpline at 0112-456-800
+- [ ] **sgh-faq-003-q022** · _ON THE DAY AND AFTER_ · `numeric`
+  - **Q:** How soon can patients return to activity after minor versus major surgery at Serendib?
+  - **A:** Minor procedures may allow light activity within one to two weeks; major joint replacements or cardiac surgery may require six to twelve weeks of graduated rehabilitation.
+  - **Evidence:** minor procedures may allow return to light activity within one to two weeks, whereas major joint replacements or cardiac surgery may require six to twelve weeks of graduated rehabilitation
+- [ ] **sgh-faq-003-q023** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** Is the Serendib Surgical Helpline staffed around the clock?
+  - **A:** Yes, the helpline is staffed 24 hours and will direct the patient appropriately.
+  - **Evidence:** The helpline is staffed 24 hours and will direct the patient appropriately.
+- [ ] **sgh-faq-003-q024** · _ON THE DAY AND AFTER_ · `factual`
+  - **Q:** Can I request a specific surgeon at Serendib General Hospital?
+  - **A:** Yes. Patients may request a specific surgeon at consultation; if unavailable, an alternative of equivalent seniority and subspecialty experience is offered.
+  - **Evidence:** Patients are free to request a specific surgeon at the time of consultation.
+- [ ] **sgh-faq-003-q025** · _BEFORE SURGERY_ · `factual`
+  - **Q:** What pre-operative investigations are typically needed before surgery at Serendib?
+  - **A:** Typically a full blood count, blood group and crossmatch, ECG, chest X-ray, and relevant biochemistry, with the exact panel specified by the consultant.
+  - **Evidence:** typically include a full blood count, blood group and crossmatch, ECG, chest X-ray, and relevant biochemistry
+
+## SGH-FAQ-004 — FAQ - Inpatient Admission.pdf  (22 pairs)
+
+- [ ] **sgh-faq-004-q001** · _WARDS AND ROOMS_ · `factual`
+  - **Q:** What types of wards are available?
+  - **A:** Serendib General Hospital offers four inpatient accommodation categories: General Ward (4-bed, shared bathroom, standard meals), Semi-Private Ward (2-bed, shared bathroom), Private Room (attached bathroom, television, mini- refrigerator, one overnight companion), and Premium Suite (attached bathroom with bathtub, kitchenette, sofa bed, premium meal menu, complimentary Wi-Fi, dedicated ward nurse). ICU and HDU placements are clinically determined and not elective.
+  - **Evidence:** Serendib General Hospital offers four inpatient accommodation categories: General Ward (4-bed, shared bathroom, standard meals), Semi-Private Ward (2-bed, shared bathroom), Private Room (attached bathroom, television, mini- refrigerator, one overnight companion), and Premium Suite (attached bathroom with bathtub, kitchenette, sofa bed, premium meal menu, complimentary Wi-Fi, dedicated ward nurse). ICU and HDU placements are clinically determined and not elective.
+- [ ] **sgh-faq-004-q002** · _WARDS AND ROOMS_ · `procedural`
+  - **Q:** Can I request a specific ward type?
+  - **A:** Yes, ward type preferences may be requested at the time of admission, subject to availability. In cases where the preferred ward is unavailable, patients will be accommodated in an available ward and transferred to their preferred category as soon as a vacancy arises. The admissions team will contact the patient's next of kin in such cases.
+  - **Evidence:** Yes, ward type preferences may be requested at the time of admission, subject to availability. In cases where the preferred ward is unavailable, patients will be accommodated in an available ward and transferred to their preferred category as soon as a vacancy arises. The admissions team will contact the patient's next of kin in such cases.
+- [ ] **sgh-faq-004-q003** · _WARDS AND ROOMS_ · `procedural`
+  - **Q:** Can I upgrade my room after admission?
+  - **A:** Room upgrades are possible subject to availability and must be requested through the ward nurse or the Admissions Desk (Ext. 1050). An additional deposit is collected to reflect the difference between ward categories. The upgrade takes effect upon availability and room preparation.
+  - **Evidence:** Room upgrades are possible subject to availability and must be requested through the ward nurse or the Admissions Desk (Ext. 1050). An additional deposit is collected to reflect the difference between ward categories. The upgrade takes effect upon availability and room preparation.
+- [ ] **sgh-faq-004-q004** · _WARDS AND ROOMS_ · `factual`
+  - **Q:** Can a family member stay overnight?
+  - **A:** One adult companion may remain overnight in Private Rooms and Premium Suites. In General and Semi-Private Wards, overnight stays by visitors are not permitted except for parents of children in the Paediatric Ward, where one parent may remain throughout admission. ICU and HDU do not permit overnight companions.
+  - **Evidence:** One adult companion may remain overnight in Private Rooms and Premium Suites. In General and Semi-Private Wards, overnight stays by visitors are not permitted except for parents of children in the Paediatric Ward, where one parent may remain throughout admission. ICU and HDU do not permit overnight companions.
+- [ ] **sgh-faq-004-q005** · _DURING THE STAY_ · `numeric`
+  - **Q:** How do ward rounds work?
+  - **A:** The treating consultant and their ward team conduct rounds once or twice daily, typically between 7:00 am and 9:00 am and again between 5:00 pm and 7:00 pm. During rounds, the team reviews the patient's condition, adjusts treatment plans, and discusses progress. Family members wishing to speak with the consultant should inform the ward nurse in advance so that a suitable time may be arranged.
+  - **Evidence:** The treating consultant and their ward team conduct rounds once or twice daily, typically between 7:00 am and 9:00 am and again between 5:00 pm and 7:00 pm. During rounds, the team reviews the patient's condition, adjusts treatment plans, and discusses progress. Family members wishing to speak with the consultant should inform the ward nurse in advance so that a suitable time may be arranged.
+- [ ] **sgh-faq-004-q006** · _DURING THE STAY_ · `numeric`
+  - **Q:** What if I need a nurse urgently between rounds?
+  - **A:** A nursing call bell is available at every bedside. Patients are encouraged to use it at any time without hesitation. Nursing staff are on duty 24 hours across all wards. Response times depend on workload but urgent calls are attended to immediately. Patients should not attempt to get up unassisted if feeling unsteady, particularly post- operatively.
+  - **Evidence:** A nursing call bell is available at every bedside. Patients are encouraged to use it at any time without hesitation. Nursing staff are on duty 24 hours across all wards. Response times depend on workload but urgent calls are attended to immediately. Patients should not attempt to get up unassisted if feeling unsteady, particularly post- operatively.
+- [ ] **sgh-faq-004-q007** · _DURING THE STAY_ · `procedural`
+  - **Q:** Will I be informed about my diagnosis and treatment plan?
+  - **A:** Yes. The treating consultant is obligated to discuss the diagnosis, proposed treatment, potential risks and benefits, and expected outcomes with the patient in a language they can understand. If interpretation is required, the Patient Services Desk (Ext. 1100) can arrange this. Patients have the right to ask questions and to request written summaries of their care plan.
+  - **Evidence:** Yes. The treating consultant is obligated to discuss the diagnosis, proposed treatment, potential risks and benefits, and expected outcomes with the patient in a language they can understand. If interpretation is required, the Patient Services Desk (Ext. 1100) can arrange this. Patients have the right to ask questions and to request written summaries of their care plan.
+- [ ] **sgh-faq-004-q008** · _DURING THE STAY_ · `numeric`
+  - **Q:** What meals are provided and can I request a special diet?
+  - **A:** Standard meals are served at 7:30 am, 12:30 pm, and 6:30 pm. Dietary requirements including diabetic, low-sodium, low-fat, vegetarian, vegan, halal, and soft or pureed diets must be communicated to the ward nurse at admission. Premium Suite patients may order from an extended menu. Patients on prescribed therapeutic diets are reminded that outside food may conflict with their medical treatment and must seek ward nurse approval before consuming it.
+  - **Evidence:** Standard meals are served at 7:30 am, 12:30 pm, and 6:30 pm. Dietary requirements including diabetic, low-sodium, low-fat, vegetarian, vegan, halal, and soft or pureed diets must be communicated to the ward nurse at admission. Premium Suite patients may order from an extended menu. Patients on prescribed therapeutic diets are reminded that outside food may conflict with their medical treatment and must seek ward nurse approval before consuming it.
+- [ ] **sgh-faq-004-q009** · _DURING THE STAY_ · `numeric`
+  - **Q:** Is Wi-Fi available?
+  - **A:** Complimentary Wi-Fi is available in Private Rooms and Premium Suites. Paid Wi-Fi vouchers providing 24 hours of access at LKR 200 are available from the ward reception desk in General and Semi-Private Wards. The hospital's internal patient portal is accessible on all wards through the Serendib Wi-Fi network at no charge.
+  - **Evidence:** Complimentary Wi-Fi is available in Private Rooms and Premium Suites. Paid Wi-Fi vouchers providing 24 hours of access at LKR 200 are available from the ward reception desk in General and Semi-Private Wards. The hospital's internal patient portal is accessible on all wards through the Serendib Wi-Fi network at no charge.
+- [ ] **sgh-faq-004-q010** · _DURING THE STAY_ · `procedural`
+  - **Q:** Can I use my mobile phone during admission?
+  - **A:** Mobile phone use is permitted in all wards except the ICU and HDU. Patients are requested to keep ringtones on silent and to use phones considerately in shared wards. Phone calls and video calls should be conducted in the corridor or designated visitor areas where possible to avoid disturbing other patients.
+  - **Evidence:** Mobile phone use is permitted in all wards except the ICU and HDU. Patients are requested to keep ringtones on silent and to use phones considerately in shared wards. Phone calls and video calls should be conducted in the corridor or designated visitor areas where possible to avoid disturbing other patients.
+- [ ] **sgh-faq-004-q011** · _DURING THE STAY_ · `procedural`
+  - **Q:** Can I leave the ward temporarily during admission?
+  - **A:** Patients are generally required to remain in the ward during their admission. In certain circumstances, a patient may request a short leave from the ward, such as for a religious obligation or essential family matter. This must be approved by the treating consultant or the on-call medical officer, and the patient must sign a leave form accepting responsibility for their wellbeing during the period of absence. Patients under active monitoring, IV drips, or post- operative observation are not eligible for ward leave.
+  - **Evidence:** Patients are generally required to remain in the ward during their admission. In certain circumstances, a patient may request a short leave from the ward, such as for a religious obligation or essential family matter. This must be approved by the treating consultant or the on-call medical officer, and the patient must sign a leave form accepting responsibility for their wellbeing during the period of absence. Patients under active monitoring, IV drips, or post- operative observation are not eligible for ward leave.
+- [ ] **sgh-faq-004-q012** · _DISCHARGE_ · `procedural`
+  - **Q:** What happens on the day of discharge?
+  - **A:** The treating consultant will typically indicate anticipated discharge on the evening before. On the discharge day, the doctor signs the discharge order, the final bill is prepared, the discharge summary is written, and follow-up appointments are scheduled. This process takes approximately two to four hours. Patients are required to settle any outstanding balance before the discharge letter and prescriptions are issued.
+  - **Evidence:** The treating consultant will typically indicate anticipated discharge on the evening before. On the discharge day, the doctor signs the discharge order, the final bill is prepared, the discharge summary is written, and follow-up appointments are scheduled. This process takes approximately two to four hours. Patients are required to settle any outstanding balance before the discharge letter and prescriptions are issued.
+- [ ] **sgh-faq-004-q013** · _DISCHARGE_ · `numeric`
+  - **Q:** Can I take my medical notes and reports home?
+  - **A:** A printed discharge summary, investigation results generated during admission, and discharge prescriptions are provided to the patient at checkout. Original reports are retained in the hospital file; certified copies may be requested from the Medical Records Office. All records are also accessible through the patient portal within 24 hours of discharge.
+  - **Evidence:** A printed discharge summary, investigation results generated during admission, and discharge prescriptions are provided to the patient at checkout. Original reports are retained in the hospital file; certified copies may be requested from the Medical Records Office. All records are also accessible through the patient portal within 24 hours of discharge.
+- [ ] **sgh-faq-004-q014** · _WARDS AND ROOMS_ · `numeric`
+  - **Q:** How many inpatient accommodation categories does Serendib General Hospital offer?
+  - **A:** Four: General Ward, Semi-Private Ward, Private Room, and Premium Suite (ICU and HDU placements are clinically determined).
+  - **Evidence:** Serendib General Hospital offers four inpatient accommodation categories: General Ward (4-bed ...), Semi-Private Ward (2-bed ...), Private Room ..., and Premium Suite
+- [ ] **sgh-faq-004-q015** · _WARDS AND ROOMS_ · `procedural`
+  - **Q:** How do I upgrade my room after admission at Serendib General Hospital?
+  - **A:** Request it through the ward nurse or the Admissions Desk (Ext. 1050); an additional deposit is collected for the difference between ward categories.
+  - **Evidence:** Room upgrades ... must be requested through the ward nurse or the Admissions Desk (Ext. 1050). An additional deposit is collected
+- [ ] **sgh-faq-004-q016** · _WARDS AND ROOMS_ · `factual`
+  - **Q:** In which wards can a family member stay overnight at Serendib General Hospital?
+  - **A:** One adult companion may stay overnight in Private Rooms and Premium Suites; not in General or Semi-Private Wards, except a parent in the Paediatric Ward. ICU and HDU allow no overnight companions.
+  - **Evidence:** One adult companion may remain overnight in Private Rooms and Premium Suites.
+- [ ] **sgh-faq-004-q017** · _DURING THE STAY_ · `factual`
+  - **Q:** How can an interpreter be arranged for an inpatient at Serendib General Hospital?
+  - **A:** Through the Patient Services Desk (Ext. 1100).
+  - **Evidence:** the Patient Services Desk (Ext. 1100) can arrange this
+- [ ] **sgh-faq-004-q018** · _DURING THE STAY_ · `factual`
+  - **Q:** Can an inpatient take temporary leave from the ward at Serendib General Hospital?
+  - **A:** Only with approval from the treating consultant or on-call medical officer and a signed leave form; patients on IV drips, active monitoring, or post-operative observation are not eligible.
+  - **Evidence:** This must be approved by the treating consultant or the on-call medical officer, and the patient must sign a leave form
+- [ ] **sgh-faq-004-q019** · _DISCHARGE_ · `numeric`
+  - **Q:** How soon after discharge are records available on the Serendib patient portal?
+  - **A:** Within 24 hours of discharge.
+  - **Evidence:** All records are also accessible through the patient portal within 24 hours of discharge.
+- [ ] **sgh-faq-004-q020** · _WARDS AND ROOMS_ · `factual`
+  - **Q:** Which special diets can be requested for an inpatient at Serendib General Hospital?
+  - **A:** Diabetic, low-sodium, low-fat, vegetarian, vegan, halal, and soft or pureed diets, communicated to the ward nurse at admission.
+  - **Evidence:** diabetic, low-sodium, low-fat, vegetarian, vegan, halal, and soft or pureed diets must be communicated to the ward nurse at admission
+- [ ] **sgh-faq-004-q021** · _DURING THE STAY_ · `factual`
+  - **Q:** Is the Serendib patient portal free to access from the wards?
+  - **A:** Yes. The internal patient portal is accessible on all wards through the Serendib Wi-Fi network at no charge.
+  - **Evidence:** The hospital's internal patient portal is accessible on all wards through the Serendib Wi-Fi network at no charge.
+- [ ] **sgh-faq-004-q022** · _DURING THE STAY_ · `factual`
+  - **Q:** Where are mobile phones not permitted for inpatients at Serendib General Hospital?
+  - **A:** In the ICU and HDU; mobile phone use is permitted in all other wards.
+  - **Evidence:** Mobile phone use is permitted in all wards except the ICU and HDU.
+
+## SGH-FAQ-005 — FAQ - Laboratory Tests and Results.pdf  (23 pairs)
+
+- [ ] **sgh-faq-005-q001** · _BOOKING AND PREPARATION_ · `procedural`
+  - **Q:** Do I need a referral to request a laboratory test?
+  - **A:** Most laboratory tests require a referral from a registered medical practitioner. Self-referral is accepted for a limited range of wellness screening tests, including full blood count, fasting blood glucose, lipid profile, and basic thyroid function. The laboratory reception at Block B, Level 2 can advise on which tests are available without a referral. For imaging such as CT, MRI, and ultrasound, a medical referral is required in all cases.
+  - **Evidence:** Most laboratory tests require a referral from a registered medical practitioner. Self-referral is accepted for a limited range of wellness screening tests, including full blood count, fasting blood glucose, lipid profile, and basic thyroid function. The laboratory reception at Block B, Level 2 can advise on which tests are available without a referral. For imaging such as CT, MRI, and ultrasound, a medical referral is required in all cases.
+- [ ] **sgh-faq-005-q002** · _BOOKING AND PREPARATION_ · `numeric`
+  - **Q:** How should I prepare for a blood test?
+  - **A:** Preparation depends on the specific test ordered. For most routine blood tests such as a full blood count or thyroid profile, no fasting is required. For fasting blood glucose and lipid profiles, patients must fast for at least 8 to 12 hours respectively, with water permitted throughout. For a glucose tolerance test, an 8-hour fast is required before arriving; the procedure involves multiple blood draws over two hours. Patients are advised to confirm preparation requirements when booking.
+  - **Evidence:** Preparation depends on the specific test ordered. For most routine blood tests such as a full blood count or thyroid profile, no fasting is required. For fasting blood glucose and lipid profiles, patients must fast for at least 8 to 12 hours respectively, with water permitted throughout. For a glucose tolerance test, an 8-hour fast is required before arriving; the procedure involves multiple blood draws over two hours. Patients are advised to confirm preparation requirements when booking.
+- [ ] **sgh-faq-005-q003** · _BOOKING AND PREPARATION_ · `numeric`
+  - **Q:** Is home sample collection available?
+  - **A:** Yes. Home visit sample collection is available for blood and urine tests within the Colombo District, Monday to Saturday from 6:00 am to 10:00 am. Advance booking is required by calling 0112-456-770 at least one day prior. A home visit fee is applicable in addition to the cost of the tests. Samples collected at home are processed under the same conditions as those collected at the laboratory. Home collection is not available for specialised tests requiring immediate processing.
+  - **Evidence:** Yes. Home visit sample collection is available for blood and urine tests within the Colombo District, Monday to Saturday from 6:00 am to 10:00 am. Advance booking is required by calling 0112-456-770 at least one day prior. A home visit fee is applicable in addition to the cost of the tests. Samples collected at home are processed under the same conditions as those collected at the laboratory. Home collection is not available for specialised tests requiring immediate processing.
+- [ ] **sgh-faq-005-q004** · _BOOKING AND PREPARATION_ · `procedural`
+  - **Q:** What should I wear for an MRI scan?
+  - **A:** Patients are advised to wear loose, comfortable clothing without metal components such as zips or underwire. All metallic items including jewellery, watches, hearing aids, body piercings, and hair accessories must be removed before entering the MRI room. A hospital gown will be provided if required. Patients with any implanted metallic devices, including pacemakers, cochlear implants, or surgical clips, must notify the radiology team in advance. The presence of certain implants may contraindicate MRI scanning.
+  - **Evidence:** Patients are advised to wear loose, comfortable clothing without metal components such as zips or underwire. All metallic items including jewellery, watches, hearing aids, body piercings, and hair accessories must be removed before entering the MRI room. A hospital gown will be provided if required. Patients with any implanted metallic devices, including pacemakers, cochlear implants, or surgical clips, must notify the radiology team in advance. The presence of certain implants may contraindicate MRI scanning.
+- [ ] **sgh-faq-005-q005** · _BOOKING AND PREPARATION_ · `procedural`
+  - **Q:** Do I need to fast before a CT scan?
+  - **A:** Fasting is not required for non-contrast CT scans. For contrast-enhanced CT scans, patients must fast for at least four hours before the procedure and provide a recent creatinine result to confirm kidney function before contrast administration. Patients with diabetes on metformin must follow specific instructions regarding temporary discontinuation of the medication around the time of contrast administration, which will be provided by the radiology team.
+  - **Evidence:** Fasting is not required for non-contrast CT scans. For contrast-enhanced CT scans, patients must fast for at least four hours before the procedure and provide a recent creatinine result to confirm kidney function before contrast administration. Patients with diabetes on metformin must follow specific instructions regarding temporary discontinuation of the medication around the time of contrast administration, which will be provided by the radiology team.
+- [ ] **sgh-faq-005-q006** · _RESULTS AND FOLLOW-UP_ · `numeric`
+  - **Q:** How long do results take?
+  - **A:** Most routine blood tests are available within two to four hours of sample collection. Hormone panels and tumour markers take four to eight hours. Microbiology cultures require 24 to 72 hours depending on the organism. Genetic and molecular tests processed by our partner laboratory take seven to 14 working days. Radiology reports for X-rays are typically ready within two hours; MRI and CT reports within 24 hours.
+  - **Evidence:** Most routine blood tests are available within two to four hours of sample collection. Hormone panels and tumour markers take four to eight hours. Microbiology cultures require 24 to 72 hours depending on the organism. Genetic and molecular tests processed by our partner laboratory take seven to 14 working days. Radiology reports for X-rays are typically ready within two hours; MRI and CT reports within 24 hours.
+- [ ] **sgh-faq-005-q007** · _RESULTS AND FOLLOW-UP_ · `procedural`
+  - **Q:** How do I collect my results?
+  - **A:** Results may be collected in person from the laboratory or radiology desk on presentation of a valid NIC or hospital registration card. Results are also available through the Serendib patient portal within one hour of verification. If the referring doctor is a Serendib consultant, results are transmitted directly to their patient file without any action required by the patient. A printed copy is available on request at no additional charge.
+  - **Evidence:** Results may be collected in person from the laboratory or radiology desk on presentation of a valid NIC or hospital registration card. Results are also available through the Serendib patient portal within one hour of verification. If the referring doctor is a Serendib consultant, results are transmitted directly to their patient file without any action required by the patient. A printed copy is available on request at no additional charge.
+- [ ] **sgh-faq-005-q008** · _RESULTS AND FOLLOW-UP_ · `procedural`
+  - **Q:** Can results be sent directly to my doctor?
+  - **A:** Yes. Results are automatically transmitted to the referring consultant's patient file within the hospital's electronic system. If the referring doctor is from an external clinic or hospital, a printed report may be faxed or sent by courier upon written request. Patients must provide the receiving doctor's contact details and fax number at the time of registration.
+  - **Evidence:** Yes. Results are automatically transmitted to the referring consultant's patient file within the hospital's electronic system. If the referring doctor is from an external clinic or hospital, a printed report may be faxed or sent by courier upon written request. Patients must provide the receiving doctor's contact details and fax number at the time of registration.
+- [ ] **sgh-faq-005-q009** · _RESULTS AND FOLLOW-UP_ · `procedural`
+  - **Q:** What happens if my results are abnormal?
+  - **A:** Abnormal results are reviewed by the responsible pathologist or radiologist before being released. Critical or markedly abnormal values are communicated directly by telephone to the referring consultant without delay. Self- referred patients will be contacted by a clinician before results appear on the portal. Patients are advised not to interpret abnormal results independently and should seek clinical guidance before drawing any conclusions.
+  - **Evidence:** Abnormal results are reviewed by the responsible pathologist or radiologist before being released. Critical or markedly abnormal values are communicated directly by telephone to the referring consultant without delay. Self- referred patients will be contacted by a clinician before results appear on the portal. Patients are advised not to interpret abnormal results independently and should seek clinical guidance before drawing any conclusions.
+- [ ] **sgh-faq-005-q010** · _RESULTS AND FOLLOW-UP_ · `factual`
+  - **Q:** Can I request a repeat test if I am unsure about the result?
+  - **A:** Yes. Repeat testing may be requested through the referring doctor, who will assess whether clinical grounds justify repetition. Some borderline results warrant repeat testing as part of standard medical practice, while others are best interpreted in context rather than repeated. Self-funded repeat tests are accepted with a valid medical referral.
+  - **Evidence:** Yes. Repeat testing may be requested through the referring doctor, who will assess whether clinical grounds justify repetition. Some borderline results warrant repeat testing as part of standard medical practice, while others are best interpreted in context rather than repeated. Self-funded repeat tests are accepted with a valid medical referral.
+- [ ] **sgh-faq-005-q011** · _RESULTS AND FOLLOW-UP_ · `factual`
+  - **Q:** Are my results stored and for how long?
+  - **A:** All investigation results are stored in the patient's hospital record for a minimum of seven years in accordance with regulatory requirements. Digital records on the patient portal are accessible to the patient indefinitely during active membership. Patients wishing to export their full investigation history may do so from the portal under My Records, or request a printed summary from the Medical Records Office.
+  - **Evidence:** All investigation results are stored in the patient's hospital record for a minimum of seven years in accordance with regulatory requirements. Digital records on the patient portal are accessible to the patient indefinitely during active membership. Patients wishing to export their full investigation history may do so from the portal under My Records, or request a printed summary from the Medical Records Office.
+- [ ] **sgh-faq-005-q012** · _RESULTS AND FOLLOW-UP_ · `procedural`
+  - **Q:** Can I get a second opinion on my radiology report?
+  - **A:** Yes. Second opinions on radiology reports may be arranged within the department by requesting a review by a senior or subspecialty radiologist. Patients may also seek an external second opinion, in which case the original imaging will be provided on a CD or via secure digital transfer upon written request. A fee may apply for digital transfer to external institutions.
+  - **Evidence:** Yes. Second opinions on radiology reports may be arranged within the department by requesting a review by a senior or subspecialty radiologist. Patients may also seek an external second opinion, in which case the original imaging will be provided on a CD or via secure digital transfer upon written request. A fee may apply for digital transfer to external institutions.
+- [ ] **sgh-faq-005-q013** · _BOOKING AND PREPARATION_ · `factual`
+  - **Q:** Which laboratory tests can I self-refer for at Serendib General Hospital?
+  - **A:** A limited range of wellness screening tests: full blood count, fasting blood glucose, lipid profile, and basic thyroid function.
+  - **Evidence:** Self-referral is accepted for a limited range of wellness screening tests, including full blood count, fasting blood glucose, lipid profile, and basic thyroid function.
+- [ ] **sgh-faq-005-q014** · _BOOKING AND PREPARATION_ · `factual`
+  - **Q:** Do I need a referral for a CT, MRI, or ultrasound at Serendib General Hospital?
+  - **A:** Yes. For imaging such as CT, MRI, and ultrasound, a medical referral is required in all cases.
+  - **Evidence:** For imaging such as CT, MRI, and ultrasound, a medical referral is required in all cases.
+- [ ] **sgh-faq-005-q015** · _BOOKING AND PREPARATION_ · `numeric`
+  - **Q:** What are the home sample collection hours and booking requirements at Serendib?
+  - **A:** Within the Colombo District, Monday to Saturday from 6:00 am to 10:00 am; advance booking is required by calling 0112-456-770 at least one day prior, and a home visit fee applies.
+  - **Evidence:** Home visit sample collection is available for blood and urine tests within the Colombo District, Monday to Saturday from 6:00 am to 10:00 am. Advance booking is required by calling 0112-456-770 at least one day prior.
+- [ ] **sgh-faq-005-q016** · _BOOKING AND PREPARATION_ · `procedural`
+  - **Q:** How should I prepare for a contrast-enhanced CT scan at Serendib General Hospital?
+  - **A:** Fast for at least four hours and provide a recent creatinine result; patients on metformin follow specific discontinuation instructions from the radiology team.
+  - **Evidence:** For contrast-enhanced CT scans, patients must fast for at least four hours before the procedure and provide a recent creatinine result
+- [ ] **sgh-faq-005-q017** · _BOOKING AND PREPARATION_ · `factual`
+  - **Q:** What must MRI patients disclose before scanning at Serendib General Hospital?
+  - **A:** Any implanted metallic devices — including pacemakers, cochlear implants, or surgical clips — must be notified to the radiology team in advance, as certain implants may contraindicate MRI.
+  - **Evidence:** Patients with any implanted metallic devices, including pacemakers, cochlear implants, or surgical clips, must notify the radiology team in advance.
+- [ ] **sgh-faq-005-q018** · _RESULTS AND FOLLOW-UP_ · `numeric`
+  - **Q:** How long are laboratory results stored at Serendib General Hospital?
+  - **A:** For a minimum of seven years, in accordance with regulatory requirements.
+  - **Evidence:** All investigation results are stored in the patient's hospital record for a minimum of seven years
+- [ ] **sgh-faq-005-q019** · _RESULTS AND FOLLOW-UP_ · `numeric`
+  - **Q:** How quickly are X-ray reports ready at Serendib General Hospital?
+  - **A:** Typically within two hours; MRI and CT reports within 24 hours.
+  - **Evidence:** Radiology reports for X-rays are typically ready within two hours; MRI and CT reports within 24 hours.
+- [ ] **sgh-faq-005-q020** · _RESULTS AND FOLLOW-UP_ · `numeric`
+  - **Q:** How long do microbiology cultures take at the Serendib laboratory?
+  - **A:** 24 to 72 hours, depending on the organism.
+  - **Evidence:** Microbiology cultures require 24 to 72 hours depending on the organism.
+- [ ] **sgh-faq-005-q021** · _RESULTS AND FOLLOW-UP_ · `factual`
+  - **Q:** Can I get a second opinion on a radiology report at Serendib General Hospital?
+  - **A:** Yes, by requesting a review by a senior or subspecialty radiologist; external second opinions are provided on a CD or via secure digital transfer on written request, and a fee may apply for external transfer.
+  - **Evidence:** Second opinions on radiology reports may be arranged within the department by requesting a review by a senior or subspecialty radiologist.
+- [ ] **sgh-faq-005-q022** · _RESULTS AND FOLLOW-UP_ · `factual`
+  - **Q:** How are self-referred patients notified of abnormal lab results at Serendib?
+  - **A:** Self-referred patients are contacted by a clinician before results appear on the portal.
+  - **Evidence:** Self- referred patients will be contacted by a clinician before results appear on the portal.
+- [ ] **sgh-faq-005-q023** · _BOOKING AND PREPARATION_ · `numeric`
+  - **Q:** How long must I fast before a glucose tolerance test at Serendib General Hospital?
+  - **A:** An 8-hour fast before arriving; the procedure involves multiple blood draws over two hours.
+  - **Evidence:** For a glucose tolerance test, an 8-hour fast is required before arriving; the procedure involves multiple blood draws over two hours.
+
+## SGH-FAQ-006 — FAQ - Insurance and Payments.pdf  (24 pairs)
+
+- [ ] **sgh-faq-006-q001** · _INSURANCE_ · `procedural`
+  - **Q:** Which insurance companies does the hospital accept?
+  - **A:** Serendib General Hospital maintains direct-billing arrangements with AIA Insurance Sri Lanka, Ceylinco Life, Sri Lanka Insurance (SLIC) Government Scheme, Softlogic Life, Allianz Lanka, HNB Assurance, Union Assurance, and LOLC Insurance. For any insurer not on this list, patients settle the bill directly and submit a reimbursement claim to their insurer using the hospital's itemised bill, reports, and discharge summary.
+  - **Evidence:** Serendib General Hospital maintains direct-billing arrangements with AIA Insurance Sri Lanka, Ceylinco Life, Sri Lanka Insurance (SLIC) Government Scheme, Softlogic Life, Allianz Lanka, HNB Assurance, Union Assurance, and LOLC Insurance. For any insurer not on this list, patients settle the bill directly and submit a reimbursement claim to their insurer using the hospital's itemised bill, reports, and discharge summary.
+- [ ] **sgh-faq-006-q002** · _INSURANCE_ · `procedural`
+  - **Q:** What is direct billing?
+  - **A:** Direct billing is an arrangement where Serendib General Hospital submits the patient's medical bill directly to the insurer on the patient's behalf. The patient is responsible only for items not covered under the policy, such as non- covered procedures, amounts above policy limits, and applicable excesses or co-payments. Patients must present a valid insurance card and pre-authorisation letter at admission to activate direct billing.
+  - **Evidence:** Direct billing is an arrangement where Serendib General Hospital submits the patient's medical bill directly to the insurer on the patient's behalf. The patient is responsible only for items not covered under the policy, such as non- covered procedures, amounts above policy limits, and applicable excesses or co-payments. Patients must present a valid insurance card and pre-authorisation letter at admission to activate direct billing.
+- [ ] **sgh-faq-006-q003** · _INSURANCE_ · `numeric`
+  - **Q:** Do I need to obtain pre-authorisation from my insurer?
+  - **A:** Yes, for all planned (elective) admissions and surgical procedures, patients on direct-billing panels are required to obtain written pre-authorisation from their insurer before the procedure date. Pre-authorisation typically takes one to three working days. The Insurance Desk at Ext. 1200 (Monday to Friday, 8:00 am to 5:00 pm) can assist with the required medical information. Emergency admissions do not require pre-authorisation before treatment begins; the Insurance Desk will initiate insurer notification on the patient's behalf within 24 to 48 hours.
+  - **Evidence:** Yes, for all planned (elective) admissions and surgical procedures, patients on direct-billing panels are required to obtain written pre-authorisation from their insurer before the procedure date. Pre-authorisation typically takes one to three working days. The Insurance Desk at Ext. 1200 (Monday to Friday, 8:00 am to 5:00 pm) can assist with the required medical information. Emergency admissions do not require pre-authorisation before treatment begins; the Insurance Desk will initiate insurer notification on the patient's behalf within 24 to 48 hours.
+- [ ] **sgh-faq-006-q004** · _INSURANCE_ · `factual`
+  - **Q:** Does my insurance cover outpatient consultations?
+  - **A:** Coverage for outpatient consultations depends on whether the patient holds an outpatient rider or comprehensive plan in addition to the standard inpatient policy. Most basic health insurance plans in Sri Lanka cover inpatient treatment only. Patients are advised to check their specific policy terms with their insurer before attending an OPD consultation with an expectation of coverage.
+  - **Evidence:** Coverage for outpatient consultations depends on whether the patient holds an outpatient rider or comprehensive plan in addition to the standard inpatient policy. Most basic health insurance plans in Sri Lanka cover inpatient treatment only. Patients are advised to check their specific policy terms with their insurer before attending an OPD consultation with an expectation of coverage.
+- [ ] **sgh-faq-006-q005** · _INSURANCE_ · `procedural`
+  - **Q:** Can I get a cost estimate before a planned procedure?
+  - **A:** Yes. The Billing Desk (Ext. 1210) can provide a written cost estimate for any planned procedure, covering surgical fees, theatre charges, estimated ward accommodation, and investigation costs based on standard protocols. Estimates are indicative and the final bill may vary depending on the actual duration of the procedure, post-operative course, and any complications or additional treatments required.
+  - **Evidence:** Yes. The Billing Desk (Ext. 1210) can provide a written cost estimate for any planned procedure, covering surgical fees, theatre charges, estimated ward accommodation, and investigation costs based on standard protocols. Estimates are indicative and the final bill may vary depending on the actual duration of the procedure, post-operative course, and any complications or additional treatments required.
+- [ ] **sgh-faq-006-q006** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** Do I need to pay a deposit on admission?
+  - **A:** Yes. An admission deposit is collected from all patients on admission. Deposits range from LKR 25,000 for a General Ward to LKR 150,000 for a Premium Suite, and LKR 100,000 for ICU or HDU. The deposit is applied against the final bill at discharge. Patients with confirmed insurance pre-authorisation may qualify for a reduced deposit or a full waiver; confirm this with the Insurance Desk at the time of admission.
+  - **Evidence:** Yes. An admission deposit is collected from all patients on admission. Deposits range from LKR 25,000 for a General Ward to LKR 150,000 for a Premium Suite, and LKR 100,000 for ICU or HDU. The deposit is applied against the final bill at discharge. Patients with confirmed insurance pre-authorisation may qualify for a reduced deposit or a full waiver; confirm this with the Insurance Desk at the time of admission.
+- [ ] **sgh-faq-006-q007** · _PAYMENTS AND BILLING_ · `factual`
+  - **Q:** What payment methods are accepted?
+  - **A:** The hospital accepts cash in Sri Lankan Rupees at all cashier desks, Visa and Mastercard (debit and credit), bank transfer to Sampath Bank with reference number confirmation, and online payments through the patient portal for deposits and outstanding balances. Foreign currency in USD, EUR, and GBP is accepted at the International Patient Desk only, converted at the Sampath Bank buying rate on the day of transaction. Insurance direct billing is processed through the Insurance Desk with valid pre-authorisation.
+  - **Evidence:** The hospital accepts cash in Sri Lankan Rupees at all cashier desks, Visa and Mastercard (debit and credit), bank transfer to Sampath Bank with reference number confirmation, and online payments through the patient portal for deposits and outstanding balances. Foreign currency in USD, EUR, and GBP is accepted at the International Patient Desk only, converted at the Sampath Bank buying rate on the day of transaction. Insurance direct billing is processed through the Insurance Desk with valid pre-authorisation.
+- [ ] **sgh-faq-006-q008** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** Can I pay my bill in instalments?
+  - **A:** Yes, in two ways. Patients paying by credit card may request a three-month interest-free instalment plan on bills above LKR 100,000, subject to bank approval at the time of payment. Patients without insurance or credit card access may apply for a hospital payment plan on bills above LKR 100,000, requiring a minimum deposit of 50% at discharge and the balance payable within 60 days at no interest. A formal written agreement is required; contact the Billing Manager at Ext. 1210.
+  - **Evidence:** Yes, in two ways. Patients paying by credit card may request a three-month interest-free instalment plan on bills above LKR 100,000, subject to bank approval at the time of payment. Patients without insurance or credit card access may apply for a hospital payment plan on bills above LKR 100,000, requiring a minimum deposit of 50% at discharge and the balance payable within 60 days at no interest. A formal written agreement is required; contact the Billing Manager at Ext. 1210.
+- [ ] **sgh-faq-006-q009** · _PAYMENTS AND BILLING_ · `factual`
+  - **Q:** What is included in my hospital bill?
+  - **A:** All bills issued by Serendib General Hospital are itemised by default and will include: ward accommodation charged per night at the applicable ward rate, consultant visit fees per ward round, nursing procedures and clinical consumables, theatre charges disaggregated into surgeon's fee, anaesthetist's fee, theatre room, and disposables, pharmacy items dispensed during admission, investigation charges for tests ordered during the admission period, and any OPD charges incurred within the same episode of care.
+  - **Evidence:** All bills issued by Serendib General Hospital are itemised by default and will include: ward accommodation charged per night at the applicable ward rate, consultant visit fees per ward round, nursing procedures and clinical consumables, theatre charges disaggregated into surgeon's fee, anaesthetist's fee, theatre room, and disposables, pharmacy items dispensed during admission, investigation charges for tests ordered during the admission period, and any OPD charges incurred within the same episode of care.
+- [ ] **sgh-faq-006-q010** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** What if I think there is an error in my bill?
+  - **A:** Patients are requested to raise any billing query at the Billing Desk (Block B, Ground Floor) before the discharge process is finalised wherever possible. Billing queries are reviewed by a senior billing officer. Straightforward queries are resolved on the same day. Queries requiring clinical verification are resolved within 24 hours. If a billing error is confirmed, the correction is applied before the final invoice is issued and any overpayment is refunded within five working days.
+  - **Evidence:** Patients are requested to raise any billing query at the Billing Desk (Block B, Ground Floor) before the discharge process is finalised wherever possible. Billing queries are reviewed by a senior billing officer. Straightforward queries are resolved on the same day. Queries requiring clinical verification are resolved within 24 hours. If a billing error is confirmed, the correction is applied before the final invoice is issued and any overpayment is refunded within five working days.
+- [ ] **sgh-faq-006-q011** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** What documentation will I receive for an insurance reimbursement claim?
+  - **A:** At discharge, the hospital provides a final itemised bill, copies of all investigation reports generated during admission, the discharge summary signed by the treating consultant, pharmacy receipts, and where applicable, surgeon's and anaesthetist's fee notes. Additional documentation such as clinical letters, medical certificates, or operation notes may be requested through the Medical Records Office within five working days at a fee of LKR 500 per document.
+  - **Evidence:** At discharge, the hospital provides a final itemised bill, copies of all investigation reports generated during admission, the discharge summary signed by the treating consultant, pharmacy receipts, and where applicable, surgeon's and anaesthetist's fee notes. Additional documentation such as clinical letters, medical certificates, or operation notes may be requested through the Medical Records Office within five working days at a fee of LKR 500 per document.
+- [ ] **sgh-faq-006-q012** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** Is financial assistance available for patients who cannot afford treatment?
+  - **A:** Yes. The Serendib Compassionate Care Fund provides partial subsidies on inpatient bills for patients demonstrating genuine financial hardship. Applications are accepted at the Social Services Office, Block A, Ground Floor, Room 108. Eligibility criteria include demonstrated financial need, Sri Lankan citizenship, and treatment for a life- threatening or chronic condition. Applications are reviewed within 48 hours of submission. All applications are treated with complete confidentiality.
+  - **Evidence:** Yes. The Serendib Compassionate Care Fund provides partial subsidies on inpatient bills for patients demonstrating genuine financial hardship. Applications are accepted at the Social Services Office, Block A, Ground Floor, Room 108. Eligibility criteria include demonstrated financial need, Sri Lankan citizenship, and treatment for a life- threatening or chronic condition. Applications are reviewed within 48 hours of submission. All applications are treated with complete confidentiality.
+- [ ] **sgh-faq-006-q013** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** What happens if I am unable to pay my bill at discharge?
+  - **A:** Patients who are unable to settle their bill in full at discharge are requested to approach the Billing Manager (Ext. 1210) as early as possible during the admission to discuss available options. The hospital does not withhold medical care or necessary treatment on the grounds of an outstanding balance. However, discharge documentation and prescriptions are released only upon settlement or a formally agreed payment arrangement. Unresolved outstanding balances may be referred to the hospital's recovery process after 60 days. Confidential — For Patient Use
+  - **Evidence:** Patients who are unable to settle their bill in full at discharge are requested to approach the Billing Manager (Ext. 1210) as early as possible during the admission to discuss available options. The hospital does not withhold medical care or necessary treatment on the grounds of an outstanding balance. However, discharge documentation and prescriptions are released only upon settlement or a formally agreed payment arrangement. Unresolved outstanding balances may be referred to the hospital's recovery process after 60 days. Confidential — For Patient Use
+- [ ] **sgh-faq-006-q014** · _INSURANCE_ · `numeric`
+  - **Q:** What are the Insurance Desk hours at Serendib General Hospital?
+  - **A:** Monday to Friday, 8:00 am to 5:00 pm, at Ext. 1200.
+  - **Evidence:** The Insurance Desk at Ext. 1200 (Monday to Friday, 8:00 am to 5:00 pm) can assist
+- [ ] **sgh-faq-006-q015** · _INSURANCE_ · `procedural`
+  - **Q:** What must I present at admission to activate direct billing at Serendib?
+  - **A:** A valid insurance card and pre-authorisation letter.
+  - **Evidence:** Patients must present a valid insurance card and pre-authorisation letter at admission to activate direct billing.
+- [ ] **sgh-faq-006-q016** · _INSURANCE_ · `factual`
+  - **Q:** Does basic health insurance usually cover OPD consultations at Serendib?
+  - **A:** Usually not — most basic plans in Sri Lanka cover inpatient treatment only; outpatient coverage requires an outpatient rider or comprehensive plan.
+  - **Evidence:** Most basic health insurance plans in Sri Lanka cover inpatient treatment only.
+- [ ] **sgh-faq-006-q017** · _INSURANCE_ · `factual`
+  - **Q:** Where can I get a written cost estimate for a planned procedure at Serendib?
+  - **A:** From the Billing Desk (Ext. 1210), covering surgical fees, theatre charges, estimated ward accommodation, and investigation costs.
+  - **Evidence:** The Billing Desk (Ext. 1210) can provide a written cost estimate for any planned procedure
+- [ ] **sgh-faq-006-q018** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** What is the admission deposit range at Serendib General Hospital?
+  - **A:** From LKR 25,000 for a General Ward to LKR 150,000 for a Premium Suite, and LKR 100,000 for ICU or HDU.
+  - **Evidence:** Deposits range from LKR 25,000 for a General Ward to LKR 150,000 for a Premium Suite, and LKR 100,000 for ICU or HDU.
+- [ ] **sgh-faq-006-q019** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** How are confirmed billing errors and overpayments handled at Serendib?
+  - **A:** If a billing error is confirmed, the correction is applied before the final invoice and any overpayment is refunded within five working days.
+  - **Evidence:** any overpayment is refunded within five working days
+- [ ] **sgh-faq-006-q020** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** How quickly are billing queries resolved at Serendib General Hospital?
+  - **A:** Straightforward queries are resolved the same day; queries requiring clinical verification within 24 hours.
+  - **Evidence:** Straightforward queries are resolved on the same day. Queries requiring clinical verification are resolved within 24 hours.
+- [ ] **sgh-faq-006-q021** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** What is the fee for additional documentation from the Serendib Medical Records Office?
+  - **A:** LKR 500 per document, available within five working days.
+  - **Evidence:** requested through the Medical Records Office within five working days at a fee of LKR 500 per document
+- [ ] **sgh-faq-006-q022** · _PAYMENTS AND BILLING_ · `factual`
+  - **Q:** Does Serendib General Hospital withhold care for an unpaid bill?
+  - **A:** No. The hospital does not withhold medical care or necessary treatment for an outstanding balance, but discharge documentation and prescriptions are released only on settlement or a formally agreed payment arrangement.
+  - **Evidence:** The hospital does not withhold medical care or necessary treatment on the grounds of an outstanding balance.
+- [ ] **sgh-faq-006-q023** · _PAYMENTS AND BILLING_ · `numeric`
+  - **Q:** After how long are unresolved outstanding balances referred to recovery at Serendib?
+  - **A:** After 60 days.
+  - **Evidence:** Unresolved outstanding balances may be referred to the hospital's recovery process after 60 days.
+- [ ] **sgh-faq-006-q024** · _PAYMENTS AND BILLING_ · `factual`
+  - **Q:** What documents does Serendib provide at discharge for an insurance reimbursement claim?
+  - **A:** A final itemised bill, copies of investigation reports, the signed discharge summary, pharmacy receipts, and where applicable surgeon's and anaesthetist's fee notes.
+  - **Evidence:** the hospital provides a final itemised bill, copies of all investigation reports generated during admission, the discharge summary signed by the treating consultant, pharmacy receipts
+
+## SGH-FIN-001 — Insurance, Payments and Billing - Policy Document.pdf  (32 pairs)
+
+- [ ] **sgh-fin-001-q001** · _PRE-AUTHORISATION_ · `numeric`
+  - **Q:** How does insurance pre-authorisation work for admissions at Serendib General Hospital?
+  - **A:** For all planned admissions and elective surgical procedures, patients on direct-billing panels must obtain written pre- authorisation from their insurer prior to the procedure date. Processing ordinarily takes one to three working days. Patients are encouraged to contact the Insurance Desk at Ext. 1200 for guidance. Emergency admissions are treated without delay pending pre-authorisation. Insurer notification is to be submitted within 24 to 48 hours of admission.
+  - **Evidence:** For all planned admissions and elective surgical procedures, patients on direct-billing panels must obtain written pre- authorisation from their insurer prior to the procedure date. Processing ordinarily takes one to three working days. Patients are encouraged to contact the Insurance Desk at Ext. 1200 for guidance. Emergency admissions are treated without delay pending pre-authorisation. Insurer notification is to be submitted within 24 to 48 hours of admission.
+- [ ] **sgh-fin-001-q002** · _ITEMISED BILLING_ · `procedural`
+  - **Q:** How are patient bills itemised at Serendib General Hospital?
+  - **A:** All bills issued by Serendib General Hospital are itemised by default. The statement covers: ward accommodation charged per night, consultant visit fees per round, nursing procedures and consumables, theatre charges disaggregated into surgeon's fee, anaesthetist's fee, theatre room, and disposables, pharmacy items, investigation charges, and any OPD charges incurred within the same admission period. Billing disputes must be raised at the Billing Desk before the discharge process is finalised wherever possible.
+  - **Evidence:** All bills issued by Serendib General Hospital are itemised by default. The statement covers: ward accommodation charged per night, consultant visit fees per round, nursing procedures and consumables, theatre charges disaggregated into surgeon's fee, anaesthetist's fee, theatre room, and disposables, pharmacy items, investigation charges, and any OPD charges incurred within the same admission period. Billing disputes must be raised at the Billing Desk before the discharge process is finalised wherever possible.
+- [ ] **sgh-fin-001-q003** · _FINANCIAL ASSISTANCE_ · `numeric`
+  - **Q:** What financial assistance or payment plans does Serendib General Hospital offer?
+  - **A:** Patients experiencing financial hardship are invited to apply to the Serendib Compassionate Care Fund, which provides partial subsidies on inpatient bills for qualifying individuals. Applications are received at the Social Services Office, Block A, Ground Floor, Room 108. Eligibility is based on demonstrated financial need, Sri Lankan citizenship, and the nature of the presenting condition. Applications are reviewed within 48 hours. Payment plans are also available for self-paying patients on bills exceeding LKR 100,000, with a minimum deposit of 50% at discharge and the balance payable within 60 days at no interest. Enquiries may be directed to the Billing Manager at Ext. 1210. Confidential — For Patient Use
+  - **Evidence:** Patients experiencing financial hardship are invited to apply to the Serendib Compassionate Care Fund, which provides partial subsidies on inpatient bills for qualifying individuals. Applications are received at the Social Services Office, Block A, Ground Floor, Room 108. Eligibility is based on demonstrated financial need, Sri Lankan citizenship, and the nature of the presenting condition. Applications are reviewed within 48 hours. Payment plans are also available for self-paying patients on bills exceeding LKR 100,000, with a minimum deposit of 50% at discharge and the balance payable within 60 days at no interest. Enquiries may be directed to the Billing Manager at Ext. 1210. Confidential — For Patient Use
+- [ ] **sgh-fin-001-q004** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with AIA Insurance Sri Lanka?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** AIA Insurance Sri Lanka | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q005** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with Ceylinco Life Insurance?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** Ceylinco Life Insurance | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q006** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with Sri Lanka Insurance (SLIC), Government Scheme?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** Sri Lanka Insurance (SLIC), Government Scheme | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q007** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with Softlogic Life?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** Softlogic Life | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q008** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with Allianz Lanka?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** Allianz Lanka | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q009** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with HNB Assurance?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** HNB Assurance | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q010** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with Union Assurance?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** Union Assurance | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q011** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** Does Serendib General Hospital offer direct billing with LOLC Insurance?
+  - **A:** Yes. Pre-authorisation: Yes, for elective admissions.
+  - **Evidence:** LOLC Insurance | Yes | Yes, for elective admissions
+- [ ] **sgh-fin-001-q012** · _SCOPE OF COVERAGE_ · `factual`
+  - **Q:** What is ordinarily covered under insurance at Serendib General Hospital?
+  - **A:** Inpatient room and board, subject to policy limits Surgeon and specialist fees Theatre and anaesthesia charges; Medications dispensed during admission; Investigations ordered during admission.
+  - **Evidence:** Ordinarily Covered | Ordinarily Excluded ;; Inpatient room and board, subject to policy limits Surgeon and specialist fees Theatre and anaesthesia charges | Outpatient consultations, unless outpatient rider is held Cosmetic or aesthetic procedures ;; Medications dispensed during admission | Dental treatment ;; Investigations ordered during admission | Physiotherapy beyond policy limits Pre-existing conditions within exclusion period
+- [ ] **sgh-fin-001-q013** · _SCOPE OF COVERAGE_ · `factual`
+  - **Q:** What is ordinarily excluded from insurance coverage at Serendib General Hospital?
+  - **A:** Outpatient consultations, unless outpatient rider is held Cosmetic or aesthetic procedures; Dental treatment; Physiotherapy beyond policy limits Pre-existing conditions within exclusion period.
+  - **Evidence:** Ordinarily Covered | Ordinarily Excluded ;; Inpatient room and board, subject to policy limits Surgeon and specialist fees Theatre and anaesthesia charges | Outpatient consultations, unless outpatient rider is held Cosmetic or aesthetic procedures ;; Medications dispensed during admission | Dental treatment ;; Investigations ordered during admission | Physiotherapy beyond policy limits Pre-existing conditions within exclusion period
+- [ ] **sgh-fin-001-q014** · _ACCEPTED PAYMENT METHODS_ · `factual`
+  - **Q:** Can I pay by Cash (LKR) at Serendib General Hospital, and where?
+  - **A:** Yes, at All cashier desks.
+  - **Evidence:** Cash (LKR) | All cashier desks | None
+- [ ] **sgh-fin-001-q015** · _ACCEPTED PAYMENT METHODS_ · `numeric`
+  - **Q:** Can I pay by Visa and Mastercard, debit and credit at Serendib General Hospital, and where?
+  - **A:** Yes, at All cashier desks. Note: Three-month interest-free instalment plans on credit cards for bills above LKR 100,000.
+  - **Evidence:** Visa and Mastercard, debit and credit | All cashier desks | Three-month interest-free instalment plans on credit cards for bills above LKR 100,000
+- [ ] **sgh-fin-001-q016** · _ACCEPTED PAYMENT METHODS_ · `procedural`
+  - **Q:** Can I pay by Bank transfer, Sampath Bank at Serendib General Hospital, and where?
+  - **A:** Yes, at Cashier desk, on request. Note: Reference number required; receipt must be confirmed with Billing Desk before discharge.
+  - **Evidence:** Bank transfer, Sampath Bank | Cashier desk, on request | Reference number required; receipt must be confirmed with Billing Desk before discharge
+- [ ] **sgh-fin-001-q017** · _ACCEPTED PAYMENT METHODS_ · `factual`
+  - **Q:** Can I pay by Online payment at Serendib General Hospital, and where?
+  - **A:** Yes, at Patient portal. Note: Available for deposit payments and outstanding balances only.
+  - **Evidence:** Online payment | Patient portal | Available for deposit payments and outstanding balances only
+- [ ] **sgh-fin-001-q018** · _ACCEPTED PAYMENT METHODS_ · `factual`
+  - **Q:** Can I pay by Insurance direct billing at Serendib General Hospital, and where?
+  - **A:** Yes, at Insurance Desk. Note: Requires valid pre-authorisation letter.
+  - **Evidence:** Insurance direct billing | Insurance Desk | Requires valid pre-authorisation letter
+- [ ] **sgh-fin-001-q019** · _ACCEPTED PAYMENT METHODS_ · `factual`
+  - **Q:** Can I pay by Foreign currency (USD, EUR, GBP) at Serendib General Hospital, and where?
+  - **A:** Yes, at International Patient Desk only. Note: Converted at the prevailing Sampath Bank buying rate on day of transaction.
+  - **Evidence:** Foreign currency (USD, EUR, GBP) | International Patient Desk only | Converted at the prevailing Sampath Bank buying rate on day of transaction
+- [ ] **sgh-fin-001-q020** · _PRE-AUTHORISATION_ · `numeric`
+  - **Q:** How long does insurance pre-authorisation take at Serendib General Hospital?
+  - **A:** Ordinarily one to three working days.
+  - **Evidence:** Processing ordinarily takes one to three working days.
+- [ ] **sgh-fin-001-q021** · _PRE-AUTHORISATION_ · `numeric`
+  - **Q:** When must insurers be notified for emergency admissions at Serendib?
+  - **A:** Insurer notification is to be submitted within 24 to 48 hours of admission; emergency admissions are treated without delay pending pre-authorisation.
+  - **Evidence:** Emergency admissions are treated without delay pending pre-authorisation. Insurer notification is to be submitted within 24 to 48 hours of admission.
+- [ ] **sgh-fin-001-q022** · _PRE-AUTHORISATION_ · `factual`
+  - **Q:** Which desk should I contact for insurance pre-authorisation guidance at Serendib?
+  - **A:** The Insurance Desk at Ext. 1200.
+  - **Evidence:** Patients are encouraged to contact the Insurance Desk at Ext. 1200 for guidance.
+- [ ] **sgh-fin-001-q023** · _ACCEPTED PAYMENT METHODS_ · `numeric`
+  - **Q:** Are instalment plans available for card payments at Serendib General Hospital?
+  - **A:** Yes. Three-month interest-free instalment plans on credit cards are available for bills above LKR 100,000.
+  - **Evidence:** Three-month interest-free instalment plans on credit cards for bills above LKR 100,000
+- [ ] **sgh-fin-001-q024** · _ACCEPTED PAYMENT METHODS_ · `factual`
+  - **Q:** How is foreign currency handled for payments at Serendib General Hospital?
+  - **A:** It is accepted (USD, EUR, GBP) at the International Patient Desk only, converted at the prevailing Sampath Bank buying rate on the day of transaction.
+  - **Evidence:** Foreign currency (USD, EUR, GBP) | International Patient Desk only | Converted at the prevailing Sampath Bank buying rate on day of transaction
+- [ ] **sgh-fin-001-q025** · _FINANCIAL ASSISTANCE_ · `factual`
+  - **Q:** What financial hardship fund does Serendib General Hospital offer?
+  - **A:** The Serendib Compassionate Care Fund, which provides partial subsidies on inpatient bills for qualifying individuals.
+  - **Evidence:** apply to the Serendib Compassionate Care Fund, which provides partial subsidies on inpatient bills for qualifying individuals
+- [ ] **sgh-fin-001-q026** · _FINANCIAL ASSISTANCE_ · `factual`
+  - **Q:** Where are Compassionate Care Fund applications received at Serendib, and how fast are they reviewed?
+  - **A:** At the Social Services Office, Block A, Ground Floor, Room 108; applications are reviewed within 48 hours.
+  - **Evidence:** Applications are received at the Social Services Office, Block A, Ground Floor, Room 108. ... Applications are reviewed within 48 hours.
+- [ ] **sgh-fin-001-q027** · _FINANCIAL ASSISTANCE_ · `numeric`
+  - **Q:** What are the payment-plan terms for self-paying patients at Serendib General Hospital?
+  - **A:** For bills exceeding LKR 100,000: a minimum deposit of 50% at discharge, with the balance payable within 60 days at no interest.
+  - **Evidence:** payment plans are also available for self-paying patients on bills exceeding LKR 100,000, with a minimum deposit of 50% at discharge and the balance payable within 60 days at no interest
+- [ ] **sgh-fin-001-q028** · _FINANCIAL ASSISTANCE_ · `factual`
+  - **Q:** What is the eligibility basis for Serendib's Compassionate Care Fund?
+  - **A:** Demonstrated financial need, Sri Lankan citizenship, and the nature of the presenting condition.
+  - **Evidence:** Eligibility is based on demonstrated financial need, Sri Lankan citizenship, and the nature of the presenting condition.
+- [ ] **sgh-fin-001-q029** · _DIRECT-BILLING INSURANCE PANELS_ · `factual`
+  - **Q:** What must a patient pay at discharge under direct billing at Serendib?
+  - **A:** Only non-covered items, co-payments, and applicable excesses.
+  - **Evidence:** Patients are responsible only for non-covered items, co-payments, and applicable excesses at the time of discharge.
+- [ ] **sgh-fin-001-q030** · _DIRECT-BILLING INSURANCE PANELS_ · `procedural`
+  - **Q:** What happens if my insurer is not on Serendib's direct-billing panel?
+  - **A:** You settle the bill directly and submit a reimbursement claim to your insurer; the hospital provides the itemised bill, investigation reports, consultant letters, and discharge summary.
+  - **Evidence:** patients are required to settle the bill directly and submit a reimbursement claim to their insurer independently
+- [ ] **sgh-fin-001-q031** · _ITEMISED BILLING_ · `factual`
+  - **Q:** Are bills itemised by default at Serendib General Hospital?
+  - **A:** Yes. All bills issued by Serendib General Hospital are itemised by default.
+  - **Evidence:** All bills issued by Serendib General Hospital are itemised by default.
+- [ ] **sgh-fin-001-q032** · _ITEMISED BILLING_ · `procedural`
+  - **Q:** When must billing disputes be raised at Serendib General Hospital?
+  - **A:** At the Billing Desk before the discharge process is finalised, wherever possible.
+  - **Evidence:** Billing disputes must be raised at the Billing Desk before the discharge process is finalised wherever possible.
+
+## SGH-IP-001 — Inpatient Admission - Patient and Family Handbook.pdf  (29 pairs)
+
+- [ ] **sgh-ip-001-q001** · _ADMISSION PROCESS_ · `factual`
+  - **Q:** What is the inpatient admission process at Serendib General Hospital?
+  - **A:** Planned admissions are arranged through the treating consultant's office or the Surgical Admissions Desk on Level 6, Block C. Emergency admissions proceed directly from the AEC or OPD upon the treating doctor's instruction. An admissions officer will complete documentation, verify insurance where applicable, and collect the admission deposit before the patient is escorted to the assigned ward.
+  - **Evidence:** Planned admissions are arranged through the treating consultant's office or the Surgical Admissions Desk on Level 6, Block C. Emergency admissions proceed directly from the AEC or OPD upon the treating doctor's instruction. An admissions officer will complete documentation, verify insurance where applicable, and collect the admission deposit before the patient is escorted to the assigned ward.
+- [ ] **sgh-ip-001-q002** · _ITEMS TO BRING FOR ADMISSION_ · `factual`
+  - **Q:** What items should a patient bring for admission to Serendib General Hospital?
+  - **A:** Comfortable loose clothing, at least two to three changes; Personal toiletries (not provided in General or Semi-Private Wards); Mobile phone and charger; Current medications in original packaging; National Identity Card or Passport; Insurance card and pre-authorisation documents Patients are advised to leave valuables including large sums of cash, jewellery, and laptop computers at home. The hospital does not accept liability for loss of personal property. A bedside safe is available in Private Rooms and Premium Suites only.
+  - **Evidence:** Comfortable loose clothing, at least two to three changes; Personal toiletries (not provided in General or Semi-Private Wards); Mobile phone and charger; Current medications in original packaging; National Identity Card or Passport; Insurance card and pre-authorisation documents Patients are advised to leave valuables including large sums of cash, jewellery, and laptop computers at home. The hospital does not accept liability for loss of personal property. A bedside safe is available in Private Rooms and Premium Suites only.
+- [ ] **sgh-ip-001-q003** · _DURING YOUR STAY_ · `numeric`
+  - **Q:** What should inpatients know about their stay at Serendib General Hospital?
+  - **A:** Ward rounds: The primary consultant visits once or twice daily, ordinarily between 7:00 am and 9:00 am and again between 5:00 pm and 7:00 pm. Nursing staff are available 24 hours. Patients are encouraged to use the nursing call bell at any time. Meals: Standard meals are served at 7:30 am, 12:30 pm, and 6:30 pm. Dietary requirements including diabetic, low- sodium, vegetarian, halal, and soft diets are to be communicated to the ward nurse at the time of admission. Premium Suite patients may select from an extended menu. Wi-Fi: Complimentary Wi-Fi is provided in Private Rooms and Premium Suites. Paid vouchers at LKR 200 per 24-hour period are available from the ward reception desk in General and Semi-Private Wards.
+  - **Evidence:** Ward rounds: The primary consultant visits once or twice daily, ordinarily between 7:00 am and 9:00 am and again between 5:00 pm and 7:00 pm. Nursing staff are available 24 hours. Patients are encouraged to use the nursing call bell at any time. Meals: Standard meals are served at 7:30 am, 12:30 pm, and 6:30 pm. Dietary requirements including diabetic, low- sodium, vegetarian, halal, and soft diets are to be communicated to the ward nurse at the time of admission. Premium Suite patients may select from an extended menu. Wi-Fi: Complimentary Wi-Fi is provided in Private Rooms and Premium Suites. Paid vouchers at LKR 200 per 24-hour period are available from the ward reception desk in General and Semi-Private Wards.
+- [ ] **sgh-ip-001-q004** · _DISCHARGE_ · `procedural`
+  - **Q:** What is the discharge process for inpatients at Serendib General Hospital?
+  - **A:** The treating consultant will ordinarily indicate anticipated discharge the evening prior. The discharge process typically requires two to four hours from the time the discharge order is signed. A printed discharge summary is issued to the patient, with a copy transmitted to the registered email address. Settlement of any outstanding balance is required before the discharge letter is released.
+  - **Evidence:** The treating consultant will ordinarily indicate anticipated discharge the evening prior. The discharge process typically requires two to four hours from the time the discharge order is signed. A printed discharge summary is issued to the patient, with a copy transmitted to the registered email address. Settlement of any outstanding balance is required before the discharge letter is released.
+- [ ] **sgh-ip-001-q005** · _VISITOR POLICY_ · `procedural`
+  - **Q:** What is the visitor policy for inpatients at Serendib General Hospital?
+  - **A:** A maximum of two visitors at any one time is permitted in General Wards. Up to three visitors are permitted in Private Rooms and Premium Suites. Children below the age of 12 may visit only in Private Rooms and Suites and must remain under direct parental supervision at all times. Visitors are requested to keep noise to a minimum and to vacate the ward during nursing procedures and consultant rounds.
+  - **Evidence:** A maximum of two visitors at any one time is permitted in General Wards. Up to three visitors are permitted in Private Rooms and Premium Suites. Children below the age of 12 may visit only in Private Rooms and Suites and must remain under direct parental supervision at all times. Visitors are requested to keep noise to a minimum and to vacate the ward during nursing procedures and consultant rounds.
+- [ ] **sgh-ip-001-q006** · _(LKR)_ · `numeric`
+  - **Q:** What is the admission deposit for a General Ward, 4- bed at Serendib General Hospital?
+  - **A:** 25,000 LKR.
+  - **Evidence:** General Ward, 4- bed | 25,000 | Shared bathroom; standard meals; nursing call bell
+- [ ] **sgh-ip-001-q007** · _(LKR)_ · `factual`
+  - **Q:** What is included with a General Ward, 4- bed at Serendib General Hospital?
+  - **A:** Shared bathroom; standard meals; nursing call bell.
+  - **Evidence:** General Ward, 4- bed | 25,000 | Shared bathroom; standard meals; nursing call bell
+- [ ] **sgh-ip-001-q008** · _(LKR)_ · `numeric`
+  - **Q:** What is the admission deposit for a Semi-Private Ward, 2-bed at Serendib General Hospital?
+  - **A:** 50,000 LKR.
+  - **Evidence:** Semi-Private Ward, 2-bed | 50,000 | Shared bathroom; standard meals; curtain privacy
+- [ ] **sgh-ip-001-q009** · _(LKR)_ · `factual`
+  - **Q:** What is included with a Semi-Private Ward, 2-bed at Serendib General Hospital?
+  - **A:** Shared bathroom; standard meals; curtain privacy.
+  - **Evidence:** Semi-Private Ward, 2-bed | 50,000 | Shared bathroom; standard meals; curtain privacy
+- [ ] **sgh-ip-001-q010** · _(LKR)_ · `numeric`
+  - **Q:** What is the admission deposit for a Private Room at Serendib General Hospital?
+  - **A:** 80,000 LKR.
+  - **Evidence:** Private Room | 80,000 | Attached bathroom; television; mini-refrigerator; one overnight companion permitted
+- [ ] **sgh-ip-001-q011** · _(LKR)_ · `factual`
+  - **Q:** What is included with a Private Room at Serendib General Hospital?
+  - **A:** Attached bathroom; television; mini-refrigerator; one overnight companion permitted.
+  - **Evidence:** Private Room | 80,000 | Attached bathroom; television; mini-refrigerator; one overnight companion permitted
+- [ ] **sgh-ip-001-q012** · _(LKR)_ · `numeric`
+  - **Q:** What is the admission deposit for a Premium Suite at Serendib General Hospital?
+  - **A:** 150,000 LKR.
+  - **Evidence:** Premium Suite | 150,000 | Attached bathroom with bathtub; kitchenette; sofa bed; premium meal menu; complimentary Wi-Fi; dedicated ward nurse
+- [ ] **sgh-ip-001-q013** · _(LKR)_ · `factual`
+  - **Q:** What is included with a Premium Suite at Serendib General Hospital?
+  - **A:** Attached bathroom with bathtub; kitchenette; sofa bed; premium meal menu; complimentary Wi-Fi; dedicated ward nurse.
+  - **Evidence:** Premium Suite | 150,000 | Attached bathroom with bathtub; kitchenette; sofa bed; premium meal menu; complimentary Wi-Fi; dedicated ward nurse
+- [ ] **sgh-ip-001-q014** · _(LKR)_ · `numeric`
+  - **Q:** What is the admission deposit for a ICU or HDU at Serendib General Hospital?
+  - **A:** 100,000 LKR.
+  - **Evidence:** ICU or HDU | 100,000 | Essential items only; restricted visiting
+- [ ] **sgh-ip-001-q015** · _(LKR)_ · `factual`
+  - **Q:** What is included with a ICU or HDU at Serendib General Hospital?
+  - **A:** Essential items only; restricted visiting.
+  - **Evidence:** ICU or HDU | 100,000 | Essential items only; restricted visiting
+- [ ] **sgh-ip-001-q016** · _ADMISSION PROCESS_ · `factual`
+  - **Q:** Where are planned inpatient admissions arranged at Serendib General Hospital?
+  - **A:** Through the treating consultant's office or the Surgical Admissions Desk on Level 6, Block C.
+  - **Evidence:** Planned admissions are arranged through the treating consultant's office or the Surgical Admissions Desk on Level 6, Block C.
+- [ ] **sgh-ip-001-q017** · _ADMISSION PROCESS_ · `procedural`
+  - **Q:** What does the admissions officer collect before a patient is taken to the ward?
+  - **A:** The admission deposit, after completing documentation and verifying insurance where applicable.
+  - **Evidence:** verify insurance where applicable, and collect the admission deposit before the patient is escorted to the assigned ward
+- [ ] **sgh-ip-001-q018** · _ADMISSION DEPOSITS_ · `factual`
+  - **Q:** Can the admission deposit be reduced or waived at Serendib General Hospital?
+  - **A:** Yes. Patients holding confirmed insurance pre-authorisation may qualify for a reduced deposit or waiver; confirmation is available from the Insurance Desk at Ext. 1200.
+  - **Evidence:** Patients holding confirmed insurance pre-authorisation may qualify for a reduced deposit or waiver. Confirmation is available from the Insurance Desk at Ext. 1200.
+- [ ] **sgh-ip-001-q019** · _ITEMS TO BRING FOR ADMISSION_ · `factual`
+  - **Q:** Does Serendib General Hospital provide toiletries to inpatients?
+  - **A:** Not in General or Semi-Private Wards — patients should bring their own personal toiletries.
+  - **Evidence:** Personal toiletries (not provided in General or Semi-Private Wards)
+- [ ] **sgh-ip-001-q020** · _ITEMS TO BRING FOR ADMISSION_ · `factual`
+  - **Q:** Is there a safe for valuables in the wards at Serendib General Hospital?
+  - **A:** A bedside safe is available in Private Rooms and Premium Suites only; patients are advised to leave valuables at home as the hospital accepts no liability for loss.
+  - **Evidence:** The hospital does not accept liability for loss of personal property. A bedside safe is available in Private Rooms and Premium Suites only.
+- [ ] **sgh-ip-001-q021** · _DURING YOUR STAY_ · `numeric`
+  - **Q:** When does the primary consultant do ward rounds at Serendib General Hospital?
+  - **A:** Once or twice daily, ordinarily between 7:00 am and 9:00 am and again between 5:00 pm and 7:00 pm.
+  - **Evidence:** The primary consultant visits once or twice daily, ordinarily between 7:00 am and 9:00 am and again between 5:00 pm and 7:00 pm.
+- [ ] **sgh-ip-001-q022** · _DURING YOUR STAY_ · `numeric`
+  - **Q:** At what times are meals served to inpatients at Serendib General Hospital?
+  - **A:** At 7:30 am, 12:30 pm, and 6:30 pm.
+  - **Evidence:** Standard meals are served at 7:30 am, 12:30 pm, and 6:30 pm.
+- [ ] **sgh-ip-001-q023** · _DURING YOUR STAY_ · `factual`
+  - **Q:** Which special diets can inpatients request at Serendib General Hospital?
+  - **A:** Diabetic, low-sodium, vegetarian, halal, and soft diets, communicated to the ward nurse at admission.
+  - **Evidence:** Dietary requirements including diabetic, low- sodium, vegetarian, halal, and soft diets are to be communicated to the ward nurse at the time of admission.
+- [ ] **sgh-ip-001-q024** · _DURING YOUR STAY_ · `numeric`
+  - **Q:** Is Wi-Fi free for inpatients at Serendib General Hospital?
+  - **A:** Complimentary in Private Rooms and Premium Suites; in General and Semi-Private Wards, paid vouchers are LKR 200 per 24-hour period.
+  - **Evidence:** Complimentary Wi-Fi is provided in Private Rooms and Premium Suites. Paid vouchers at LKR 200 per 24-hour period are available
+- [ ] **sgh-ip-001-q025** · _DISCHARGE_ · `numeric`
+  - **Q:** How long does the discharge process take at Serendib General Hospital?
+  - **A:** Typically two to four hours from the time the discharge order is signed.
+  - **Evidence:** The discharge process typically requires two to four hours from the time the discharge order is signed.
+- [ ] **sgh-ip-001-q026** · _DISCHARGE_ · `procedural`
+  - **Q:** Is the outstanding balance required before discharge at Serendib General Hospital?
+  - **A:** Yes. Settlement of any outstanding balance is required before the discharge letter is released.
+  - **Evidence:** Settlement of any outstanding balance is required before the discharge letter is released.
+- [ ] **sgh-ip-001-q027** · _VISITOR POLICY_ · `numeric`
+  - **Q:** How many visitors are allowed at once in a General Ward at Serendib General Hospital?
+  - **A:** A maximum of two visitors at any one time.
+  - **Evidence:** A maximum of two visitors at any one time is permitted in General Wards.
+- [ ] **sgh-ip-001-q028** · _VISITOR POLICY_ · `numeric`
+  - **Q:** How many visitors are allowed in Private Rooms and Premium Suites at Serendib?
+  - **A:** Up to three visitors.
+  - **Evidence:** Up to three visitors are permitted in Private Rooms and Premium Suites.
+- [ ] **sgh-ip-001-q029** · _VISITOR POLICY_ · `factual`
+  - **Q:** Can children under 12 visit inpatients at Serendib General Hospital?
+  - **A:** Only in Private Rooms and Suites, and they must remain under direct parental supervision at all times.
+  - **Evidence:** Children below the age of 12 may visit only in Private Rooms and Suites and must remain under direct parental supervision at all times.
+
+## SGH-LAB-001 — Laboratory and Diagnostic Services - Service Catalog.pdf  (52 pairs)
+
+- [ ] **sgh-lab-001-q001** · _COLLECTING RESULTS_ · `factual`
+  - **Q:** How can patients collect their laboratory or imaging results from Serendib General Hospital?
+  - **A:** Results are transmitted automatically to the referring consultant's patient record within the hospital system. Patients may collect printed results from the laboratory or radiology desk upon presentation of their NIC or hospital registration card. Results are accessible via the Serendib patient portal within one hour of verification. Abnormal or critical results are communicated by telephone to the referring consultant without delay.
+  - **Evidence:** Results are transmitted automatically to the referring consultant's patient record within the hospital system. Patients may collect printed results from the laboratory or radiology desk upon presentation of their NIC or hospital registration card. Results are accessible via the Serendib patient portal within one hour of verification. Abnormal or critical results are communicated by telephone to the referring consultant without delay.
+- [ ] **sgh-lab-001-q002** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Routine Blood Panel tests at the Serendib laboratory?
+  - **A:** 2 to 4 hours.
+  - **Evidence:** Routine Blood Panel | FBC, ESR, CRP | 2 to 4 hours
+- [ ] **sgh-lab-001-q003** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Routine Blood Panel at Serendib's laboratory?
+  - **A:** FBC, ESR, CRP.
+  - **Evidence:** Routine Blood Panel | FBC, ESR, CRP | 2 to 4 hours
+- [ ] **sgh-lab-001-q004** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Biochemistry tests at the Serendib laboratory?
+  - **A:** 2 to 4 hours.
+  - **Evidence:** Biochemistry | LFT, RFT, lipid profile, HbA1c, fasting blood glucose | 2 to 4 hours
+- [ ] **sgh-lab-001-q005** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Biochemistry at Serendib's laboratory?
+  - **A:** LFT, RFT, lipid profile, HbA1c, fasting blood glucose.
+  - **Evidence:** Biochemistry | LFT, RFT, lipid profile, HbA1c, fasting blood glucose | 2 to 4 hours
+- [ ] **sgh-lab-001-q006** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Hormone Profile tests at the Serendib laboratory?
+  - **A:** 4 to 6 hours.
+  - **Evidence:** Hormone Profile | TSH, T3, T4, cortisol, testosterone, oestrogen | 4 to 6 hours
+- [ ] **sgh-lab-001-q007** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Hormone Profile at Serendib's laboratory?
+  - **A:** TSH, T3, T4, cortisol, testosterone, oestrogen.
+  - **Evidence:** Hormone Profile | TSH, T3, T4, cortisol, testosterone, oestrogen | 4 to 6 hours
+- [ ] **sgh-lab-001-q008** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Microbiology Cultures tests at the Serendib laboratory?
+  - **A:** 24 to 72 hours.
+  - **Evidence:** Microbiology Cultures | Urine, blood, wound, sputum | 24 to 72 hours
+- [ ] **sgh-lab-001-q009** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Microbiology Cultures at Serendib's laboratory?
+  - **A:** Urine, blood, wound, sputum.
+  - **Evidence:** Microbiology Cultures | Urine, blood, wound, sputum | 24 to 72 hours
+- [ ] **sgh-lab-001-q010** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Serology tests at the Serendib laboratory?
+  - **A:** 3 to 5 hours.
+  - **Evidence:** Serology | Hepatitis B and C, HIV, Dengue NS1 and IgG/IgM, Widal | 3 to 5 hours
+- [ ] **sgh-lab-001-q011** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Serology at Serendib's laboratory?
+  - **A:** Hepatitis B and C, HIV, Dengue NS1 and IgG/IgM, Widal.
+  - **Evidence:** Serology | Hepatitis B and C, HIV, Dengue NS1 and IgG/IgM, Widal | 3 to 5 hours
+- [ ] **sgh-lab-001-q012** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Coagulation tests at the Serendib laboratory?
+  - **A:** 2 to 3 hours.
+  - **Evidence:** Coagulation | PT, APTT, INR, D-Dimer | 2 to 3 hours
+- [ ] **sgh-lab-001-q013** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Coagulation at Serendib's laboratory?
+  - **A:** PT, APTT, INR, D-Dimer.
+  - **Evidence:** Coagulation | PT, APTT, INR, D-Dimer | 2 to 3 hours
+- [ ] **sgh-lab-001-q014** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Tumour Markers tests at the Serendib laboratory?
+  - **A:** 4 to 8 hours.
+  - **Evidence:** Tumour Markers | CEA, CA-125, PSA, AFP, CA 19-9 | 4 to 8 hours
+- [ ] **sgh-lab-001-q015** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Tumour Markers at Serendib's laboratory?
+  - **A:** CEA, CA-125, PSA, AFP, CA 19-9.
+  - **Evidence:** Tumour Markers | CEA, CA-125, PSA, AFP, CA 19-9 | 4 to 8 hours
+- [ ] **sgh-lab-001-q016** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for COVID-19 PCR tests at the Serendib laboratory?
+  - **A:** 6 to 8 hours.
+  - **Evidence:** COVID-19 PCR | SARS-CoV-2, nasopharyngeal swab | 6 to 8 hours
+- [ ] **sgh-lab-001-q017** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under COVID-19 PCR at Serendib's laboratory?
+  - **A:** SARS-CoV-2, nasopharyngeal swab.
+  - **Evidence:** COVID-19 PCR | SARS-CoV-2, nasopharyngeal swab | 6 to 8 hours
+- [ ] **sgh-lab-001-q018** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Drug Level Monitoring tests at the Serendib laboratory?
+  - **A:** 4 to 6 hours.
+  - **Evidence:** Drug Level Monitoring | Phenytoin, digoxin, vancomycin, lithium | 4 to 6 hours
+- [ ] **sgh-lab-001-q019** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Drug Level Monitoring at Serendib's laboratory?
+  - **A:** Phenytoin, digoxin, vancomycin, lithium.
+  - **Evidence:** Drug Level Monitoring | Phenytoin, digoxin, vancomycin, lithium | 4 to 6 hours
+- [ ] **sgh-lab-001-q020** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for Genetic and Molecular Testing tests at the Serendib laboratory?
+  - **A:** 7 to 14 working days (partner laboratory).
+  - **Evidence:** Genetic and Molecular Testing | Carrier screening, oncology panels | 7 to 14 working days (partner laboratory)
+- [ ] **sgh-lab-001-q021** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `factual`
+  - **Q:** Which tests are included under Genetic and Molecular Testing at Serendib's laboratory?
+  - **A:** Carrier screening, oncology panels.
+  - **Evidence:** Genetic and Molecular Testing | Carrier screening, oncology panels | 7 to 14 working days (partner laboratory)
+- [ ] **sgh-lab-001-q022** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a X-Ray, Digital at Serendib?
+  - **A:** No preparation required.
+  - **Evidence:** X-Ray, Digital | No preparation required | 2 hours
+- [ ] **sgh-lab-001-q023** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the X-Ray, Digital report take at Serendib General Hospital?
+  - **A:** 2 hours.
+  - **Evidence:** X-Ray, Digital | No preparation required | 2 hours
+- [ ] **sgh-lab-001-q024** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a Ultrasound at Serendib?
+  - **A:** Abdominal: 4-hour fast and full bladder; Pelvic: full bladder only.
+  - **Evidence:** Ultrasound | Abdominal: 4-hour fast and full bladder; Pelvic: full bladder only | Same day; report within 4 hours
+- [ ] **sgh-lab-001-q025** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the Ultrasound report take at Serendib General Hospital?
+  - **A:** Same day; report within 4 hours.
+  - **Evidence:** Ultrasound | Abdominal: 4-hour fast and full bladder; Pelvic: full bladder only | Same day; report within 4 hours
+- [ ] **sgh-lab-001-q026** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a CT Scan at Serendib?
+  - **A:** Contrast and non-contrast available; contrast requires prior creatinine result.
+  - **Evidence:** CT Scan | Contrast and non-contrast available; contrast requires prior creatinine result | 4 to 6 hours
+- [ ] **sgh-lab-001-q027** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the CT Scan report take at Serendib General Hospital?
+  - **A:** 4 to 6 hours.
+  - **Evidence:** CT Scan | Contrast and non-contrast available; contrast requires prior creatinine result | 4 to 6 hours
+- [ ] **sgh-lab-001-q028** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a MRI at Serendib?
+  - **A:** No ferromagnetic implants permitted; procedure duration 45 to 90 minutes.
+  - **Evidence:** MRI | No ferromagnetic implants permitted; procedure duration 45 to 90 minutes | 24 hours
+- [ ] **sgh-lab-001-q029** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the MRI report take at Serendib General Hospital?
+  - **A:** 24 hours.
+  - **Evidence:** MRI | No ferromagnetic implants permitted; procedure duration 45 to 90 minutes | 24 hours
+- [ ] **sgh-lab-001-q030** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a Echocardiogram at Serendib?
+  - **A:** No preparation required.
+  - **Evidence:** Echocardiogram | No preparation required | Same day
+- [ ] **sgh-lab-001-q031** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the Echocardiogram report take at Serendib General Hospital?
+  - **A:** Same day.
+  - **Evidence:** Echocardiogram | No preparation required | Same day
+- [ ] **sgh-lab-001-q032** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a Mammogram at Serendib?
+  - **A:** Recommended annually for women aged 40 and above; avoid caffeine 48 hours prior.
+  - **Evidence:** Mammogram | Recommended annually for women aged 40 and above; avoid caffeine 48 hours prior | 24 hours
+- [ ] **sgh-lab-001-q033** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the Mammogram report take at Serendib General Hospital?
+  - **A:** 24 hours.
+  - **Evidence:** Mammogram | Recommended annually for women aged 40 and above; avoid caffeine 48 hours prior | 24 hours
+- [ ] **sgh-lab-001-q034** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before a Bone Density, DEXA at Serendib?
+  - **A:** No preparation required; scan duration approximately 20 minutes.
+  - **Evidence:** Bone Density, DEXA | No preparation required; scan duration approximately 20 minutes | Same day
+- [ ] **sgh-lab-001-q035** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** How long does the Bone Density, DEXA report take at Serendib General Hospital?
+  - **A:** Same day.
+  - **Evidence:** Bone Density, DEXA | No preparation required; scan duration approximately 20 minutes | Same day
+- [ ] **sgh-lab-001-q036** · _FASTING REQUIREMENTS BY TEST_ · `numeric`
+  - **Q:** Is fasting required for a Fasting Blood Glucose at Serendib General Hospital?
+  - **A:** Yes — 8 hours; water permitted.
+  - **Evidence:** Fasting Blood Glucose | Yes | 8 hours; water permitted
+- [ ] **sgh-lab-001-q037** · _FASTING REQUIREMENTS BY TEST_ · `numeric`
+  - **Q:** Is fasting required for a Lipid Profile at Serendib General Hospital?
+  - **A:** Yes — 10 to 12 hours; water permitted.
+  - **Evidence:** Lipid Profile | Yes | 10 to 12 hours; water permitted
+- [ ] **sgh-lab-001-q038** · _FASTING REQUIREMENTS BY TEST_ · `numeric`
+  - **Q:** Is fasting required for a Glucose Tolerance Test (GTT) at Serendib General Hospital?
+  - **A:** Yes — 8 hours prior; three blood draws over 2 hours on day of test.
+  - **Evidence:** Glucose Tolerance Test (GTT) | Yes | 8 hours prior; three blood draws over 2 hours on day of test
+- [ ] **sgh-lab-001-q039** · _FASTING REQUIREMENTS BY TEST_ · `factual`
+  - **Q:** Is fasting required for a HbA1c at Serendib General Hospital?
+  - **A:** No.
+  - **Evidence:** HbA1c | No | Not applicable
+- [ ] **sgh-lab-001-q040** · _FASTING REQUIREMENTS BY TEST_ · `factual`
+  - **Q:** Is fasting required for a Routine FBC at Serendib General Hospital?
+  - **A:** No.
+  - **Evidence:** Routine FBC | No | Not applicable
+- [ ] **sgh-lab-001-q041** · _FASTING REQUIREMENTS BY TEST_ · `factual`
+  - **Q:** Is fasting required for a Liver Function Tests at Serendib General Hospital?
+  - **A:** No.
+  - **Evidence:** Liver Function Tests | No | Not applicable
+- [ ] **sgh-lab-001-q042** · _FASTING REQUIREMENTS BY TEST_ · `numeric`
+  - **Q:** Is fasting required for a Abdominal Ultrasound at Serendib General Hospital?
+  - **A:** Yes, with full bladder — 4 hours prior to scan.
+  - **Evidence:** Abdominal Ultrasound | Yes, with full bladder | 4 hours prior to scan
+- [ ] **sgh-lab-001-q043** · _COLLECTING RESULTS_ · `numeric`
+  - **Q:** How soon are lab results available on the Serendib patient portal?
+  - **A:** Within one hour of verification.
+  - **Evidence:** Results are accessible via the Serendib patient portal within one hour of verification.
+- [ ] **sgh-lab-001-q044** · _COLLECTING RESULTS_ · `factual`
+  - **Q:** How are abnormal or critical lab results communicated at Serendib General Hospital?
+  - **A:** By telephone to the referring consultant without delay.
+  - **Evidence:** Abnormal or critical results are communicated by telephone to the referring consultant without delay.
+- [ ] **sgh-lab-001-q045** · _COLLECTING RESULTS_ · `procedural`
+  - **Q:** What must a patient present to collect printed lab or radiology results at Serendib?
+  - **A:** Their NIC or hospital registration card, at the laboratory or radiology desk.
+  - **Evidence:** Patients may collect printed results from the laboratory or radiology desk upon presentation of their NIC or hospital registration card.
+- [ ] **sgh-lab-001-q046** · _LABORATORY TESTS AND TURNAROUND TIMES_ · `numeric`
+  - **Q:** What is the turnaround time for a routine blood panel (FBC, ESR, CRP) at Serendib?
+  - **A:** 2 to 4 hours.
+  - **Evidence:** Routine Blood Panel | FBC, ESR, CRP | 2 to 4 hours
+- [ ] **sgh-lab-001-q047** · _IMAGING SERVICES_ · `procedural`
+  - **Q:** What preparation is required before an abdominal ultrasound at Serendib?
+  - **A:** A 4-hour fast and a full bladder (for pelvic scans, a full bladder only).
+  - **Evidence:** Ultrasound | Abdominal: 4-hour fast and full bladder; Pelvic: full bladder only
+- [ ] **sgh-lab-001-q048** · _FASTING REQUIREMENTS BY TEST_ · `numeric`
+  - **Q:** How long must I fast before a lipid profile at Serendib General Hospital?
+  - **A:** 10 to 12 hours; water is permitted.
+  - **Evidence:** Lipid Profile | Yes | 10 to 12 hours; water permitted
+- [ ] **sgh-lab-001-q049** · _LOCATIONS AND OPERATING HOURS_ · `numeric`
+  - **Q:** What are the routine sample collection hours at the Serendib laboratory?
+  - **A:** 6:00 am to 8:00 pm daily.
+  - **Evidence:** Sample collection: 6:00 am to 8:00 pm daily.
+- [ ] **sgh-lab-001-q050** · _LOCATIONS AND OPERATING HOURS_ · `factual`
+  - **Q:** Is emergency laboratory testing available around the clock at Serendib?
+  - **A:** Yes. The emergency laboratory (urgent results) operates 24 hours.
+  - **Evidence:** Emergency laboratory (urgent results): 24 hours.
+- [ ] **sgh-lab-001-q051** · _LOCATIONS AND OPERATING HOURS_ · `numeric`
+  - **Q:** What are the radiology and imaging hours at Serendib General Hospital?
+  - **A:** Monday to Saturday 7:00 am to 8:00 pm and Sunday 8:00 am to 2:00 pm, with emergency imaging available 24 hours via on-call radiographer.
+  - **Evidence:** Monday to Saturday: 7:00 am to 8:00 pm. Sunday: 8:00 am to 2:00 pm. Emergency imaging: 24 hours via on-call radiographer.
+- [ ] **sgh-lab-001-q052** · _IMAGING SERVICES_ · `numeric`
+  - **Q:** What is the report turnaround for an MRI at Serendib General Hospital?
+  - **A:** 24 hours; the scan itself takes 45 to 90 minutes and no ferromagnetic implants are permitted.
+  - **Evidence:** MRI | No ferromagnetic implants permitted; procedure duration 45 to 90 minutes | 24 hours
+
+## SGH-OPD-001 — Outpatient Department (OPD) - Services Directory.pdf  (67 pairs)
+
+- [ ] **sgh-opd-001-q001** · _OVERVIEW_ · `numeric`
+  - **Q:** What are the Serendib OPD's opening hours and approximate daily patient volume?
+  - **A:** The Serendib Outpatient Department is open Monday to Saturday from 7:30 am to 8:00 pm, and on Sundays from 8:00 am to 1:00 pm. Approximately 1,200 outpatients are attended to daily across 28 specialties. The OPD occupies the Ground Floor and Level 1 of Block A. The channelling desk, laboratory sample collection point, pharmacy counter, and cashier are all within 50 metres of the OPD exit.
+  - **Evidence:** The Serendib Outpatient Department is open Monday to Saturday from 7:30 am to 8:00 pm, and on Sundays from 8:00 am to 1:00 pm. Approximately 1,200 outpatients are attended to daily across 28 specialties. The OPD occupies the Ground Floor and Level 1 of Block A. The channelling desk, laboratory sample collection point, pharmacy counter, and cashier are all within 50 metres of the OPD exit.
+- [ ] **sgh-opd-001-q002** · _WALK-IN PATIENTS_ · `numeric`
+  - **Q:** How are walk-in patients handled at the Serendib OPD?
+  - **A:** Walk-in patients are attended to after all channelled (booked) patients within each session. During peak hours of 10:00 am to 12:00 pm and 4:00 pm to 6:00 pm, waiting times for walk-in patients may exceed 90 minutes. Advance channelling by telephone or online portal is strongly recommended for specialist consultations.
+  - **Evidence:** Walk-in patients are attended to after all channelled (booked) patients within each session. During peak hours of 10:00 am to 12:00 pm and 4:00 pm to 6:00 pm, waiting times for walk-in patients may exceed 90 minutes. Advance channelling by telephone or online portal is strongly recommended for specialist consultations.
+- [ ] **sgh-opd-001-q003** · _CHANNELLING SYSTEM_ · `factual`
+  - **Q:** How does the channelling (queue) system work at Serendib General Hospital?
+  - **A:** Serendib General Hospital operates a numbered channelling system. Patient queue numbers are displayed on the screen outside each consultation room. An automated SMS notification is sent to the patient when three patients remain ahead of their slot, permitting patients to wait in the café, garden, or elsewhere within the facility rather than the waiting area.
+  - **Evidence:** Serendib General Hospital operates a numbered channelling system. Patient queue numbers are displayed on the screen outside each consultation room. An automated SMS notification is sent to the patient when three patients remain ahead of their slot, permitting patients to wait in the café, garden, or elsewhere within the facility rather than the waiting area.
+- [ ] **sgh-opd-001-q004** · _DOCUMENTS TO BRING TO OPD_ · `factual`
+  - **Q:** What documents should a patient bring to the Serendib OPD?
+  - **A:** National Identity Card or Passport (mandatory for registration); Hospital registration card, if the patient is returning; Previous investigation reports, originals and copies; Referral letter from a GP or specialist, if applicable; Complete list of current medications
+  - **Evidence:** National Identity Card or Passport (mandatory for registration); Hospital registration card, if the patient is returning; Previous investigation reports, originals and copies; Referral letter from a GP or specialist, if applicable; Complete list of current medications
+- [ ] **sgh-opd-001-q005** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the General Medicine clinic held at the Serendib OPD?
+  - **A:** Mon to Sun.
+  - **Evidence:** General Medicine | Mon to Sun | 8:00 am to 6:00 pm | 20 to 40 min
+- [ ] **sgh-opd-001-q006** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for General Medicine at Serendib?
+  - **A:** 8:00 am to 6:00 pm.
+  - **Evidence:** General Medicine | Mon to Sun | 8:00 am to 6:00 pm | 20 to 40 min
+- [ ] **sgh-opd-001-q007** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked General Medicine appointment at Serendib?
+  - **A:** 20 to 40 min.
+  - **Evidence:** General Medicine | Mon to Sun | 8:00 am to 6:00 pm | 20 to 40 min
+- [ ] **sgh-opd-001-q008** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Cardiology clinic held at the Serendib OPD?
+  - **A:** Mon, Wed, Fri.
+  - **Evidence:** Cardiology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 60 min
+- [ ] **sgh-opd-001-q009** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Cardiology at Serendib?
+  - **A:** 9:00 am to 1:00 pm.
+  - **Evidence:** Cardiology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 60 min
+- [ ] **sgh-opd-001-q010** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Cardiology appointment at Serendib?
+  - **A:** 30 to 60 min.
+  - **Evidence:** Cardiology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 60 min
+- [ ] **sgh-opd-001-q011** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Orthopaedics clinic held at the Serendib OPD?
+  - **A:** Mon to Sat.
+  - **Evidence:** Orthopaedics | Mon to Sat | 8:00 am to 4:00 pm | 20 to 45 min
+- [ ] **sgh-opd-001-q012** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Orthopaedics at Serendib?
+  - **A:** 8:00 am to 4:00 pm.
+  - **Evidence:** Orthopaedics | Mon to Sat | 8:00 am to 4:00 pm | 20 to 45 min
+- [ ] **sgh-opd-001-q013** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Orthopaedics appointment at Serendib?
+  - **A:** 20 to 45 min.
+  - **Evidence:** Orthopaedics | Mon to Sat | 8:00 am to 4:00 pm | 20 to 45 min
+- [ ] **sgh-opd-001-q014** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Neurology clinic held at the Serendib OPD?
+  - **A:** Tue, Thu, Sat.
+  - **Evidence:** Neurology | Tue, Thu, Sat | 9:00 am to 1:00 pm | 40 to 60 min
+- [ ] **sgh-opd-001-q015** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Neurology at Serendib?
+  - **A:** 9:00 am to 1:00 pm.
+  - **Evidence:** Neurology | Tue, Thu, Sat | 9:00 am to 1:00 pm | 40 to 60 min
+- [ ] **sgh-opd-001-q016** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Neurology appointment at Serendib?
+  - **A:** 40 to 60 min.
+  - **Evidence:** Neurology | Tue, Thu, Sat | 9:00 am to 1:00 pm | 40 to 60 min
+- [ ] **sgh-opd-001-q017** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Dermatology clinic held at the Serendib OPD?
+  - **A:** Mon to Fri.
+  - **Evidence:** Dermatology | Mon to Fri | 8:30 am to 5:00 pm | 15 to 30 min
+- [ ] **sgh-opd-001-q018** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Dermatology at Serendib?
+  - **A:** 8:30 am to 5:00 pm.
+  - **Evidence:** Dermatology | Mon to Fri | 8:30 am to 5:00 pm | 15 to 30 min
+- [ ] **sgh-opd-001-q019** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Dermatology appointment at Serendib?
+  - **A:** 15 to 30 min.
+  - **Evidence:** Dermatology | Mon to Fri | 8:30 am to 5:00 pm | 15 to 30 min
+- [ ] **sgh-opd-001-q020** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Gastroenterology clinic held at the Serendib OPD?
+  - **A:** Mon to Sat.
+  - **Evidence:** Gastroenterology | Mon to Sat | 9:00 am to 3:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q021** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Gastroenterology at Serendib?
+  - **A:** 9:00 am to 3:00 pm.
+  - **Evidence:** Gastroenterology | Mon to Sat | 9:00 am to 3:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q022** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Gastroenterology appointment at Serendib?
+  - **A:** 30 to 50 min.
+  - **Evidence:** Gastroenterology | Mon to Sat | 9:00 am to 3:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q023** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Urology clinic held at the Serendib OPD?
+  - **A:** Mon, Wed, Fri.
+  - **Evidence:** Urology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 45 min
+- [ ] **sgh-opd-001-q024** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Urology at Serendib?
+  - **A:** 9:00 am to 1:00 pm.
+  - **Evidence:** Urology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 45 min
+- [ ] **sgh-opd-001-q025** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Urology appointment at Serendib?
+  - **A:** 30 to 45 min.
+  - **Evidence:** Urology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 45 min
+- [ ] **sgh-opd-001-q026** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the ENT clinic held at the Serendib OPD?
+  - **A:** Mon to Sat.
+  - **Evidence:** ENT | Mon to Sat | 8:00 am to 5:00 pm | 20 to 35 min
+- [ ] **sgh-opd-001-q027** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for ENT at Serendib?
+  - **A:** 8:00 am to 5:00 pm.
+  - **Evidence:** ENT | Mon to Sat | 8:00 am to 5:00 pm | 20 to 35 min
+- [ ] **sgh-opd-001-q028** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked ENT appointment at Serendib?
+  - **A:** 20 to 35 min.
+  - **Evidence:** ENT | Mon to Sat | 8:00 am to 5:00 pm | 20 to 35 min
+- [ ] **sgh-opd-001-q029** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Ophthalmology clinic held at the Serendib OPD?
+  - **A:** Mon to Sat.
+  - **Evidence:** Ophthalmology | Mon to Sat | 8:00 am to 4:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q030** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Ophthalmology at Serendib?
+  - **A:** 8:00 am to 4:00 pm.
+  - **Evidence:** Ophthalmology | Mon to Sat | 8:00 am to 4:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q031** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Ophthalmology appointment at Serendib?
+  - **A:** 30 to 50 min.
+  - **Evidence:** Ophthalmology | Mon to Sat | 8:00 am to 4:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q032** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Gynaecology clinic held at the Serendib OPD?
+  - **A:** Mon to Sat.
+  - **Evidence:** Gynaecology | Mon to Sat | 8:00 am to 5:00 pm | 20 to 40 min
+- [ ] **sgh-opd-001-q033** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Gynaecology at Serendib?
+  - **A:** 8:00 am to 5:00 pm.
+  - **Evidence:** Gynaecology | Mon to Sat | 8:00 am to 5:00 pm | 20 to 40 min
+- [ ] **sgh-opd-001-q034** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Gynaecology appointment at Serendib?
+  - **A:** 20 to 40 min.
+  - **Evidence:** Gynaecology | Mon to Sat | 8:00 am to 5:00 pm | 20 to 40 min
+- [ ] **sgh-opd-001-q035** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Paediatrics clinic held at the Serendib OPD?
+  - **A:** Mon to Sun.
+  - **Evidence:** Paediatrics | Mon to Sun | 8:00 am to 6:00 pm | 20 to 35 min
+- [ ] **sgh-opd-001-q036** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Paediatrics at Serendib?
+  - **A:** 8:00 am to 6:00 pm.
+  - **Evidence:** Paediatrics | Mon to Sun | 8:00 am to 6:00 pm | 20 to 35 min
+- [ ] **sgh-opd-001-q037** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Paediatrics appointment at Serendib?
+  - **A:** 20 to 35 min.
+  - **Evidence:** Paediatrics | Mon to Sun | 8:00 am to 6:00 pm | 20 to 35 min
+- [ ] **sgh-opd-001-q038** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Psychiatry clinic held at the Serendib OPD?
+  - **A:** Mon to Fri.
+  - **Evidence:** Psychiatry | Mon to Fri | 9:00 am to 3:00 pm | 40 to 60 min
+- [ ] **sgh-opd-001-q039** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Psychiatry at Serendib?
+  - **A:** 9:00 am to 3:00 pm.
+  - **Evidence:** Psychiatry | Mon to Fri | 9:00 am to 3:00 pm | 40 to 60 min
+- [ ] **sgh-opd-001-q040** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Psychiatry appointment at Serendib?
+  - **A:** 40 to 60 min.
+  - **Evidence:** Psychiatry | Mon to Fri | 9:00 am to 3:00 pm | 40 to 60 min
+- [ ] **sgh-opd-001-q041** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Oncology clinic held at the Serendib OPD?
+  - **A:** Tue, Thu.
+  - **Evidence:** Oncology | Tue, Thu | 10:00 am to 2:00 pm | 45 to 90 min
+- [ ] **sgh-opd-001-q042** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Oncology at Serendib?
+  - **A:** 10:00 am to 2:00 pm.
+  - **Evidence:** Oncology | Tue, Thu | 10:00 am to 2:00 pm | 45 to 90 min
+- [ ] **sgh-opd-001-q043** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Oncology appointment at Serendib?
+  - **A:** 45 to 90 min.
+  - **Evidence:** Oncology | Tue, Thu | 10:00 am to 2:00 pm | 45 to 90 min
+- [ ] **sgh-opd-001-q044** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Endocrinology clinic held at the Serendib OPD?
+  - **A:** Mon, Wed, Fri.
+  - **Evidence:** Endocrinology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q045** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Endocrinology at Serendib?
+  - **A:** 9:00 am to 1:00 pm.
+  - **Evidence:** Endocrinology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q046** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Endocrinology appointment at Serendib?
+  - **A:** 30 to 50 min.
+  - **Evidence:** Endocrinology | Mon, Wed, Fri | 9:00 am to 1:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q047** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Nephrology clinic held at the Serendib OPD?
+  - **A:** Mon, Wed, Fri.
+  - **Evidence:** Nephrology | Mon, Wed, Fri | 9:00 am to 12:00 pm | 30 to 60 min
+- [ ] **sgh-opd-001-q048** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Nephrology at Serendib?
+  - **A:** 9:00 am to 12:00 pm.
+  - **Evidence:** Nephrology | Mon, Wed, Fri | 9:00 am to 12:00 pm | 30 to 60 min
+- [ ] **sgh-opd-001-q049** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Nephrology appointment at Serendib?
+  - **A:** 30 to 60 min.
+  - **Evidence:** Nephrology | Mon, Wed, Fri | 9:00 am to 12:00 pm | 30 to 60 min
+- [ ] **sgh-opd-001-q050** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Rheumatology clinic held at the Serendib OPD?
+  - **A:** Tue, Thu.
+  - **Evidence:** Rheumatology | Tue, Thu | 9:00 am to 1:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q051** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Rheumatology at Serendib?
+  - **A:** 9:00 am to 1:00 pm.
+  - **Evidence:** Rheumatology | Tue, Thu | 9:00 am to 1:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q052** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Rheumatology appointment at Serendib?
+  - **A:** 30 to 50 min.
+  - **Evidence:** Rheumatology | Tue, Thu | 9:00 am to 1:00 pm | 30 to 50 min
+- [ ] **sgh-opd-001-q053** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `factual`
+  - **Q:** On which days is the Pulmonology clinic held at the Serendib OPD?
+  - **A:** Mon, Wed, Fri.
+  - **Evidence:** Pulmonology | Mon, Wed, Fri | 8:30 am to 12:30 pm | 25 to 45 min
+- [ ] **sgh-opd-001-q054** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What are the OPD consultation hours for Pulmonology at Serendib?
+  - **A:** 8:30 am to 12:30 pm.
+  - **Evidence:** Pulmonology | Mon, Wed, Fri | 8:30 am to 12:30 pm | 25 to 45 min
+- [ ] **sgh-opd-001-q055** · _DEPARTMENT SCHEDULE AND ESTIMATED WAITING TIMES_ · `numeric`
+  - **Q:** What is the estimated waiting time for a booked Pulmonology appointment at Serendib?
+  - **A:** 25 to 45 min.
+  - **Evidence:** Pulmonology | Mon, Wed, Fri | 8:30 am to 12:30 pm | 25 to 45 min
+- [ ] **sgh-opd-001-q056** · _CONSULTATION FEES_ · `numeric`
+  - **Q:** What is the consultation fee for a General Practitioner at Serendib General Hospital?
+  - **A:** 1,500 LKR.
+  - **Evidence:** General Practitioner | 1,500
+- [ ] **sgh-opd-001-q057** · _CONSULTATION FEES_ · `numeric`
+  - **Q:** What is the consultation fee for a Specialist Consultant at Serendib General Hospital?
+  - **A:** 3,000 to 4,500 LKR.
+  - **Evidence:** Specialist Consultant | 3,000 to 4,500
+- [ ] **sgh-opd-001-q058** · _CONSULTATION FEES_ · `numeric`
+  - **Q:** What is the consultation fee for a Senior Consultant or Professor at Serendib General Hospital?
+  - **A:** 5,000 to 7,000 LKR.
+  - **Evidence:** Senior Consultant or Professor | 5,000 to 7,000
+- [ ] **sgh-opd-001-q059** · _CONSULTATION FEES_ · `numeric`
+  - **Q:** What is the consultation fee for a Follow-up (same consultant, within 30 days) at Serendib General Hospital?
+  - **A:** 50% of applicable consultation fee.
+  - **Evidence:** Follow-up (same consultant, within 30 days) | 50% of applicable consultation fee
+- [ ] **sgh-opd-001-q060** · _OVERVIEW_ · `numeric`
+  - **Q:** What are the Serendib OPD opening hours?
+  - **A:** Monday to Saturday from 7:30 am to 8:00 pm, and Sundays from 8:00 am to 1:00 pm.
+  - **Evidence:** the Serendib Outpatient Department is open Monday to Saturday from 7:30 am to 8:00 pm, and on Sundays from 8:00 am to 1:00 pm
+- [ ] **sgh-opd-001-q061** · _OVERVIEW_ · `numeric`
+  - **Q:** About how many outpatients does the Serendib OPD see each day?
+  - **A:** Approximately 1,200 outpatients daily, across 28 specialties.
+  - **Evidence:** Approximately 1,200 outpatients are attended to daily across 28 specialties.
+- [ ] **sgh-opd-001-q062** · _WALK-IN PATIENTS_ · `numeric`
+  - **Q:** During which peak hours can Serendib OPD walk-in waits exceed 90 minutes?
+  - **A:** 10:00 am to 12:00 pm and 4:00 pm to 6:00 pm; waits may exceed 90 minutes then.
+  - **Evidence:** During peak hours of 10:00 am to 12:00 pm and 4:00 pm to 6:00 pm, waiting times for walk-in patients may exceed 90 minutes.
+- [ ] **sgh-opd-001-q063** · _WALK-IN PATIENTS_ · `factual`
+  - **Q:** Are walk-in patients seen before or after booked patients at the Serendib OPD?
+  - **A:** After all channelled (booked) patients within each session.
+  - **Evidence:** Walk-in patients are attended to after all channelled (booked) patients within each session.
+- [ ] **sgh-opd-001-q064** · _CHANNELLING SYSTEM_ · `numeric`
+  - **Q:** When does the Serendib channelling system send an SMS alert?
+  - **A:** When three patients remain ahead of the patient's slot.
+  - **Evidence:** An automated SMS notification is sent to the patient when three patients remain ahead of their slot
+- [ ] **sgh-opd-001-q065** · _DOCUMENTS TO BRING TO OPD_ · `factual`
+  - **Q:** Which document is mandatory for registration at the Serendib OPD?
+  - **A:** A National Identity Card or Passport.
+  - **Evidence:** National Identity Card or Passport (mandatory for registration)
+- [ ] **sgh-opd-001-q066** · _OVERVIEW_ · `numeric`
+  - **Q:** How close are the channelling desk, laboratory, pharmacy, and cashier to the Serendib OPD exit?
+  - **A:** All are within 50 metres of the OPD exit.
+  - **Evidence:** the channelling desk, laboratory sample collection point, pharmacy counter, and cashier are all within 50 metres of the OPD exit
+- [ ] **sgh-opd-001-q067** · _OVERVIEW_ · `factual`
+  - **Q:** Which floors of Block A does the Serendib OPD occupy?
+  - **A:** The Ground Floor and Level 1 of Block A.
+  - **Evidence:** The OPD occupies the Ground Floor and Level 1 of Block A.
+
+## SGH-PH-001 — Pharmacy Services - Information Sheet.pdf  (24 pairs)
+
+- [ ] **sgh-ph-001-q001** · _PRESCRIPTION DISPENSING_ · `numeric`
+  - **Q:** How are prescriptions dispensed at the Serendib pharmacy?
+  - **A:** Prescriptions issued by Serendib consultants are transmitted directly through the hospital's electronic prescribing system. Patients are not required to present a paper prescription for internally generated orders. External prescriptions from registered medical practitioners are accepted against the original signed document. Prescriptions are valid for 30 days from the date of issue unless otherwise indicated by the prescribing practitioner.
+  - **Evidence:** Prescriptions issued by Serendib consultants are transmitted directly through the hospital's electronic prescribing system. Patients are not required to present a paper prescription for internally generated orders. External prescriptions from registered medical practitioners are accepted against the original signed document. Prescriptions are valid for 30 days from the date of issue unless otherwise indicated by the prescribing practitioner.
+- [ ] **sgh-ph-001-q002** · _MEDICATION AVAILABILITY_ · `numeric`
+  - **Q:** How large is the medication formulary at Serendib General Hospital?
+  - **A:** The pharmacy maintains a formulary of over 4,000 medication lines covering all principal therapeutic categories: cardiovascular, endocrine, anti-infective, oncology supportive care, psychiatric, neurological, respiratory, and paediatric formulations.
+  - **Evidence:** The pharmacy maintains a formulary of over 4,000 medication lines covering all principal therapeutic categories: cardiovascular, endocrine, anti-infective, oncology supportive care, psychiatric, neurological, respiratory, and paediatric formulations.
+- [ ] **sgh-ph-001-q003** · _GENERIC SUBSTITUTION POLICY_ · `factual`
+  - **Q:** What is Serendib General Hospital's generic substitution policy?
+  - **A:** Where a prescribed brand is temporarily unavailable or a bioequivalent generic is substantially more cost-effective, the dispensing pharmacist will advise the patient and proceed only with explicit consent. Patients who wish to retain the originally prescribed brand are entitled to do so.
+  - **Evidence:** Where a prescribed brand is temporarily unavailable or a bioequivalent generic is substantially more cost-effective, the dispensing pharmacist will advise the patient and proceed only with explicit consent. Patients who wish to retain the originally prescribed brand are entitled to do so.
+- [ ] **sgh-ph-001-q004** · _CONTROLLED SUBSTANCES_ · `factual`
+  - **Q:** How are controlled substances dispensed at Serendib General Hospital?
+  - **A:** Schedule I medications, including opioid analgesics and benzodiazepines, are dispensed solely against an original consultant's prescription, which is retained by the pharmacy in compliance with applicable regulations. A maximum of a seven-day supply is dispensed per transaction unless the prescription carries co-signature from the relevant department head.
+  - **Evidence:** Schedule I medications, including opioid analgesics and benzodiazepines, are dispensed solely against an original consultant's prescription, which is retained by the pharmacy in compliance with applicable regulations. A maximum of a seven-day supply is dispensed per transaction unless the prescription carries co-signature from the relevant department head.
+- [ ] **sgh-ph-001-q005** · _HOME DELIVERY SERVICE_ · `numeric`
+  - **Q:** Does Serendib General Hospital offer prescription home delivery, and how does it work?
+  - **A:** Prescription delivery is available within the Colombo District on Monday to Friday. A minimum order value of LKR 5,000 applies. Orders may be placed by calling 0112-456-780 or through the patient portal. Same-day delivery is available for orders received before 1:00 pm; next working day for orders received thereafter. Controlled medications and items requiring cold-chain storage are not eligible for the delivery service.
+  - **Evidence:** Prescription delivery is available within the Colombo District on Monday to Friday. A minimum order value of LKR 5,000 applies. Orders may be placed by calling 0112-456-780 or through the patient portal. Same-day delivery is available for orders received before 1:00 pm; next working day for orders received thereafter. Controlled medications and items requiring cold-chain storage are not eligible for the delivery service.
+- [ ] **sgh-ph-001-q006** · _DRUG INFORMATION HELPLINE_ · `factual`
+  - **Q:** Is there a drug information helpline at Serendib General Hospital?
+  - **A:** A licensed pharmacist is available for medication counselling and drug interaction queries at Ext. 3100 during pharmacy operating hours. Queries regarding drug interactions, missed doses, and side effect management are addressed at no charge.
+  - **Evidence:** A licensed pharmacist is available for medication counselling and drug interaction queries at Ext. 3100 during pharmacy operating hours. Queries regarding drug interactions, missed doses, and side effect management are addressed at no charge.
+- [ ] **sgh-ph-001-q007** · _PHARMACY LOCATIONS AND OPERATING HOURS_ · `numeric`
+  - **Q:** Where is the Main Pharmacy at Serendib General Hospital and what are its hours?
+  - **A:** Block B, Ground Floor; open 24 hours, 7 days a week.
+  - **Evidence:** Main Pharmacy | Block B, Ground Floor | 24 hours, 7 days a week
+- [ ] **sgh-ph-001-q008** · _PHARMACY LOCATIONS AND OPERATING HOURS_ · `numeric`
+  - **Q:** Where is the Satellite Pharmacy at Serendib General Hospital and what are its hours?
+  - **A:** Level 4, adjacent to Surgical Wards; open 6:00 am to 10:00 pm daily.
+  - **Evidence:** Satellite Pharmacy | Level 4, adjacent to Surgical Wards | 6:00 am to 10:00 pm daily
+- [ ] **sgh-ph-001-q009** · _PHARMACY LOCATIONS AND OPERATING HOURS_ · `numeric`
+  - **Q:** Where is the OPD Pharmacy Counter at Serendib General Hospital and what are its hours?
+  - **A:** Block A, Ground Floor, near OPD exit; open Mon to Sat 7:30 am to 8:00 pm; Sun 8:00 am to 1:00 pm.
+  - **Evidence:** OPD Pharmacy Counter | Block A, Ground Floor, near OPD exit | Mon to Sat 7:30 am to 8:00 pm; Sun 8:00 am to 1:00 pm
+- [ ] **sgh-ph-001-q010** · _PRESCRIPTION DISPENSING_ · `numeric`
+  - **Q:** How long does a OPD prescription, in-person collection take at the Serendib pharmacy?
+  - **A:** 20 to 45 minutes.
+  - **Evidence:** OPD prescription, in-person collection | 20 to 45 minutes
+- [ ] **sgh-ph-001-q011** · _PRESCRIPTION DISPENSING_ · `numeric`
+  - **Q:** How long does a Inpatient ward request, non-urgent take at the Serendib pharmacy?
+  - **A:** 1 to 2 hours.
+  - **Evidence:** Inpatient ward request, non-urgent | 1 to 2 hours
+- [ ] **sgh-ph-001-q012** · _PRESCRIPTION DISPENSING_ · `numeric`
+  - **Q:** How long does a Inpatient ward request, urgent (clinician-flagged) take at the Serendib pharmacy?
+  - **A:** 15 to 30 minutes.
+  - **Evidence:** Inpatient ward request, urgent (clinician-flagged) | 15 to 30 minutes
+- [ ] **sgh-ph-001-q013** · _PRESCRIPTION DISPENSING_ · `numeric`
+  - **Q:** How long does a Discharge prescriptions take at the Serendib pharmacy?
+  - **A:** Prepared in parallel with billing; ready at discharge.
+  - **Evidence:** Discharge prescriptions | Prepared in parallel with billing; ready at discharge
+- [ ] **sgh-ph-001-q014** · _PRESCRIPTION DISPENSING_ · `numeric`
+  - **Q:** How long is a prescription valid at the Serendib pharmacy?
+  - **A:** 30 days from the date of issue, unless otherwise indicated by the prescribing practitioner.
+  - **Evidence:** Prescriptions are valid for 30 days from the date of issue unless otherwise indicated by the prescribing practitioner.
+- [ ] **sgh-ph-001-q015** · _PRESCRIPTION DISPENSING_ · `factual`
+  - **Q:** Do I need a paper prescription for orders from Serendib consultants?
+  - **A:** No. Prescriptions issued by Serendib consultants are transmitted through the electronic prescribing system, so no paper prescription is required for internally generated orders.
+  - **Evidence:** Patients are not required to present a paper prescription for internally generated orders.
+- [ ] **sgh-ph-001-q016** · _MEDICATION AVAILABILITY_ · `numeric`
+  - **Q:** How many medication lines does the Serendib pharmacy formulary hold?
+  - **A:** Over 4,000 medication lines.
+  - **Evidence:** The pharmacy maintains a formulary of over 4,000 medication lines
+- [ ] **sgh-ph-001-q017** · _GENERIC SUBSTITUTION POLICY_ · `factual`
+  - **Q:** Will the Serendib pharmacy substitute a generic without asking me?
+  - **A:** No. The pharmacist proceeds with a generic substitution only with the patient's explicit consent, and patients may retain the originally prescribed brand.
+  - **Evidence:** the dispensing pharmacist will advise the patient and proceed only with explicit consent. Patients who wish to retain the originally prescribed brand are entitled to do so.
+- [ ] **sgh-ph-001-q018** · _CONTROLLED SUBSTANCES_ · `numeric`
+  - **Q:** What is the maximum supply of controlled medication dispensed per transaction at Serendib?
+  - **A:** A maximum of a seven-day supply, unless the prescription carries co-signature from the relevant department head.
+  - **Evidence:** A maximum of a seven-day supply is dispensed per transaction unless the prescription carries co-signature from the relevant department head.
+- [ ] **sgh-ph-001-q019** · _CONTROLLED SUBSTANCES_ · `factual`
+  - **Q:** What kinds of medications are treated as Schedule I controlled substances at Serendib?
+  - **A:** Opioid analgesics and benzodiazepines, dispensed only against an original consultant's prescription that is retained by the pharmacy.
+  - **Evidence:** Schedule I medications, including opioid analgesics and benzodiazepines, are dispensed solely against an original consultant's prescription
+- [ ] **sgh-ph-001-q020** · _HOME DELIVERY SERVICE_ · `numeric`
+  - **Q:** What is the minimum order value for pharmacy home delivery at Serendib?
+  - **A:** LKR 5,000.
+  - **Evidence:** A minimum order value of LKR 5,000 applies.
+- [ ] **sgh-ph-001-q021** · _HOME DELIVERY SERVICE_ · `factual`
+  - **Q:** Where and on which days does Serendib offer prescription home delivery?
+  - **A:** Within the Colombo District, Monday to Friday.
+  - **Evidence:** Prescription delivery is available within the Colombo District on Monday to Friday.
+- [ ] **sgh-ph-001-q022** · _HOME DELIVERY SERVICE_ · `numeric`
+  - **Q:** By what time must I order to get same-day pharmacy delivery from Serendib?
+  - **A:** Before 1:00 pm; orders received later are delivered the next working day.
+  - **Evidence:** Same-day delivery is available for orders received before 1:00 pm; next working day for orders received thereafter.
+- [ ] **sgh-ph-001-q023** · _HOME DELIVERY SERVICE_ · `factual`
+  - **Q:** Which items are not eligible for Serendib's pharmacy delivery service?
+  - **A:** Controlled medications and items requiring cold-chain storage.
+  - **Evidence:** Controlled medications and items requiring cold-chain storage are not eligible for the delivery service.
+- [ ] **sgh-ph-001-q024** · _DRUG INFORMATION HELPLINE_ · `factual`
+  - **Q:** How can I reach a pharmacist for medication advice at Serendib General Hospital?
+  - **A:** A licensed pharmacist is available at Ext. 3100 during pharmacy operating hours, at no charge.
+  - **Evidence:** medication counselling and drug interaction queries at Ext. 3100 during pharmacy operating hours
+
+## SGH-PI-001 — Serendib General Hospital - Document Library.pdf  (38 pairs)
+
+- [ ] **sgh-pi-001-q001** · _ABOUT SERENDIB GENERAL HOSPITAL_ · `factual`
+  - **Q:** What is Serendib General Hospital — its size, location, and accreditation?
+  - **A:** Serendib General Hospital is a 420-bed multi-specialty private hospital situated in Narahenpita, Colombo 05, established in 1998. The hospital provides comprehensive inpatient, outpatient, surgical, and emergency care across 28 clinical departments. Serendib General Hospital holds ISO 9001:2015 certification and is registered with the Sri Lanka Medical Council.
+  - **Evidence:** Serendib General Hospital is a 420-bed multi-specialty private hospital situated in Narahenpita, Colombo 05, established in 1998. The hospital provides comprehensive inpatient, outpatient, surgical, and emergency care across 28 clinical departments. Serendib General Hospital holds ISO 9001:2015 certification and is registered with the Sri Lanka Medical Council.
+- [ ] **sgh-pi-001-q002** · _Visiting Hours_ · `numeric`
+  - **Q:** What are the visiting hours at Serendib General Hospital?
+  - **A:** General Wards: 10:00 am to 12:00 pm and 4:00 pm to 7:00 pm, daily. ICU and HDU: 11:00 am to 12:00 pm only, with one visitor permitted at a time. Paediatric Ward: One parent may remain overnight. Additional visitors are received between 3:00 pm and 6:00 pm. Visitors below the age of 12 are not permitted in the ICU or any high-dependency unit.
+  - **Evidence:** General Wards: 10:00 am to 12:00 pm and 4:00 pm to 7:00 pm, daily. ICU and HDU: 11:00 am to 12:00 pm only, with one visitor permitted at a time. Paediatric Ward: One parent may remain overnight. Additional visitors are received between 3:00 pm and 6:00 pm. Visitors below the age of 12 are not permitted in the ICU or any high-dependency unit.
+- [ ] **sgh-pi-001-q003** · _Appointment Booking_ · `numeric`
+  - **Q:** How can I book an appointment at Serendib General Hospital?
+  - **A:** Appointments may be arranged through three channels. Patients may contact the appointment hotline at 0112-456- 789, available from 7:00 am to 8:00 pm daily. Alternatively, appointments are accepted online at portal.serendibhospital.lk. Walk-in registration is available at the OPD Registration Desk, Ground Floor, Block A. A confirmation SMS is dispatched within 15 minutes of any online booking.
+  - **Evidence:** Appointments may be arranged through three channels. Patients may contact the appointment hotline at 0112-456- 789, available from 7:00 am to 8:00 pm daily. Alternatively, appointments are accepted online at portal.serendibhospital.lk. Walk-in registration is available at the OPD Registration Desk, Ground Floor, Block A. A confirmation SMS is dispatched within 15 minutes of any online booking.
+- [ ] **sgh-pi-001-q004** · _Languages_ · `numeric`
+  - **Q:** Which languages and translation services are available at Serendib General Hospital?
+  - **A:** Sinhala, Tamil, and English are available across all clinical departments. Translation support for Arabic and Mandarin may be arranged with 24 hours' notice, primarily for the benefit of international patients. All hospital signage is published in all three official languages.
+  - **Evidence:** Sinhala, Tamil, and English are available across all clinical departments. Translation support for Arabic and Mandarin may be arranged with 24 hours' notice, primarily for the benefit of international patients. All hospital signage is published in all three official languages.
+- [ ] **sgh-pi-001-q005** · _Parking_ · `numeric`
+  - **Q:** What parking options and charges are available at Serendib General Hospital?
+  - **A:** Free parking is provided in the basement car park (120 spaces) and the open-air lot on Kirula Lane (80 spaces). A paid multi-storey facility is located directly opposite the main entrance, charged at LKR 50 per hour. Valet parking is available at the main entrance at a flat rate of LKR 200.
+  - **Evidence:** Free parking is provided in the basement car park (120 spaces) and the open-air lot on Kirula Lane (80 spaces). A paid multi-storey facility is located directly opposite the main entrance, charged at LKR 50 per hour. Valet parking is available at the main entrance at a flat rate of LKR 200.
+- [ ] **sgh-pi-001-q006** · _24-Hour Pharmacy_ · `numeric`
+  - **Q:** Does Serendib General Hospital have a 24-hour pharmacy, and where is it?
+  - **A:** The main pharmacy, situated on the Ground Floor of Block B, operates 24 hours on all days. A satellite pharmacy on Level 4, adjacent to the Surgical Wards, operates from 6:00 am to 10:00 pm.
+  - **Evidence:** The main pharmacy, situated on the Ground Floor of Block B, operates 24 hours on all days. A satellite pharmacy on Level 4, adjacent to the Surgical Wards, operates from 6:00 am to 10:00 pm.
+- [ ] **sgh-pi-001-q007** · _Medical Records_ · `numeric`
+  - **Q:** How can I obtain a copy of my medical records from Serendib General Hospital?
+  - **A:** Requests for medical records are processed at the Medical Records Office, Block A, Ground Floor, upon presentation of a valid National Identity Card or passport. Records from the preceding five years are available within two working days. Older records require up to five working days. A certified copy is issued at a fee of LKR 500 per request.
+  - **Evidence:** Requests for medical records are processed at the Medical Records Office, Block A, Ground Floor, upon presentation of a valid National Identity Card or passport. Records from the preceding five years are available within two working days. Older records require up to five working days. A certified copy is issued at a fee of LKR 500 per request.
+- [ ] **sgh-pi-001-q008** · _Second Opinions_ · `procedural`
+  - **Q:** How can I get a second opinion at Serendib General Hospital?
+  - **A:** Patients seeking a second opinion are advised to contact the Patient Services Desk at extension 1100. Internal second opinions are facilitated at no additional consultation fee. Where an external referral is preferred, a comprehensive case summary is prepared for the receiving physician.
+  - **Evidence:** Patients seeking a second opinion are advised to contact the Patient Services Desk at extension 1100. Internal second opinions are facilitated at no additional consultation fee. Where an external referral is preferred, a comprehensive case summary is prepared for the receiving physician.
+- [ ] **sgh-pi-001-q009** · _Facilities for Patients with Disabilities_ · `numeric`
+  - **Q:** What facilities does Serendib General Hospital provide for patients with disabilities?
+  - **A:** Wheelchair access is available throughout all blocks. Accessible restrooms are provided on every floor. Priority queuing is maintained at all registration desks. Hearing loop systems are installed in consultation rooms 12, 14, and 16. Guide dogs are permitted on hospital premises. Patients requiring sign language interpretation are requested to notify Patient Services at least 24 hours in advance.
+  - **Evidence:** Wheelchair access is available throughout all blocks. Accessible restrooms are provided on every floor. Priority queuing is maintained at all registration desks. Hearing loop systems are installed in consultation rooms 12, 14, and 16. Guide dogs are permitted on hospital premises. Patients requiring sign language interpretation are requested to notify Patient Services at least 24 hours in advance.
+- [ ] **sgh-pi-001-q010** · _Feedback and Complaints_ · `numeric`
+  - **Q:** How can I submit feedback or a complaint to Serendib General Hospital?
+  - **A:** Feedback forms are available at all lift lobbies and may be returned to the designated feedback boxes on each floor. Written submissions are accepted at feedback@serendibhospital.lk. The Duty Manager is accessible 24 hours at the main information desk. All complaints are acknowledged within 24 hours and formally resolved within five working days.
+  - **Evidence:** Feedback forms are available at all lift lobbies and may be returned to the designated feedback boxes on each floor. Written submissions are accepted at feedback@serendibhospital.lk. The Duty Manager is accessible 24 hours at the main information desk. All complaints are acknowledged within 24 hours and formally resolved within five working days.
+- [ ] **sgh-pi-001-q011** · _ABOUT SERENDIB GENERAL HOSPITAL_ · `numeric`
+  - **Q:** How many beds does Serendib General Hospital have?
+  - **A:** It is a 420-bed hospital.
+  - **Evidence:** Serendib General Hospital is a 420-bed multi-specialty private hospital
+- [ ] **sgh-pi-001-q012** · _ABOUT SERENDIB GENERAL HOSPITAL_ · `numeric`
+  - **Q:** In what year was Serendib General Hospital established?
+  - **A:** It was established in 1998.
+  - **Evidence:** situated in Narahenpita, Colombo 05, established in 1998
+- [ ] **sgh-pi-001-q013** · _ABOUT SERENDIB GENERAL HOSPITAL_ · `numeric`
+  - **Q:** Across how many clinical departments does Serendib General Hospital provide care?
+  - **A:** Across 28 clinical departments.
+  - **Evidence:** emergency care across 28 clinical departments
+- [ ] **sgh-pi-001-q014** · _ABOUT SERENDIB GENERAL HOSPITAL_ · `factual`
+  - **Q:** What quality certification does Serendib General Hospital hold?
+  - **A:** ISO 9001:2015 certification, and it is registered with the Sri Lanka Medical Council.
+  - **Evidence:** holds ISO 9001:2015 certification and is registered with the Sri Lanka Medical Council
+- [ ] **sgh-pi-001-q015** · _Visiting Hours_ · `numeric`
+  - **Q:** What are the visiting hours for General Wards at Serendib General Hospital?
+  - **A:** 10:00 am to 12:00 pm and 4:00 pm to 7:00 pm, daily.
+  - **Evidence:** General Wards: 10:00 am to 12:00 pm and 4:00 pm to 7:00 pm, daily.
+- [ ] **sgh-pi-001-q016** · _Visiting Hours_ · `numeric`
+  - **Q:** What are the ICU and HDU visiting hours, and how many visitors are allowed at a time?
+  - **A:** 11:00 am to 12:00 pm only, with one visitor permitted at a time.
+  - **Evidence:** ICU and HDU: 11:00 am to 12:00 pm only, with one visitor permitted at a time.
+- [ ] **sgh-pi-001-q017** · _Visiting Hours_ · `factual`
+  - **Q:** Can a parent stay overnight with a child in the Paediatric Ward at Serendib?
+  - **A:** Yes. One parent may remain overnight, and additional visitors are received between 3:00 pm and 6:00 pm.
+  - **Evidence:** Paediatric Ward: One parent may remain overnight. Additional visitors are received between 3:00 pm and 6:00 pm.
+- [ ] **sgh-pi-001-q018** · _Visiting Hours_ · `factual`
+  - **Q:** Are children under 12 allowed to visit the ICU at Serendib General Hospital?
+  - **A:** No. Visitors below the age of 12 are not permitted in the ICU or any high-dependency unit.
+  - **Evidence:** Visitors below the age of 12 are not permitted in the ICU or any high-dependency unit.
+- [ ] **sgh-pi-001-q019** · _Parking_ · `numeric`
+  - **Q:** How many parking spaces are in the basement car park at Serendib General Hospital?
+  - **A:** 120 spaces.
+  - **Evidence:** Free parking is provided in the basement car park (120 spaces)
+- [ ] **sgh-pi-001-q020** · _Parking_ · `numeric`
+  - **Q:** How many spaces does the open-air lot on Kirula Lane have?
+  - **A:** 80 spaces.
+  - **Evidence:** the open-air lot on Kirula Lane (80 spaces)
+- [ ] **sgh-pi-001-q021** · _Parking_ · `numeric`
+  - **Q:** How much does the paid multi-storey parking facility cost at Serendib?
+  - **A:** LKR 50 per hour.
+  - **Evidence:** A paid multi-storey facility is located directly opposite the main entrance, charged at LKR 50 per hour.
+- [ ] **sgh-pi-001-q022** · _Parking_ · `numeric`
+  - **Q:** What is the valet parking charge at Serendib General Hospital?
+  - **A:** A flat rate of LKR 200.
+  - **Evidence:** Valet parking is available at the main entrance at a flat rate of LKR 200.
+- [ ] **sgh-pi-001-q023** · _Languages_ · `factual`
+  - **Q:** Which languages are available across all clinical departments at Serendib?
+  - **A:** Sinhala, Tamil, and English.
+  - **Evidence:** Sinhala, Tamil, and English are available across all clinical departments.
+- [ ] **sgh-pi-001-q024** · _Languages_ · `factual`
+  - **Q:** Can Arabic or Mandarin translation be arranged at Serendib General Hospital?
+  - **A:** Yes, with 24 hours' notice, primarily for international patients.
+  - **Evidence:** Translation support for Arabic and Mandarin may be arranged with 24 hours' notice
+- [ ] **sgh-pi-001-q025** · _Medical Records_ · `numeric`
+  - **Q:** How quickly can I get medical records from the last five years at Serendib?
+  - **A:** Within two working days.
+  - **Evidence:** Records from the preceding five years are available within two working days.
+- [ ] **sgh-pi-001-q026** · _Medical Records_ · `numeric`
+  - **Q:** How long do older medical records take to retrieve at Serendib General Hospital?
+  - **A:** Up to five working days.
+  - **Evidence:** Older records require up to five working days.
+- [ ] **sgh-pi-001-q027** · _Medical Records_ · `numeric`
+  - **Q:** What is the fee for a certified copy of medical records at Serendib?
+  - **A:** LKR 500 per request.
+  - **Evidence:** A certified copy is issued at a fee of LKR 500 per request.
+- [ ] **sgh-pi-001-q028** · _Medical Records_ · `procedural`
+  - **Q:** What must I present to request my medical records at Serendib General Hospital?
+  - **A:** A valid National Identity Card or passport, at the Medical Records Office, Block A, Ground Floor.
+  - **Evidence:** Medical Records Office, Block A, Ground Floor, upon presentation of a valid National Identity Card or passport
+- [ ] **sgh-pi-001-q029** · _Second Opinions_ · `factual`
+  - **Q:** Which desk handles second-opinion requests at Serendib, and is there a fee?
+  - **A:** The Patient Services Desk at extension 1100; internal second opinions are facilitated at no additional consultation fee.
+  - **Evidence:** contact the Patient Services Desk at extension 1100. Internal second opinions are facilitated at no additional consultation fee.
+- [ ] **sgh-pi-001-q030** · _Facilities for Patients with Disabilities_ · `numeric`
+  - **Q:** In which consultation rooms are hearing loop systems installed at Serendib?
+  - **A:** In consultation rooms 12, 14, and 16.
+  - **Evidence:** Hearing loop systems are installed in consultation rooms 12, 14, and 16.
+- [ ] **sgh-pi-001-q031** · _Facilities for Patients with Disabilities_ · `factual`
+  - **Q:** Are guide dogs allowed at Serendib General Hospital?
+  - **A:** Yes, guide dogs are permitted on hospital premises.
+  - **Evidence:** Guide dogs are permitted on hospital premises.
+- [ ] **sgh-pi-001-q032** · _Facilities for Patients with Disabilities_ · `numeric`
+  - **Q:** How much notice is needed for sign language interpretation at Serendib?
+  - **A:** At least 24 hours in advance, by notifying Patient Services.
+  - **Evidence:** Patients requiring sign language interpretation are requested to notify Patient Services at least 24 hours in advance.
+- [ ] **sgh-pi-001-q033** · _Feedback and Complaints_ · `factual`
+  - **Q:** How can I submit written feedback to Serendib General Hospital by email?
+  - **A:** Written submissions are accepted at feedback@serendibhospital.lk.
+  - **Evidence:** Written submissions are accepted at feedback@serendibhospital.lk.
+- [ ] **sgh-pi-001-q034** · _Feedback and Complaints_ · `numeric`
+  - **Q:** Within what timeframes are complaints acknowledged and resolved at Serendib?
+  - **A:** Complaints are acknowledged within 24 hours and formally resolved within five working days.
+  - **Evidence:** All complaints are acknowledged within 24 hours and formally resolved within five working days.
+- [ ] **sgh-pi-001-q035** · _Feedback and Complaints_ · `factual`
+  - **Q:** Is a Duty Manager available at Serendib General Hospital, and when?
+  - **A:** Yes, the Duty Manager is accessible 24 hours at the main information desk.
+  - **Evidence:** The Duty Manager is accessible 24 hours at the main information desk.
+- [ ] **sgh-pi-001-q036** · _24-Hour Pharmacy_ · `factual`
+  - **Q:** Where is the main 24-hour pharmacy located at Serendib General Hospital?
+  - **A:** On the Ground Floor of Block B; it operates 24 hours on all days.
+  - **Evidence:** The main pharmacy, situated on the Ground Floor of Block B, operates 24 hours on all days.
+- [ ] **sgh-pi-001-q037** · _Appointment Booking_ · `factual`
+  - **Q:** Where can walk-in patients register for an appointment at Serendib General Hospital?
+  - **A:** At the OPD Registration Desk, Ground Floor, Block A.
+  - **Evidence:** Walk-in registration is available at the OPD Registration Desk, Ground Floor, Block A.
+- [ ] **sgh-pi-001-q038** · _24-Hour Pharmacy_ · `numeric`
+  - **Q:** What are the satellite pharmacy hours at Serendib General Hospital?
+  - **A:** The satellite pharmacy on Level 4, adjacent to the Surgical Wards, operates from 6:00 am to 10:00 pm.
+  - **Evidence:** A satellite pharmacy on Level 4, adjacent to the Surgical Wards, operates from 6:00 am to 10:00 pm.
+
+## SGH-SU-001 — Surgical Procedures and Estimated Pricing.pdf  (55 pairs)
+
+- [ ] **sgh-su-001-q001** · _PRE-OPERATIVE REQUIREMENTS_ · `procedural`
+  - **Q:** What are the pre-operative requirements before surgery at Serendib General Hospital?
+  - **A:** At least seven days before surgery: All pre-operative investigations ordered by the treating surgeon must be completed. Results must be reviewed and cleared before a theatre slot is confirmed. At least two days before surgery: A pre-anaesthesia assessment is required with the Anaesthesiology team (Ext. 2210). Patients are requested to bring a complete list of current medications, including herbal preparations and dietary supplements. The evening before surgery: Patients scheduled for general anaesthesia are to remain nil by mouth from midnight. Specific fasting instructions for local or spinal anaesthesia will be communicated at the pre-anaesthesia assessment. On the day of surgery: Patients are to report to the Surgical Admissions Desk, Level 6, Block C, at the time stated in their confirmation letter. A valid NIC or passport, pre-operative investigation folder, and insurance pre-authorisation documentation must be presented on arrival. A responsible adult must accompany the patient.
+  - **Evidence:** At least seven days before surgery: All pre-operative investigations ordered by the treating surgeon must be completed. Results must be reviewed and cleared before a theatre slot is confirmed. At least two days before surgery: A pre-anaesthesia assessment is required with the Anaesthesiology team (Ext. 2210). Patients are requested to bring a complete list of current medications, including herbal preparations and dietary supplements. The evening before surgery: Patients scheduled for general anaesthesia are to remain nil by mouth from midnight. Specific fasting instructions for local or spinal anaesthesia will be communicated at the pre-anaesthesia assessment. On the day of surgery: Patients are to report to the Surgical Admissions Desk, Level 6, Block C, at the time stated in their confirmation letter. A valid NIC or passport, pre-operative investigation folder, and insurance pre-authorisation documentation must be presented on arrival. A responsible adult must accompany the patient.
+- [ ] **sgh-su-001-q002** · _ITEMS TO BRING FOR ADMISSION_ · `factual`
+  - **Q:** What items should a patient bring for a surgical admission at Serendib General Hospital?
+  - **A:** National Identity Card or Passport (mandatory); Pre-operative investigation results, originals and one copy; Current medications in original packaging; Insurance card and pre-authorisation letter; Comfortable loose clothing suitable for post-operative recovery
+  - **Evidence:** National Identity Card or Passport (mandatory); Pre-operative investigation results, originals and one copy; Current medications in original packaging; Insurance card and pre-authorisation letter; Comfortable loose clothing suitable for post-operative recovery
+- [ ] **sgh-su-001-q003** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Appendectomy, Laparoscopic at Serendib General Hospital?
+  - **A:** The estimated cost is 180,000 to 240,000 (LKR).
+  - **Evidence:** Appendectomy, Laparoscopic | General Surgery | 180,000 to 240,000 | 2 to 3 days
+- [ ] **sgh-su-001-q004** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Appendectomy, Laparoscopic at Serendib?
+  - **A:** 2 to 3 days.
+  - **Evidence:** Appendectomy, Laparoscopic | General Surgery | 180,000 to 240,000 | 2 to 3 days
+- [ ] **sgh-su-001-q005** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Appendectomy, Laparoscopic at Serendib General Hospital?
+  - **A:** General Surgery.
+  - **Evidence:** Appendectomy, Laparoscopic | General Surgery | 180,000 to 240,000 | 2 to 3 days
+- [ ] **sgh-su-001-q006** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Appendectomy, Open at Serendib General Hospital?
+  - **A:** The estimated cost is 130,000 to 180,000 (LKR).
+  - **Evidence:** Appendectomy, Open | General Surgery | 130,000 to 180,000 | 3 to 4 days
+- [ ] **sgh-su-001-q007** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Appendectomy, Open at Serendib?
+  - **A:** 3 to 4 days.
+  - **Evidence:** Appendectomy, Open | General Surgery | 130,000 to 180,000 | 3 to 4 days
+- [ ] **sgh-su-001-q008** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Appendectomy, Open at Serendib General Hospital?
+  - **A:** General Surgery.
+  - **Evidence:** Appendectomy, Open | General Surgery | 130,000 to 180,000 | 3 to 4 days
+- [ ] **sgh-su-001-q009** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Cholecystectomy, Laparoscopic at Serendib General Hospital?
+  - **A:** The estimated cost is 200,000 to 280,000 (LKR).
+  - **Evidence:** Cholecystectomy, Laparoscopic | General Surgery | 200,000 to 280,000 | 1 to 2 days
+- [ ] **sgh-su-001-q010** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Cholecystectomy, Laparoscopic at Serendib?
+  - **A:** 1 to 2 days.
+  - **Evidence:** Cholecystectomy, Laparoscopic | General Surgery | 200,000 to 280,000 | 1 to 2 days
+- [ ] **sgh-su-001-q011** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Cholecystectomy, Laparoscopic at Serendib General Hospital?
+  - **A:** General Surgery.
+  - **Evidence:** Cholecystectomy, Laparoscopic | General Surgery | 200,000 to 280,000 | 1 to 2 days
+- [ ] **sgh-su-001-q012** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Hernia Repair, Inguinal (mesh) at Serendib General Hospital?
+  - **A:** The estimated cost is 150,000 to 220,000 (LKR).
+  - **Evidence:** Hernia Repair, Inguinal (mesh) | General Surgery | 150,000 to 220,000 | 1 to 2 days
+- [ ] **sgh-su-001-q013** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Hernia Repair, Inguinal (mesh) at Serendib?
+  - **A:** 1 to 2 days.
+  - **Evidence:** Hernia Repair, Inguinal (mesh) | General Surgery | 150,000 to 220,000 | 1 to 2 days
+- [ ] **sgh-su-001-q014** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Hernia Repair, Inguinal (mesh) at Serendib General Hospital?
+  - **A:** General Surgery.
+  - **Evidence:** Hernia Repair, Inguinal (mesh) | General Surgery | 150,000 to 220,000 | 1 to 2 days
+- [ ] **sgh-su-001-q015** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Thyroidectomy, Total at Serendib General Hospital?
+  - **A:** The estimated cost is 240,000 to 320,000 (LKR).
+  - **Evidence:** Thyroidectomy, Total | General Surgery | 240,000 to 320,000 | 2 to 3 days
+- [ ] **sgh-su-001-q016** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Thyroidectomy, Total at Serendib?
+  - **A:** 2 to 3 days.
+  - **Evidence:** Thyroidectomy, Total | General Surgery | 240,000 to 320,000 | 2 to 3 days
+- [ ] **sgh-su-001-q017** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Thyroidectomy, Total at Serendib General Hospital?
+  - **A:** General Surgery.
+  - **Evidence:** Thyroidectomy, Total | General Surgery | 240,000 to 320,000 | 2 to 3 days
+- [ ] **sgh-su-001-q018** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Knee Replacement, Total at Serendib General Hospital?
+  - **A:** The estimated cost is 850,000 to 1,200,000 (LKR).
+  - **Evidence:** Knee Replacement, Total | Orthopaedics | 850,000 to 1,200,000 | 5 to 7 days
+- [ ] **sgh-su-001-q019** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Knee Replacement, Total at Serendib?
+  - **A:** 5 to 7 days.
+  - **Evidence:** Knee Replacement, Total | Orthopaedics | 850,000 to 1,200,000 | 5 to 7 days
+- [ ] **sgh-su-001-q020** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Knee Replacement, Total at Serendib General Hospital?
+  - **A:** Orthopaedics.
+  - **Evidence:** Knee Replacement, Total | Orthopaedics | 850,000 to 1,200,000 | 5 to 7 days
+- [ ] **sgh-su-001-q021** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Hip Replacement, Total at Serendib General Hospital?
+  - **A:** The estimated cost is 900,000 to 1,300,000 (LKR).
+  - **Evidence:** Hip Replacement, Total | Orthopaedics | 900,000 to 1,300,000 | 5 to 7 days
+- [ ] **sgh-su-001-q022** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Hip Replacement, Total at Serendib?
+  - **A:** 5 to 7 days.
+  - **Evidence:** Hip Replacement, Total | Orthopaedics | 900,000 to 1,300,000 | 5 to 7 days
+- [ ] **sgh-su-001-q023** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Hip Replacement, Total at Serendib General Hospital?
+  - **A:** Orthopaedics.
+  - **Evidence:** Hip Replacement, Total | Orthopaedics | 900,000 to 1,300,000 | 5 to 7 days
+- [ ] **sgh-su-001-q024** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of ACL Reconstruction at Serendib General Hospital?
+  - **A:** The estimated cost is 350,000 to 500,000 (LKR).
+  - **Evidence:** ACL Reconstruction | Orthopaedics | 350,000 to 500,000 | 1 to 2 days
+- [ ] **sgh-su-001-q025** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for ACL Reconstruction at Serendib?
+  - **A:** 1 to 2 days.
+  - **Evidence:** ACL Reconstruction | Orthopaedics | 350,000 to 500,000 | 1 to 2 days
+- [ ] **sgh-su-001-q026** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs ACL Reconstruction at Serendib General Hospital?
+  - **A:** Orthopaedics.
+  - **Evidence:** ACL Reconstruction | Orthopaedics | 350,000 to 500,000 | 1 to 2 days
+- [ ] **sgh-su-001-q027** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of TURP, Prostate at Serendib General Hospital?
+  - **A:** The estimated cost is 280,000 to 380,000 (LKR).
+  - **Evidence:** TURP, Prostate | Urology | 280,000 to 380,000 | 3 to 4 days
+- [ ] **sgh-su-001-q028** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for TURP, Prostate at Serendib?
+  - **A:** 3 to 4 days.
+  - **Evidence:** TURP, Prostate | Urology | 280,000 to 380,000 | 3 to 4 days
+- [ ] **sgh-su-001-q029** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs TURP, Prostate at Serendib General Hospital?
+  - **A:** Urology.
+  - **Evidence:** TURP, Prostate | Urology | 280,000 to 380,000 | 3 to 4 days
+- [ ] **sgh-su-001-q030** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Cataract Removal (Phaco with IOL) at Serendib General Hospital?
+  - **A:** The estimated cost is 90,000 to 140,000 per eye (LKR).
+  - **Evidence:** Cataract Removal (Phaco with IOL) | Ophthalmology | 90,000 to 140,000 per eye | Day case
+- [ ] **sgh-su-001-q031** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** What is the typical hospital stay for Cataract Removal (Phaco with IOL) at Serendib?
+  - **A:** Day case.
+  - **Evidence:** Cataract Removal (Phaco with IOL) | Ophthalmology | 90,000 to 140,000 per eye | Day case
+- [ ] **sgh-su-001-q032** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Cataract Removal (Phaco with IOL) at Serendib General Hospital?
+  - **A:** Ophthalmology.
+  - **Evidence:** Cataract Removal (Phaco with IOL) | Ophthalmology | 90,000 to 140,000 per eye | Day case
+- [ ] **sgh-su-001-q033** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Tonsillectomy at Serendib General Hospital?
+  - **A:** The estimated cost is 120,000 to 160,000 (LKR).
+  - **Evidence:** Tonsillectomy | ENT | 120,000 to 160,000 | 1 day
+- [ ] **sgh-su-001-q034** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Tonsillectomy at Serendib?
+  - **A:** 1 day.
+  - **Evidence:** Tonsillectomy | ENT | 120,000 to 160,000 | 1 day
+- [ ] **sgh-su-001-q035** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Tonsillectomy at Serendib General Hospital?
+  - **A:** ENT.
+  - **Evidence:** Tonsillectomy | ENT | 120,000 to 160,000 | 1 day
+- [ ] **sgh-su-001-q036** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Caesarean Section at Serendib General Hospital?
+  - **A:** The estimated cost is 200,000 to 300,000 (LKR).
+  - **Evidence:** Caesarean Section | Gynaecology | 200,000 to 300,000 | 3 to 4 days
+- [ ] **sgh-su-001-q037** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Caesarean Section at Serendib?
+  - **A:** 3 to 4 days.
+  - **Evidence:** Caesarean Section | Gynaecology | 200,000 to 300,000 | 3 to 4 days
+- [ ] **sgh-su-001-q038** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Caesarean Section at Serendib General Hospital?
+  - **A:** Gynaecology.
+  - **Evidence:** Caesarean Section | Gynaecology | 200,000 to 300,000 | 3 to 4 days
+- [ ] **sgh-su-001-q039** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Myomectomy, Laparoscopic at Serendib General Hospital?
+  - **A:** The estimated cost is 250,000 to 380,000 (LKR).
+  - **Evidence:** Myomectomy, Laparoscopic | Gynaecology | 250,000 to 380,000 | 2 to 3 days
+- [ ] **sgh-su-001-q040** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Myomectomy, Laparoscopic at Serendib?
+  - **A:** 2 to 3 days.
+  - **Evidence:** Myomectomy, Laparoscopic | Gynaecology | 250,000 to 380,000 | 2 to 3 days
+- [ ] **sgh-su-001-q041** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Myomectomy, Laparoscopic at Serendib General Hospital?
+  - **A:** Gynaecology.
+  - **Evidence:** Myomectomy, Laparoscopic | Gynaecology | 250,000 to 380,000 | 2 to 3 days
+- [ ] **sgh-su-001-q042** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Coronary Artery Bypass Graft (CABG) at Serendib General Hospital?
+  - **A:** The estimated cost is 2,500,000 to 4,000,000 (LKR).
+  - **Evidence:** Coronary Artery Bypass Graft (CABG) | Cardiac Surgery | 2,500,000 to 4,000,000 | 7 to 10 days
+- [ ] **sgh-su-001-q043** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Coronary Artery Bypass Graft (CABG) at Serendib?
+  - **A:** 7 to 10 days.
+  - **Evidence:** Coronary Artery Bypass Graft (CABG) | Cardiac Surgery | 2,500,000 to 4,000,000 | 7 to 10 days
+- [ ] **sgh-su-001-q044** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Coronary Artery Bypass Graft (CABG) at Serendib General Hospital?
+  - **A:** Cardiac Surgery.
+  - **Evidence:** Coronary Artery Bypass Graft (CABG) | Cardiac Surgery | 2,500,000 to 4,000,000 | 7 to 10 days
+- [ ] **sgh-su-001-q045** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the estimated cost of Angioplasty with Stent at Serendib General Hospital?
+  - **A:** The estimated cost is 900,000 to 1,600,000 (LKR).
+  - **Evidence:** Angioplasty with Stent | Cardiology | 900,000 to 1,600,000 | 2 to 3 days
+- [ ] **sgh-su-001-q046** · _ESTIMATED PROCEDURE COSTS_ · `numeric`
+  - **Q:** What is the typical hospital stay for Angioplasty with Stent at Serendib?
+  - **A:** 2 to 3 days.
+  - **Evidence:** Angioplasty with Stent | Cardiology | 900,000 to 1,600,000 | 2 to 3 days
+- [ ] **sgh-su-001-q047** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical specialty performs Angioplasty with Stent at Serendib General Hospital?
+  - **A:** Cardiology.
+  - **Evidence:** Angioplasty with Stent | Cardiology | 900,000 to 1,600,000 | 2 to 3 days
+- [ ] **sgh-su-001-q048** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** What do the surgical cost estimates at Serendib include?
+  - **A:** The surgeon's fee, anaesthetist's fee, theatre charges, and standard consumables.
+  - **Evidence:** Costs encompass the surgeon's fee, anaesthetist's fee, theatre charges, and standard consumables.
+- [ ] **sgh-su-001-q049** · _ESTIMATED PROCEDURE COSTS_ · `factual`
+  - **Q:** Which surgical costs are billed separately from the estimate at Serendib?
+  - **A:** Ward accommodation, pre-operative investigations, post-operative medication, and physiotherapy are invoiced separately.
+  - **Evidence:** Ward accommodation, pre-operative investigations, post-operative medication, and physiotherapy are invoiced separately.
+- [ ] **sgh-su-001-q050** · _PRE-OPERATIVE REQUIREMENTS_ · `numeric`
+  - **Q:** When must pre-operative investigations be completed before surgery at Serendib?
+  - **A:** At least seven days before surgery; results must be reviewed and cleared before a theatre slot is confirmed.
+  - **Evidence:** At least seven days before surgery: All pre-operative investigations ordered by the treating surgeon must be completed.
+- [ ] **sgh-su-001-q051** · _PRE-OPERATIVE REQUIREMENTS_ · `numeric`
+  - **Q:** When is the pre-anaesthesia assessment required before surgery at Serendib?
+  - **A:** At least two days before surgery, with the Anaesthesiology team (Ext. 2210).
+  - **Evidence:** At least two days before surgery: A pre-anaesthesia assessment is required with the Anaesthesiology team (Ext. 2210).
+- [ ] **sgh-su-001-q052** · _PRE-OPERATIVE REQUIREMENTS_ · `procedural`
+  - **Q:** What are the fasting instructions the evening before surgery at Serendib for general anaesthesia?
+  - **A:** Patients scheduled for general anaesthesia must remain nil by mouth from midnight.
+  - **Evidence:** The evening before surgery: Patients scheduled for general anaesthesia are to remain nil by mouth from midnight.
+- [ ] **sgh-su-001-q053** · _PRE-OPERATIVE REQUIREMENTS_ · `procedural`
+  - **Q:** Where and how should a patient report on the day of surgery at Serendib?
+  - **A:** To the Surgical Admissions Desk, Level 6, Block C, at the time stated in the confirmation letter, accompanied by a responsible adult.
+  - **Evidence:** On the day of surgery: Patients are to report to the Surgical Admissions Desk, Level 6, Block C, at the time stated in their confirmation letter.
+- [ ] **sgh-su-001-q054** · _PRE-OPERATIVE REQUIREMENTS_ · `procedural`
+  - **Q:** Should a patient bring supplements to disclose at the Serendib pre-anaesthesia assessment?
+  - **A:** Yes. Patients should bring a complete list of current medications, including herbal preparations and dietary supplements.
+  - **Evidence:** Patients are requested to bring a complete list of current medications, including herbal preparations and dietary supplements.
+- [ ] **sgh-su-001-q055** · _ESTIMATED PROCEDURE COSTS_ · `procedural`
+  - **Q:** How can a patient get a price for a surgical procedure not listed at Serendib?
+  - **A:** By requesting a formal quotation from the Surgical Admissions Desk.
+  - **Evidence:** Patients are advised to request a formal quotation from the Surgical Admissions Desk for procedures not listed below.
