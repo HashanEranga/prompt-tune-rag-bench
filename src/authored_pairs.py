@@ -1,20 +1,17 @@
 """Hand-authored fine-grained fact Q&A pairs for the Serendib dataset.
 
-These complement the deterministic pairs that ``build_dataset generate``
-extracts from FAQ sections and fact tables. Each pair is authored by reading the
-cleaned source doc and pulls a specific fact (a number, a rule, a location) that
-the section-level generators do not surface individually. Every ``evidence``
-string is a verbatim quote from the corresponding ``data/clean/<doc>.md`` so the
-answer can be verified against the source — the human verification gate.
+These complement the deterministic pairs ``build_dataset generate`` extracts from FAQ
+sections and fact tables: each one pulls a specific fact (a number, a rule, a location)
+that the section-level generators do not surface individually. Every ``evidence`` string
+is a verbatim quote from the corresponding ``data/clean/<doc>.md``, so the answer can be
+checked against the source at the human verification gate.
 
 Fields per tuple: (doc_id, section, question, answer, evidence, answer_type)
 answer_type in {"numeric", "factual", "procedural"}.
 """
 
 AUTHORED = [
-    # ------------------------------------------------------------------ #
     # SGH-PI-001 — Document Library / General Information
-    # ------------------------------------------------------------------ #
     ("SGH-PI-001", "ABOUT SERENDIB GENERAL HOSPITAL",
      "How many beds does Serendib General Hospital have?",
      "It is a 420-bed hospital.",
@@ -120,9 +117,7 @@ AUTHORED = [
      "On the Ground Floor of Block B; it operates 24 hours on all days.",
      "The main pharmacy, situated on the Ground Floor of Block B, operates 24 hours on all days.", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-IP-001 — Inpatient Admission Handbook
-    # ------------------------------------------------------------------ #
     ("SGH-IP-001", "ADMISSION PROCESS",
      "Where are planned inpatient admissions arranged at Serendib General Hospital?",
      "Through the treating consultant's office or the Surgical Admissions Desk on Level 6, Block C.",
@@ -180,9 +175,7 @@ AUTHORED = [
      "Only in Private Rooms and Suites, and they must remain under direct parental supervision at all times.",
      "Children below the age of 12 may visit only in Private Rooms and Suites and must remain under direct parental supervision at all times.", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-PH-001 — Pharmacy Services
-    # ------------------------------------------------------------------ #
     ("SGH-PH-001", "PRESCRIPTION DISPENSING",
      "How long is a prescription valid at the Serendib pharmacy?",
      "30 days from the date of issue, unless otherwise indicated by the prescribing practitioner.",
@@ -228,9 +221,7 @@ AUTHORED = [
      "A licensed pharmacist is available at Ext. 3100 during pharmacy operating hours, at no charge.",
      "medication counselling and drug interaction queries at Ext. 3100 during pharmacy operating hours", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-ER-001 — Emergency / Casualty (safety-critical)
-    # ------------------------------------------------------------------ #
     ("SGH-ER-001", "IN THE EVENT OF A MEDICAL EMERGENCY",
      "What number should I call in a medical emergency at Serendib General Hospital?",
      "Call +94 11 2 456 911 (SGH Emergency) or 110 (National).",
@@ -280,9 +271,7 @@ AUTHORED = [
      "Pre-authorisation may be processed after stabilisation; the Insurance Desk (Ext. 1200) initiates insurer notification once documentation is provided.",
      "Insurance pre-authorisation for emergency admissions may be processed after stabilisation. The Insurance Desk (Ext. 1200) will initiate insurer notification", "procedural"),
 
-    # ------------------------------------------------------------------ #
     # SGH-SU-001 — Surgical Procedures & Pre-Operative Care
-    # ------------------------------------------------------------------ #
     ("SGH-SU-001", "ESTIMATED PROCEDURE COSTS",
      "What do the surgical cost estimates at Serendib include?",
      "The surgeon's fee, anaesthetist's fee, theatre charges, and standard consumables.",
@@ -316,9 +305,7 @@ AUTHORED = [
      "By requesting a formal quotation from the Surgical Admissions Desk.",
      "Patients are advised to request a formal quotation from the Surgical Admissions Desk for procedures not listed below.", "procedural"),
 
-    # ------------------------------------------------------------------ #
     # SGH-FIN-001 — Insurance, Payments & Billing
-    # ------------------------------------------------------------------ #
     ("SGH-FIN-001", "PRE-AUTHORISATION",
      "How long does insurance pre-authorisation take at Serendib General Hospital?",
      "Ordinarily one to three working days.",
@@ -372,9 +359,7 @@ AUTHORED = [
      "At the Billing Desk before the discharge process is finalised, wherever possible.",
      "Billing disputes must be raised at the Billing Desk before the discharge process is finalised wherever possible.", "procedural"),
 
-    # ------------------------------------------------------------------ #
     # SGH-OPD-001 — Outpatient Department
-    # ------------------------------------------------------------------ #
     ("SGH-OPD-001", "OVERVIEW",
      "What are the Serendib OPD opening hours?",
      "Monday to Saturday from 7:30 am to 8:00 pm, and Sundays from 8:00 am to 1:00 pm.",
@@ -400,9 +385,7 @@ AUTHORED = [
      "A National Identity Card or Passport.",
      "National Identity Card or Passport (mandatory for registration)", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-LAB-001 — Laboratory & Diagnostic Services
-    # ------------------------------------------------------------------ #
     ("SGH-LAB-001", "COLLECTING RESULTS",
      "How soon are lab results available on the Serendib patient portal?",
      "Within one hour of verification.",
@@ -428,9 +411,7 @@ AUTHORED = [
      "10 to 12 hours; water is permitted.",
      "Lipid Profile | Yes | 10 to 12 hours; water permitted", "numeric"),
 
-    # ------------------------------------------------------------------ #
     # FAQ docs — a few distinct fine-grained numeric facts
-    # ------------------------------------------------------------------ #
     ("SGH-FAQ-002", "BOOKING AN APPOINTMENT",
      "What is the late-cancellation fee for an appointment at Serendib General Hospital?",
      "A LKR 500 administrative fee for cancellations within two hours of the appointment, applied to the next booking.",
@@ -452,9 +433,7 @@ AUTHORED = [
      "0112-456-789, available 7:00 am to 8:00 pm daily.",
      "calling the appointment hotline at 0112-456-789 (available 7:00 am to 8:00 pm daily)", "numeric"),
 
-    # ------------------------------------------------------------------ #
     # SGH-FAQ-003 — Surgery & Pre-Operative Care (fine-grained)
-    # ------------------------------------------------------------------ #
     ("SGH-FAQ-003", "BEFORE SURGERY",
      "What is the Surgical Helpline number at Serendib General Hospital?",
      "0112-456-800.",
@@ -504,9 +483,7 @@ AUTHORED = [
      "Typically a full blood count, blood group and crossmatch, ECG, chest X-ray, and relevant biochemistry, with the exact panel specified by the consultant.",
      "typically include a full blood count, blood group and crossmatch, ECG, chest X-ray, and relevant biochemistry", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-FAQ-004 — Inpatient Admission (fine-grained)
-    # ------------------------------------------------------------------ #
     ("SGH-FAQ-004", "WARDS AND ROOMS",
      "How many inpatient accommodation categories does Serendib General Hospital offer?",
      "Four: General Ward, Semi-Private Ward, Private Room, and Premium Suite (ICU and HDU placements are clinically determined).",
@@ -544,9 +521,7 @@ AUTHORED = [
      "In the ICU and HDU; mobile phone use is permitted in all other wards.",
      "Mobile phone use is permitted in all wards except the ICU and HDU.", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-FAQ-005 — Laboratory Tests & Results (fine-grained)
-    # ------------------------------------------------------------------ #
     ("SGH-FAQ-005", "BOOKING AND PREPARATION",
      "Which laboratory tests can I self-refer for at Serendib General Hospital?",
      "A limited range of wellness screening tests: full blood count, fasting blood glucose, lipid profile, and basic thyroid function.",
@@ -592,9 +567,7 @@ AUTHORED = [
      "An 8-hour fast before arriving; the procedure involves multiple blood draws over two hours.",
      "For a glucose tolerance test, an 8-hour fast is required before arriving; the procedure involves multiple blood draws over two hours.", "numeric"),
 
-    # ------------------------------------------------------------------ #
     # SGH-FAQ-006 — Insurance & Payments (fine-grained)
-    # ------------------------------------------------------------------ #
     ("SGH-FAQ-006", "INSURANCE",
      "What are the Insurance Desk hours at Serendib General Hospital?",
      "Monday to Friday, 8:00 am to 5:00 pm, at Ext. 1200.",
@@ -640,9 +613,7 @@ AUTHORED = [
      "A final itemised bill, copies of investigation reports, the signed discharge summary, pharmacy receipts, and where applicable surgeon's and anaesthetist's fee notes.",
      "the hospital provides a final itemised bill, copies of all investigation reports generated during admission, the discharge summary signed by the treating consultant, pharmacy receipts", "factual"),
 
-    # ------------------------------------------------------------------ #
     # SGH-ER-001, SGH-LAB-001, SGH-OPD-001, SGH-PI-001 — a few more facts
-    # ------------------------------------------------------------------ #
     ("SGH-ER-001", "CONDITIONS REQUIRING IMMEDIATE AEC ATTENDANCE",
      "What symptoms accompanying chest pain warrant immediate emergency attendance at Serendib?",
      "Chest pain or tightness, particularly when accompanied by sweating, nausea, or breathlessness.",

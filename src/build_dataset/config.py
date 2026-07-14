@@ -7,9 +7,6 @@ from __future__ import annotations
 
 from pathlib import Path
 
-# --------------------------------------------------------------------------- #
-# Paths
-# --------------------------------------------------------------------------- #
 # config.py lives at src/build_dataset/config.py, so ROOT is three levels up.
 ROOT = Path(__file__).resolve().parent.parent.parent
 RAW_HOSPITAL = ROOT / "data" / "raw" / "hospital"

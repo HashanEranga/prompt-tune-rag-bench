@@ -12,28 +12,20 @@ import fitz  # PyMuPDF
 
 from .config import CLEAN_DIR, RAW_HOSPITAL, ROOT, SLUG_MAP
 
-# --------------------------------------------------------------------------- #
-# Cleaning
-# --------------------------------------------------------------------------- #
-# Fonts that only ever carry boilerplate:
-#   Type3*        -> cursive signatures, decorative glyphs (✦ ✓), round seal
-#   CourierNew*   -> the digital-signature / PKI metadata table
-#   Nirmala*      -> Sinhala / Tamil transliterated subtitles
-#   Georgia*      -> the "SERENDIB GENERAL HOSPITAL" letterhead wordmark
+# Fonts that only ever carry boilerplate: Type3 (cursive signatures, decorative glyphs,
+# seal), CourierNew (the PKI metadata table), Nirmala (Sinhala/Tamil subtitles), Georgia
+# (the letterhead wordmark).
 DROP_FONT_SUBSTR = ("Type3", "CourierNew", "Nirmala", "Georgia")
 
-# The page-0 header (letterhead + title + ref block) is bounded relative to the
-# unambiguous "Ref: SGH-..." anchor line rather than a brittle fixed y-cutoff:
-# the title sits level with the ref block; the body starts below it.
+# The page-0 header is bounded relative to the unambiguous "Ref: SGH-..." anchor line
+# rather than a brittle fixed y-cutoff: the title sits level with the ref block.
 RE_REF_ANCHOR = re.compile(r"Ref:\s*SGH-")
 REF_STEP = 18.0       # ref-block lines are ~12pt apart; the body starts after a wider gap
 PAGE0_HEADER_CUTOFF = 200.0  # fallback if the ref anchor is absent
 
-# Spans smaller than this are seal fragments ("COLOMBO", "2026" at ~5pt).
-MIN_SPAN_SIZE = 6.0
+MIN_SPAN_SIZE = 6.0   # below this, spans are seal fragments ("COLOMBO", "2026" at ~5pt)
 
-# Block-level patterns for running footer + signature remnants that survive the
-# font filter (they are plain Arial). Matched against the stripped block text.
+# Running footer + signature remnants that survive the font filter (they are plain Arial).
 FOOTER_PATTERNS = [
     re.compile(r"^Page\s+\d+\s+of\s+\d+$", re.I),
     re.compile(r"^SGH-[A-Z]+-\d+\s*\|\s*Rev", re.I),
@@ -46,9 +38,8 @@ FOOTER_PATTERNS = [
     re.compile(r"^\s*✓?\s*Digitally Signed", re.I),
 ]
 
-# Ref-block field extractors (run over the concatenated page-0 header text).
-# Dates may be split across two lines by a stray "|", e.g. "Valid Until: 30 |
-# September 2026", so the date patterns tolerate an intervening pipe.
+# Ref-block field extractors. Dates may be split across two lines by a stray "|", e.g.
+# "Valid Until: 30 | September 2026", so the date patterns tolerate an intervening pipe.
 RE_DOCID = re.compile(r"Ref:\s*(SGH-[A-Z]+-\d+)")
 RE_ISSUED = re.compile(r"Issued:\s*(\d{1,2}\s*\|?\s*\w+\s+\d{4})")
 RE_REV = re.compile(r"Rev:\s*([\d.]+)")
@@ -72,9 +63,8 @@ def _span_kept(span: dict) -> bool:
 def _iter_lines(page: fitz.Page, pno: int):
     """Yield one record per kept text line, with geometry and style flags.
 
-    These PDFs emit one text line per block, and wrapping/columns scatter a
-    logical table row across several blocks, so we work at line granularity and
-    re-cluster geometrically (see clean_pdf).
+    These PDFs emit one text line per block, and wrapping/columns scatter a logical table
+    row across several blocks — hence line granularity plus geometric re-clustering.
     """
     data = page.get_text("dict")
     for blk in data.get("blocks", []):
@@ -96,7 +86,7 @@ def _iter_lines(page: fitz.Page, pno: int):
                 "y1": y1,
                 "h": y1 - y0,
                 "text": txt,
-                "bold": bool(kept[0]["flags"] & 16),                  # first span bold
+                "bold": bool(kept[0]["flags"] & 16),
                 "all_bold": all(sp["flags"] & 16 for sp in kept),
             }
 
@@ -169,9 +159,8 @@ def _cluster_anchors(xs: list[float], tol: float = 22.0) -> list[float]:
 def _render_table(rows: list[dict]) -> list[str] | None:
     """Reconstruct a table section as a GitHub-flavoured Markdown table.
 
-    Cells are assigned to columns by nearest x-anchor; a row that sits less than
-    a line-and-a-half below the previous one is a wrapped continuation and is
-    merged up into it.
+    Cells are assigned to columns by nearest x-anchor; a row less than a line-and-a-half
+    below the previous one is a wrapped continuation and is merged up into it.
     """
     anchors = _cluster_anchors([c["x0"] for r in rows for c in r["cells"]])
     if len(anchors) < 2:
@@ -234,9 +223,9 @@ def _render_prose(rows: list[dict], md: list[str]) -> None:
 def _flush_section(rows: list[dict], md: list[str]) -> None:
     """Render a section between two headings as a table, prose, or a mix.
 
-    A section that is mostly a grid still often carries an intro sentence or a
-    trailing note (a single wide cell of long prose). Those are peeled out and
-    rendered as paragraphs so they don't become empty-celled table rows.
+    A mostly-grid section often still carries an intro sentence or a trailing note (a
+    single wide cell of prose). Those are peeled out and rendered as paragraphs so they
+    don't become empty-celled table rows.
     """
     if not rows:
         return
@@ -260,8 +249,8 @@ def _flush_section(rows: list[dict], md: list[str]) -> None:
         prose_buf.clear()
 
     for r in rows:
-        # A single wide cell of 60+ chars is a wrapped intro/note sentence, not a
-        # table row (real continuation cells like "glucose"/"Widal" are <20 chars).
+        # A single wide cell of 60+ chars is a wrapped intro/note sentence, not a table
+        # row — real continuation cells like "glucose"/"Widal" are <20 chars.
         if r["n_cells"] == 1 and len(r["text"]) > 60:
             flush_table()
             prose_buf.append(r)
@@ -284,15 +273,12 @@ def clean_pdf(pdf_path) -> tuple[dict, str]:
     doc = fitz.open(pdf_path)
 
     # --- pass 1: split into header (front-matter) and body lines ---
-    # The letterhead is two-column: the doc title sits mid-LEFT while the
-    # Ref/Issued/Rev/Dept/Valid ref-block sits top-RIGHT (and can wrap across
-    # lines), so front-matter is rebuilt from right-column header lines only.
     page0 = list(_iter_lines(doc[0], 0))
     ref_hits = [l["y0"] for l in page0 if RE_REF_ANCHOR.search(l["text"])]
 
-    # header_end_y = bottom of the letterhead + ref block. Starting at the ref
-    # anchor, grow downward through closely-spaced lines (wrapped ref values like
-    # "Until: 31 December 2026" included) and stop at the first wide gap: the body.
+    # header_end_y = bottom of the letterhead + ref block. From the ref anchor, grow down
+    # through closely-spaced lines (wrapped ref values included) and stop at the first
+    # wide gap, which is the body.
     if ref_hits:
         ref_y = ref_hits[0]
         header_end_y, prev = ref_y, ref_y
@@ -310,14 +296,13 @@ def clean_pdf(pdf_path) -> tuple[dict, str]:
     for pno in range(1, len(doc)):
         body_lines.extend(_iter_lines(doc[pno], pno))
 
-    # drop running footer + signature remnants that survive the font filter
     body_lines = [l for l in body_lines
                   if not any(rx.search(l["text"]) for rx in FOOTER_PATTERNS)
                   and l["text"].strip().upper() != "SERENDIB GENERAL HOSPITAL"]
 
-    # The ref block sits in the right ~2/3 of the header (x0 ~ 296-540); the doc
-    # title is far left (x0 ~ 57). Rebuild the ref text from right-side header
-    # lines only so the title never corrupts the Rev/Valid regexes.
+    # The letterhead is two-column: the ref block sits in the right ~2/3 (x0 ~ 296-540)
+    # while the doc title is far left (x0 ~ 57). Rebuild the ref text from right-side
+    # header lines only, so the title never corrupts the Rev/Valid regexes.
     ref_text = " ".join(l["text"] for l in sorted(
         (l for l in header_lines if l["x0"] > 200), key=lambda l: l["y0"]))
     fm = _extract_frontmatter(ref_text)

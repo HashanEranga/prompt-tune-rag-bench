@@ -30,9 +30,6 @@ def _table_to_text(tbl: dict) -> str:
     return " ;; ".join(lines)
 
 
-# --------------------------------------------------------------------------- #
-# Grounded Q&A pairs from FAQ sections + fact tables
-# --------------------------------------------------------------------------- #
 def _classify(text: str) -> str:
     if re.search(r"LKR|\d{1,3}(?:,\d{3})+|\b\d+\s*%|\b\d+\s*(?:hours?|minutes?|days?|min)\b"
                  r"|\d{1,2}:\d{2}\s*[ap]m", text, re.I):
@@ -110,9 +107,8 @@ def _table_pairs(fm, clean_path, section, tbl, counter):
     def mk(q, a, ev, atype=None):
         pairs.append(_pair(fm, clean_path, counter, q, a, ev, section, atype))
 
-    # ---- whole-table special cases (early return) ----
-    # ward deposit table: its header row was mis-parsed into the first data row,
-    # so iterate [header] + rows with the known Ward / Deposit / Inclusions columns.
+    # The ward deposit table's header row was mis-parsed into the first data row, so
+    # iterate [header] + rows with the known Ward / Deposit / Inclusions columns.
     if re.search(r"\b(Ward|Room|Suite)\b", H[0]) and len(H) >= 3 and re.fullmatch(r"[\d,]+", H[1]):
         for row in [H] + tbl["rows"]:
             ward, dep, incl = (row + ["", "", ""])[:3]
@@ -143,7 +139,6 @@ def _table_pairs(fm, clean_path, section, tbl, counter):
                f"{r0[1]} ({note[1] if len(note) > 1 else ''}).".replace(" ().", "."), ev, "numeric")
         return pairs
 
-    # ---- per-row dispatch ----
     def add(q, a, atype=None):
         mk(q, a, " | ".join(row), atype)
 
@@ -312,7 +307,7 @@ def cmd_generate(_args) -> None:
                 if b["kind"] == "table":
                     pool += _table_pairs(fm, md, sec["heading"], b, counter)
 
-    # merge hand-authored fine-grained fact pairs (authored_pairs.py lives in src/)
+    # authored_pairs.py lives in src/, one level above this package.
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
     from authored_pairs import AUTHORED
     n_auth = 0

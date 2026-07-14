@@ -34,16 +34,15 @@ def _jaccard(a: frozenset, b: frozenset) -> float:
 
 
 def _same_fact(r1: dict, r2: dict) -> bool:
-    """Two pairs are the same fact only if BOTH the question and the answer are
-    near-identical — so template siblings ('cost of appendectomy' vs 'cost of
-    cholecystectomy', different answers) are kept as distinct facts."""
+    """Same fact only if BOTH question and answer are near-identical, so template siblings
+    ('cost of appendectomy' vs 'cost of cholecystectomy') stay distinct facts."""
     return (_jaccard(_norm_tokens(r1["question"]), _norm_tokens(r2["question"])) >= DUP_THRESHOLD
             and _jaccard(_norm_tokens(r1["answer"]), _norm_tokens(r2["answer"])) >= DUP_THRESHOLD)
 
 
 def _dedup(pool: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Drop same-fact duplicate pairs (keep the first) so no fact straddles the
-    train/test line. Returns (unique, dropped)."""
+    """Drop same-fact duplicates (keeping the first) so no fact straddles the train/test
+    line. Returns (unique, dropped)."""
     kept, dropped = [], []
     for r in pool:
         if any(_same_fact(r, k) for k in kept):
