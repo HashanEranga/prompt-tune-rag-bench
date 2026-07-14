@@ -3,7 +3,7 @@
 > **BuildrLabs AAC01 · Mini Project 01 · Fundamentals of Agentic AI · Individual Build**
 > *"Build it three ways. Let a judge decide."*
 
-📍 **Progress tracker:** [`docs/README.md`](docs/README.md) — per-phase status (A ✅ · B ⬜ · C ⬜).
+📍 **Progress tracker:** [`docs/README.md`](docs/README.md) — per-phase status (A ✅ · B ✅ · C ✅ · D ⬜).
 
 ---
 
@@ -266,12 +266,20 @@ serendib-eval/
 │   │   ├── finetune.py        #   step 2: small/med/large — OpenAI FT API and/or local QLoRA
 │   │   ├── rag.py             #   step 3: index (+ distractors) → retrieve → answer
 │   │   └── status.py          #   progress + spend; `check` pings each provider
-│   └── 4_judge.py             # Phase C: score all answers, structured JSON
+│   └── judge/                 # Phase C package: the judge + the master table
+│       ├── __main__.py        #   CLI: python -m judge <estimate|submit|collect|status|aggregate>
+│       ├── config.py          #   paths — re-exports Phase B's, adds scores/master/batch
+│       ├── rubric.py          #   THE INTEGRITY CORE: one frozen prompt + the JSON schema
+│       ├── sources.py         #   question_id → the FULL cleaned source document (Rule #2)
+│       ├── scores.py          #   results/scores.csv contract + resume + completeness asserts
+│       ├── batch.py           #   submit / poll / collect via the Message Batches API (-50%)
+│       └── aggregate.py       #   scores + answers → master_table.csv + the 4 analysis cuts
 ├── results/
 │   ├── answers.jsonl          # every answer + latency + cost  (1,000 rows)
 │   ├── finetune_jobs.json     # training time + cost per size, both backends
 │   ├── rag_config.json        # the one frozen retrieval config
-│   ├── scores.csv             # judge output, one row per answer
+│   ├── judge_batch.json       # the submitted batch id + its custom_id manifest
+│   ├── scores.csv             # judge output, one row per answer  (1,000 rows)
 │   └── master_table.csv       # aggregated comparison
 └── report/
     ├── summary.md             # the one-pager
@@ -288,7 +296,7 @@ Who plays which role — note that **Rule #3 forces Claude out of Phase B**: it 
 | **Prompting — small/open** | `llama3.1:8b` · `qwen3.5:9b` (local Ollama) | none — free |
 | **Fine-tuning** | OpenAI FT API (small/med/large) *or* local LoRA | `OPENAI_API_KEY` *or* `HF_TOKEN` |
 | **RAG** | `nomic-embed-text` (Ollama) → FAISS → an answerer above | none for retrieval |
-| 🧑‍⚖️ **Judge** | **Claude** — *different family than every answerer* | `ANTHROPIC_API_KEY` |
+| 🧑‍⚖️ **Judge** | **`claude-sonnet-5`** — *different family than every answerer* | `ANTHROPIC_API_KEY` |
 
 **Setup:**
 
@@ -332,12 +340,27 @@ uv run python -m contenders finetune --backend together --answer-only  # Step 2b
 uv run python -m contenders rag                       # Step 3 — retrieve, then answer
 uv run python -m contenders status                    # answers logged + spend so far
 
-uv run python src/4_judge.py          # Phase C — score everything
+# Phase C — the judge. Cheapest and safest first; every step resumes.
+uv run python -m judge estimate                       # $0 — price the judge, no API calls
+uv run python -m judge submit --limit 5               # cents — prove the rubric round-trips
+uv run python -m judge collect                        # free — poll, validate, write scores.csv
+uv run python -m judge submit                         # THE RUN — 1,000 answers, ~$3 batched
+uv run python -m judge collect                        # free, resumes, re-runnable
+uv run python -m judge aggregate                      # → results/master_table.csv
 ```
 
-**Or click it.** `.idea/runConfigurations/` ships the same ladder as PyCharm run configs
-(`0_estimate` → `9_status`), committed so a fresh clone gets them. Use **Run ▸**, not **Debug ▸** —
-the debugger prints a harmless `pydevd` shutdown traceback *after* the work completes.
+**Phase C splits `submit` from `collect` for the same reason Step 2b split `--train-only` from
+`--answer-only`:** `submit` is the one irreversible spend, `collect` is free and re-runnable.
+Separate commands (and separate PyCharm buttons) mean the paid one can't be triggered by reflex.
+
+The judge scores all 1,000 answers through the **Message Batches API — half price on every
+token**, because nothing is waiting on the verdicts. It reads the **full source document** for
+every answer (Rule #2) and never sees the gold answer or which producer wrote what.
+
+**Or click it.** `.idea/runConfigurations/` ships the whole ladder as PyCharm run configs —
+**`0_estimate` → `9_status`** for Phase B, **`10_judge_estimate` → `15_judge_aggregate`** for
+Phase C — committed so a fresh clone gets them. Use **Run ▸**, not **Debug ▸** — the debugger
+prints a harmless `pydevd` shutdown traceback *after* the work completes.
 
 **Step 2b is split into two buttons on purpose.** `--train-only` is the single irreversible $4
 Together job; `--answer-only` is free, local and re-runnable. Separate commands means the paid one
