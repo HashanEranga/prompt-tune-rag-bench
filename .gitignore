@@ -18,9 +18,15 @@ env/
 # ---- Environment / secrets ----
 .env
 .env.*
+# The key TEMPLATE is committed; only files holding real keys are ignored.
+!.env.example
 
 # ---- IDE (JetBrains / VS Code) ----
-.idea/
+# Ignore IDE *state* (workspace.xml, caches, per-machine SDK paths) but SHIP the run
+# configurations: the numbered ladder 0_estimate -> 9_status IS the pipeline, and the
+# brief asks for something runnable from scratch. Note this must ignore .idea's CONTENTS,
+# not the directory — git will not descend into an ignored directory to find the negation.
+.idea/*
 .vscode/
 
 # ---- OS cruft ----
@@ -32,3 +38,9 @@ Thumbs.db
 # needs them and they exist nowhere public. The 15 medical PDFs are large, public
 # CDC/ECDC reports used only as RAG distractors: re-download rather than bloat git.
 data/raw/medical/
+
+# ---- Downloaded checkpoint archives ----
+# The Together adapter arrives as a ~158 MB .tar.zst which we extract into
+# models/<producer>/. The archive is a re-downloadable cache, not a deliverable, and it
+# is larger than GitHub's 100 MB per-file limit — keep it out of git.
+models/*.tar.zst

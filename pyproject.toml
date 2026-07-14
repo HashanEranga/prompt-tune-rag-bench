@@ -3,11 +3,52 @@ name = "agenticai-miniproject-01"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    # ---- Phase A · dataset (clean -> segment -> generate -> split) ----
     "pymupdf==1.28.0",        # primary PDF text/layout extraction (fitz)
     "pdfplumber==0.11.10",    # table-aware extraction for pricing/catalog docs
     "pandas==3.0.3",          # stratified train/test split + tabular analysis
-    "anthropic==0.116.0",     # documented Q&A generation path (build_dataset generate)
-    "python-dotenv==1.2.2",   # load API keys from .env
     "python-slugify==8.0.4",  # deterministic clean-file slugs
+    # ---- Shared ----
+    "python-dotenv==1.2.2",   # load API keys from .env
     "tqdm==4.68.4",           # progress bars
+    # ---- Phase B · answerers (prompting, fine-tuning, RAG generation) ----
+    "openai==2.45.0",         # GPT prompting baseline + the fine-tuning API
+    #   (also drives OpenRouter via a custom base_url)
+    "google-genai==2.11.0",   # Gemini — the second frontier prompting model
+    "groq==1.5.0",            # hosted Llama/Qwen (fast open-model prompting)
+    "ollama==0.6.2",          # local open answerers + RAG embeddings, no API cost
+    # ---- Phase B · RAG retrieval ----
+    "faiss-cpu==1.14.3",      # vector index over the 13 hospital docs (+ distractors)
+    "numpy==2.5.1",           # embedding vector math
+    # ---- Phase B · cost estimation ----
+    "tiktoken==0.13.0",       # exact offline token counts for `contenders estimate`
+    #   (no API call -- prices the run BEFORE spending)
+    # ---- Phase C · judge + analysis ----
+    "anthropic==0.116.0",     # THE JUDGE (Rule #3: different family than answerers).
+    #   Also the Phase A Q&A-generation path.
+    "matplotlib==3.11.0",     # charts for the master results table / write-up
+    "torch>=2.13.0",
+]
+
+[project.optional-dependencies]
+# Everything Step 2 (fine-tuning) needs. Heavy (torch). Install with:
+#     uv sync --extra finetune-local
+#
+# The name is now a slight misnomer: BOTH fine-tuning backends need this extra.
+# `--backend local`    trains QLoRA on the 4060 and serves the adapter here.
+# `--backend together` trains on Together's GPU (an 8B needs ~15 GB -- more than we
+#                      have) then DOWNLOADS the LoRA adapter and serves it *locally*,
+#                      through the very same transformers/peft path. Together is a
+#                      rented trainer, not a host: no endpoint, no hourly billing.
+finetune-local = [
+    "torch==2.13.0",
+    "transformers==5.13.1",
+    "peft==0.19.1",           # LoRA adapters over an open size-ladder
+    "trl==1.8.0",             # SFT training loop
+    "datasets==5.0.0",
+    "accelerate==1.14.0",
+    "bitsandbytes>=0.45.0",   # 4-bit NF4 quantisation -- QLoRA will not run without it
+    "together>=2.0",          # managed LoRA SFT + adapter download (--backend together).
+                              # v2 only: it dropped fine_tuning.download() for the
+                              # DownloadManager path finetune._download_adapter uses.
 ]
