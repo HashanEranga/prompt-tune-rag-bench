@@ -1,0 +1,47 @@
+{
+  "ft-local-small": {
+    "backend": "local",
+    "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "size": "small",
+    "trained_model": "/home/hashan/Documents/AgenticAI_MiniProject_01/models/ft-local-small",
+    "epochs": 3,
+    "train_seconds": 139.7,
+    "train_cost_usd": 0.0,
+    "gpu_hours": 0.0388,
+    "peak_vram_gb": 1.69
+  },
+  "ft-local-medium": {
+    "backend": "local",
+    "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "size": "medium",
+    "trained_model": "/home/hashan/Documents/AgenticAI_MiniProject_01/models/ft-local-medium",
+    "epochs": 3,
+    "train_seconds": 220.7,
+    "train_cost_usd": 0.0,
+    "gpu_hours": 0.0613,
+    "peak_vram_gb": 3.54
+  },
+  "ft-local-large": {
+    "backend": "local",
+    "base_model": "Qwen/Qwen2.5-3B-Instruct",
+    "size": "large",
+    "trained_model": "/home/hashan/Documents/AgenticAI_MiniProject_01/models/ft-local-large",
+    "epochs": 3,
+    "train_seconds": 430.7,
+    "train_cost_usd": 0.0,
+    "gpu_hours": 0.1196,
+    "peak_vram_gb": 5.24
+  },
+  "ft-llama3.1-8b": {
+    "backend": "together",
+    "base_model": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+    "train_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Reference",
+    "size": null,
+    "trained_model": "/home/hashan/Documents/AgenticAI_MiniProject_01/models/ft-llama3.1-8b",
+    "remote_job_id": "ft-7d574f7b-9565",
+    "epochs": 3,
+    "train_seconds": 0.0,
+    "train_cost_usd": 4.0,
+    "served": "local (4-bit NF4)"
+  }
+}
