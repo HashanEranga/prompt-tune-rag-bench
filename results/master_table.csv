@@ -1,0 +1,11 @@
+producer,method,model,size,n,faithfulness,accuracy,completeness,clarity,weighted,safety_flag_rate,mean_latency_s,answer_cost_usd,train_cost_usd,total_cost_usd,judge_cost_usd
+rag-gpt,rag,gpt-4.1,,100,4.58,4.03,3.53,4.97,4.244,0.03,5.98,0.1181,0.0,0.1181,0.5865
+rag-llama3.1-8b,rag,llama3.1:8b,,100,4.15,3.83,3.39,4.82,3.969,0.05,1.2,0.0,0.0,0.0,0.5909
+ft-llama3.1-8b,finetuned,NousResearch/Meta-Llama-3.1-8B-Instruct,,100,2.14,2.01,2.96,4.78,2.529,0.12,1.77,0.0,4.0,4.0,0.5963
+prompt-gpt,prompting,gpt-4.1,,100,2.0,1.93,2.96,4.73,2.444,0.14,2.27,0.1122,0.0,0.1122,0.63
+prompt-gemini,prompting,gemini-3.5-flash,,100,1.68,1.64,2.77,4.57,2.175,0.18,1.99,0.1643,0.0,0.1643,0.6499
+prompt-qwen3.5-9b,prompting,qwen3.5:9b,,100,1.56,1.49,2.65,4.38,2.039,0.19,8.68,0.0,0.0,0.0,0.6482
+prompt-llama3.1-8b,prompting,llama3.1:8b,,100,1.39,1.35,2.6,4.46,1.927,0.26,2.43,0.0,0.0,0.0,0.6296
+ft-local-medium,finetuned,Qwen/Qwen2.5-1.5B-Instruct,medium,100,1.44,1.4,2.31,4.41,1.899,0.19,1.23,0.0,0.0,0.0,0.596
+ft-local-large,finetuned,Qwen/Qwen2.5-3B-Instruct,large,100,1.42,1.37,2.24,4.44,1.871,0.25,1.32,0.0,0.0,0.0,0.5981
+ft-local-small,finetuned,Qwen/Qwen2.5-0.5B-Instruct,small,100,1.49,1.39,2.08,4.08,1.837,0.23,0.94,0.0,0.0,0.0,0.5964

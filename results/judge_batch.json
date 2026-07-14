@@ -1,0 +1,4008 @@
+{
+  "batch_id": "msgbatch_01Wx475rFhi1Q9m2ThXB4W2N",
+  "judge_model": "claude-sonnet-5",
+  "thinking": false,
+  "submitted": 1000,
+  "manifest": {
+    "sgh-er-001-q017--p00": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-er-001-q017--p01": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-er-001-q017--p02": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-er-001-q017--p03": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-er-001-q017--p04": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-er-001-q017--p05": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-er-001-q017--p06": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-er-001-q017--p07": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-er-001-q017--p08": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-er-001-q017--p09": {
+      "question_id": "sgh-er-001-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-er-001-q006--p00": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "prompt-gpt"
+    },
+    "sgh-er-001-q006--p01": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "prompt-gemini"
+    },
+    "sgh-er-001-q006--p02": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-er-001-q006--p03": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-er-001-q006--p04": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "ft-local-small"
+    },
+    "sgh-er-001-q006--p05": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "ft-local-medium"
+    },
+    "sgh-er-001-q006--p06": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "ft-local-large"
+    },
+    "sgh-er-001-q006--p07": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-er-001-q006--p08": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-er-001-q006--p09": {
+      "question_id": "sgh-er-001-q006",
+      "producer": "rag-gpt"
+    },
+    "sgh-er-001-q015--p00": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "prompt-gpt"
+    },
+    "sgh-er-001-q015--p01": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "prompt-gemini"
+    },
+    "sgh-er-001-q015--p02": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-er-001-q015--p03": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-er-001-q015--p04": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "ft-local-small"
+    },
+    "sgh-er-001-q015--p05": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "ft-local-medium"
+    },
+    "sgh-er-001-q015--p06": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "ft-local-large"
+    },
+    "sgh-er-001-q015--p07": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-er-001-q015--p08": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-er-001-q015--p09": {
+      "question_id": "sgh-er-001-q015",
+      "producer": "rag-gpt"
+    },
+    "sgh-er-001-q016--p00": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "prompt-gpt"
+    },
+    "sgh-er-001-q016--p01": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "prompt-gemini"
+    },
+    "sgh-er-001-q016--p02": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-er-001-q016--p03": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-er-001-q016--p04": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "ft-local-small"
+    },
+    "sgh-er-001-q016--p05": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "ft-local-medium"
+    },
+    "sgh-er-001-q016--p06": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "ft-local-large"
+    },
+    "sgh-er-001-q016--p07": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-er-001-q016--p08": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-er-001-q016--p09": {
+      "question_id": "sgh-er-001-q016",
+      "producer": "rag-gpt"
+    },
+    "sgh-er-001-q014--p00": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "prompt-gpt"
+    },
+    "sgh-er-001-q014--p01": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "prompt-gemini"
+    },
+    "sgh-er-001-q014--p02": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-er-001-q014--p03": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-er-001-q014--p04": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "ft-local-small"
+    },
+    "sgh-er-001-q014--p05": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "ft-local-medium"
+    },
+    "sgh-er-001-q014--p06": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "ft-local-large"
+    },
+    "sgh-er-001-q014--p07": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-er-001-q014--p08": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-er-001-q014--p09": {
+      "question_id": "sgh-er-001-q014",
+      "producer": "rag-gpt"
+    },
+    "sgh-er-001-q002--p00": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "prompt-gpt"
+    },
+    "sgh-er-001-q002--p01": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "prompt-gemini"
+    },
+    "sgh-er-001-q002--p02": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-er-001-q002--p03": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-er-001-q002--p04": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "ft-local-small"
+    },
+    "sgh-er-001-q002--p05": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "ft-local-medium"
+    },
+    "sgh-er-001-q002--p06": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "ft-local-large"
+    },
+    "sgh-er-001-q002--p07": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-er-001-q002--p08": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-er-001-q002--p09": {
+      "question_id": "sgh-er-001-q002",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-002-q011--p00": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-002-q011--p01": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-002-q011--p02": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-002-q011--p03": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-002-q011--p04": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-002-q011--p05": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-002-q011--p06": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-002-q011--p07": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-002-q011--p08": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-002-q011--p09": {
+      "question_id": "sgh-faq-002-q011",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-002-q017--p00": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-002-q017--p01": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-002-q017--p02": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-002-q017--p03": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-002-q017--p04": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-002-q017--p05": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-002-q017--p06": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-002-q017--p07": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-002-q017--p08": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-002-q017--p09": {
+      "question_id": "sgh-faq-002-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-002-q005--p00": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-002-q005--p01": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-002-q005--p02": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-002-q005--p03": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-002-q005--p04": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-002-q005--p05": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-002-q005--p06": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-002-q005--p07": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-002-q005--p08": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-002-q005--p09": {
+      "question_id": "sgh-faq-002-q005",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-002-q002--p00": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-002-q002--p01": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-002-q002--p02": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-002-q002--p03": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-002-q002--p04": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-002-q002--p05": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-002-q002--p06": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-002-q002--p07": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-002-q002--p08": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-002-q002--p09": {
+      "question_id": "sgh-faq-002-q002",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-002-q009--p00": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-002-q009--p01": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-002-q009--p02": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-002-q009--p03": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-002-q009--p04": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-002-q009--p05": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-002-q009--p06": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-002-q009--p07": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-002-q009--p08": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-002-q009--p09": {
+      "question_id": "sgh-faq-002-q009",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-003-q016--p00": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-003-q016--p01": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-003-q016--p02": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-003-q016--p03": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-003-q016--p04": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-003-q016--p05": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-003-q016--p06": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-003-q016--p07": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-003-q016--p08": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-003-q016--p09": {
+      "question_id": "sgh-faq-003-q016",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-003-q014--p00": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-003-q014--p01": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-003-q014--p02": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-003-q014--p03": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-003-q014--p04": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-003-q014--p05": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-003-q014--p06": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-003-q014--p07": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-003-q014--p08": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-003-q014--p09": {
+      "question_id": "sgh-faq-003-q014",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-003-q007--p00": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-003-q007--p01": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-003-q007--p02": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-003-q007--p03": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-003-q007--p04": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-003-q007--p05": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-003-q007--p06": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-003-q007--p07": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-003-q007--p08": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-003-q007--p09": {
+      "question_id": "sgh-faq-003-q007",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-003-q008--p00": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-003-q008--p01": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-003-q008--p02": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-003-q008--p03": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-003-q008--p04": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-003-q008--p05": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-003-q008--p06": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-003-q008--p07": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-003-q008--p08": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-003-q008--p09": {
+      "question_id": "sgh-faq-003-q008",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-003-q017--p00": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-003-q017--p01": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-003-q017--p02": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-003-q017--p03": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-003-q017--p04": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-003-q017--p05": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-003-q017--p06": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-003-q017--p07": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-003-q017--p08": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-003-q017--p09": {
+      "question_id": "sgh-faq-003-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-003-q003--p00": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-003-q003--p01": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-003-q003--p02": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-003-q003--p03": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-003-q003--p04": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-003-q003--p05": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-003-q003--p06": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-003-q003--p07": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-003-q003--p08": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-003-q003--p09": {
+      "question_id": "sgh-faq-003-q003",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-004-q001--p00": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-004-q001--p01": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-004-q001--p02": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-004-q001--p03": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-004-q001--p04": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-004-q001--p05": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-004-q001--p06": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-004-q001--p07": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-004-q001--p08": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-004-q001--p09": {
+      "question_id": "sgh-faq-004-q001",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-004-q019--p00": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-004-q019--p01": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-004-q019--p02": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-004-q019--p03": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-004-q019--p04": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-004-q019--p05": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-004-q019--p06": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-004-q019--p07": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-004-q019--p08": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-004-q019--p09": {
+      "question_id": "sgh-faq-004-q019",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-004-q007--p00": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-004-q007--p01": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-004-q007--p02": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-004-q007--p03": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-004-q007--p04": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-004-q007--p05": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-004-q007--p06": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-004-q007--p07": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-004-q007--p08": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-004-q007--p09": {
+      "question_id": "sgh-faq-004-q007",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-004-q016--p00": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-004-q016--p01": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-004-q016--p02": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-004-q016--p03": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-004-q016--p04": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-004-q016--p05": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-004-q016--p06": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-004-q016--p07": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-004-q016--p08": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-004-q016--p09": {
+      "question_id": "sgh-faq-004-q016",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-004-q008--p00": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-004-q008--p01": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-004-q008--p02": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-004-q008--p03": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-004-q008--p04": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-004-q008--p05": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-004-q008--p06": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-004-q008--p07": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-004-q008--p08": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-004-q008--p09": {
+      "question_id": "sgh-faq-004-q008",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-005-q017--p00": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-005-q017--p01": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-005-q017--p02": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-005-q017--p03": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-005-q017--p04": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-005-q017--p05": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-005-q017--p06": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-005-q017--p07": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-005-q017--p08": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-005-q017--p09": {
+      "question_id": "sgh-faq-005-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-005-q003--p00": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-005-q003--p01": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-005-q003--p02": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-005-q003--p03": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-005-q003--p04": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-005-q003--p05": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-005-q003--p06": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-005-q003--p07": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-005-q003--p08": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-005-q003--p09": {
+      "question_id": "sgh-faq-005-q003",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-005-q005--p00": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-005-q005--p01": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-005-q005--p02": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-005-q005--p03": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-005-q005--p04": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-005-q005--p05": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-005-q005--p06": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-005-q005--p07": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-005-q005--p08": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-005-q005--p09": {
+      "question_id": "sgh-faq-005-q005",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-005-q014--p00": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-005-q014--p01": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-005-q014--p02": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-005-q014--p03": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-005-q014--p04": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-005-q014--p05": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-005-q014--p06": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-005-q014--p07": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-005-q014--p08": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-005-q014--p09": {
+      "question_id": "sgh-faq-005-q014",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-005-q015--p00": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-005-q015--p01": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-005-q015--p02": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-005-q015--p03": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-005-q015--p04": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-005-q015--p05": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-005-q015--p06": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-005-q015--p07": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-005-q015--p08": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-005-q015--p09": {
+      "question_id": "sgh-faq-005-q015",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-005-q016--p00": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-005-q016--p01": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-005-q016--p02": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-005-q016--p03": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-005-q016--p04": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-005-q016--p05": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-005-q016--p06": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-005-q016--p07": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-005-q016--p08": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-005-q016--p09": {
+      "question_id": "sgh-faq-005-q016",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-006-q022--p00": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-006-q022--p01": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-006-q022--p02": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-006-q022--p03": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-006-q022--p04": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-006-q022--p05": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-006-q022--p06": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-006-q022--p07": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-006-q022--p08": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-006-q022--p09": {
+      "question_id": "sgh-faq-006-q022",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-006-q010--p00": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-006-q010--p01": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-006-q010--p02": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-006-q010--p03": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-006-q010--p04": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-006-q010--p05": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-006-q010--p06": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-006-q010--p07": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-006-q010--p08": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-006-q010--p09": {
+      "question_id": "sgh-faq-006-q010",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-006-q005--p00": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-006-q005--p01": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-006-q005--p02": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-006-q005--p03": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-006-q005--p04": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-006-q005--p05": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-006-q005--p06": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-006-q005--p07": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-006-q005--p08": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-006-q005--p09": {
+      "question_id": "sgh-faq-006-q005",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-006-q004--p00": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-006-q004--p01": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-006-q004--p02": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-006-q004--p03": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-006-q004--p04": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-006-q004--p05": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-006-q004--p06": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-006-q004--p07": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-006-q004--p08": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-006-q004--p09": {
+      "question_id": "sgh-faq-006-q004",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-006-q011--p00": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-006-q011--p01": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-006-q011--p02": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-006-q011--p03": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-006-q011--p04": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-006-q011--p05": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-006-q011--p06": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-006-q011--p07": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-006-q011--p08": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-006-q011--p09": {
+      "question_id": "sgh-faq-006-q011",
+      "producer": "rag-gpt"
+    },
+    "sgh-faq-006-q015--p00": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "prompt-gpt"
+    },
+    "sgh-faq-006-q015--p01": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "prompt-gemini"
+    },
+    "sgh-faq-006-q015--p02": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-faq-006-q015--p03": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-faq-006-q015--p04": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "ft-local-small"
+    },
+    "sgh-faq-006-q015--p05": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "ft-local-medium"
+    },
+    "sgh-faq-006-q015--p06": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "ft-local-large"
+    },
+    "sgh-faq-006-q015--p07": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-faq-006-q015--p08": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-faq-006-q015--p09": {
+      "question_id": "sgh-faq-006-q015",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q022--p00": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q022--p01": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q022--p02": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q022--p03": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q022--p04": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q022--p05": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q022--p06": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q022--p07": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q022--p08": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q022--p09": {
+      "question_id": "sgh-fin-001-q022",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q020--p00": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q020--p01": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q020--p02": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q020--p03": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q020--p04": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q020--p05": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q020--p06": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q020--p07": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q020--p08": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q020--p09": {
+      "question_id": "sgh-fin-001-q020",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q030--p00": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q030--p01": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q030--p02": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q030--p03": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q030--p04": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q030--p05": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q030--p06": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q030--p07": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q030--p08": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q030--p09": {
+      "question_id": "sgh-fin-001-q030",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q014--p00": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q014--p01": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q014--p02": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q014--p03": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q014--p04": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q014--p05": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q014--p06": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q014--p07": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q014--p08": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q014--p09": {
+      "question_id": "sgh-fin-001-q014",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q027--p00": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q027--p01": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q027--p02": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q027--p03": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q027--p04": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q027--p05": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q027--p06": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q027--p07": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q027--p08": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q027--p09": {
+      "question_id": "sgh-fin-001-q027",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q002--p00": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q002--p01": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q002--p02": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q002--p03": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q002--p04": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q002--p05": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q002--p06": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q002--p07": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q002--p08": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q002--p09": {
+      "question_id": "sgh-fin-001-q002",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q017--p00": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q017--p01": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q017--p02": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q017--p03": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q017--p04": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q017--p05": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q017--p06": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q017--p07": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q017--p08": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q017--p09": {
+      "question_id": "sgh-fin-001-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-fin-001-q003--p00": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "prompt-gpt"
+    },
+    "sgh-fin-001-q003--p01": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "prompt-gemini"
+    },
+    "sgh-fin-001-q003--p02": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-fin-001-q003--p03": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-fin-001-q003--p04": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "ft-local-small"
+    },
+    "sgh-fin-001-q003--p05": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "ft-local-medium"
+    },
+    "sgh-fin-001-q003--p06": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "ft-local-large"
+    },
+    "sgh-fin-001-q003--p07": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-fin-001-q003--p08": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-fin-001-q003--p09": {
+      "question_id": "sgh-fin-001-q003",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q015--p00": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q015--p01": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q015--p02": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q015--p03": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q015--p04": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q015--p05": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q015--p06": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q015--p07": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q015--p08": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q015--p09": {
+      "question_id": "sgh-ip-001-q015",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q014--p00": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q014--p01": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q014--p02": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q014--p03": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q014--p04": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q014--p05": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q014--p06": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q014--p07": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q014--p08": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q014--p09": {
+      "question_id": "sgh-ip-001-q014",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q005--p00": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q005--p01": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q005--p02": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q005--p03": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q005--p04": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q005--p05": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q005--p06": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q005--p07": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q005--p08": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q005--p09": {
+      "question_id": "sgh-ip-001-q005",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q013--p00": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q013--p01": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q013--p02": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q013--p03": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q013--p04": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q013--p05": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q013--p06": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q013--p07": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q013--p08": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q013--p09": {
+      "question_id": "sgh-ip-001-q013",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q028--p00": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q028--p01": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q028--p02": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q028--p03": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q028--p04": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q028--p05": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q028--p06": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q028--p07": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q028--p08": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q028--p09": {
+      "question_id": "sgh-ip-001-q028",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q026--p00": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q026--p01": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q026--p02": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q026--p03": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q026--p04": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q026--p05": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q026--p06": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q026--p07": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q026--p08": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q026--p09": {
+      "question_id": "sgh-ip-001-q026",
+      "producer": "rag-gpt"
+    },
+    "sgh-ip-001-q007--p00": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ip-001-q007--p01": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ip-001-q007--p02": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ip-001-q007--p03": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ip-001-q007--p04": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "ft-local-small"
+    },
+    "sgh-ip-001-q007--p05": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ip-001-q007--p06": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "ft-local-large"
+    },
+    "sgh-ip-001-q007--p07": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ip-001-q007--p08": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ip-001-q007--p09": {
+      "question_id": "sgh-ip-001-q007",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q007--p00": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q007--p01": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q007--p02": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q007--p03": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q007--p04": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q007--p05": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q007--p06": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q007--p07": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q007--p08": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q007--p09": {
+      "question_id": "sgh-lab-001-q007",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q051--p00": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q051--p01": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q051--p02": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q051--p03": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q051--p04": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q051--p05": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q051--p06": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q051--p07": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q051--p08": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q051--p09": {
+      "question_id": "sgh-lab-001-q051",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q045--p00": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q045--p01": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q045--p02": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q045--p03": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q045--p04": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q045--p05": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q045--p06": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q045--p07": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q045--p08": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q045--p09": {
+      "question_id": "sgh-lab-001-q045",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q017--p00": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q017--p01": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q017--p02": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q017--p03": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q017--p04": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q017--p05": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q017--p06": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q017--p07": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q017--p08": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q017--p09": {
+      "question_id": "sgh-lab-001-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q010--p00": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q010--p01": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q010--p02": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q010--p03": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q010--p04": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q010--p05": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q010--p06": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q010--p07": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q010--p08": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q010--p09": {
+      "question_id": "sgh-lab-001-q010",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q028--p00": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q028--p01": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q028--p02": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q028--p03": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q028--p04": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q028--p05": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q028--p06": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q028--p07": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q028--p08": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q028--p09": {
+      "question_id": "sgh-lab-001-q028",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q009--p00": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q009--p01": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q009--p02": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q009--p03": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q009--p04": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q009--p05": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q009--p06": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q009--p07": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q009--p08": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q009--p09": {
+      "question_id": "sgh-lab-001-q009",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q006--p00": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q006--p01": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q006--p02": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q006--p03": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q006--p04": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q006--p05": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q006--p06": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q006--p07": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q006--p08": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q006--p09": {
+      "question_id": "sgh-lab-001-q006",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q047--p00": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q047--p01": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q047--p02": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q047--p03": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q047--p04": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q047--p05": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q047--p06": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q047--p07": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q047--p08": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q047--p09": {
+      "question_id": "sgh-lab-001-q047",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q040--p00": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q040--p01": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q040--p02": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q040--p03": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q040--p04": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q040--p05": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q040--p06": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q040--p07": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q040--p08": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q040--p09": {
+      "question_id": "sgh-lab-001-q040",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q052--p00": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q052--p01": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q052--p02": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q052--p03": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q052--p04": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q052--p05": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q052--p06": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q052--p07": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q052--p08": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q052--p09": {
+      "question_id": "sgh-lab-001-q052",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q030--p00": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q030--p01": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q030--p02": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q030--p03": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q030--p04": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q030--p05": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q030--p06": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q030--p07": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q030--p08": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q030--p09": {
+      "question_id": "sgh-lab-001-q030",
+      "producer": "rag-gpt"
+    },
+    "sgh-lab-001-q011--p00": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "prompt-gpt"
+    },
+    "sgh-lab-001-q011--p01": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "prompt-gemini"
+    },
+    "sgh-lab-001-q011--p02": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-lab-001-q011--p03": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-lab-001-q011--p04": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "ft-local-small"
+    },
+    "sgh-lab-001-q011--p05": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "ft-local-medium"
+    },
+    "sgh-lab-001-q011--p06": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "ft-local-large"
+    },
+    "sgh-lab-001-q011--p07": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-lab-001-q011--p08": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-lab-001-q011--p09": {
+      "question_id": "sgh-lab-001-q011",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q041--p00": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q041--p01": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q041--p02": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q041--p03": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q041--p04": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q041--p05": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q041--p06": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q041--p07": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q041--p08": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q041--p09": {
+      "question_id": "sgh-opd-001-q041",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q010--p00": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q010--p01": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q010--p02": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q010--p03": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q010--p04": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q010--p05": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q010--p06": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q010--p07": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q010--p08": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q010--p09": {
+      "question_id": "sgh-opd-001-q010",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q017--p00": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q017--p01": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q017--p02": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q017--p03": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q017--p04": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q017--p05": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q017--p06": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q017--p07": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q017--p08": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q017--p09": {
+      "question_id": "sgh-opd-001-q017",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q036--p00": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q036--p01": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q036--p02": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q036--p03": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q036--p04": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q036--p05": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q036--p06": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q036--p07": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q036--p08": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q036--p09": {
+      "question_id": "sgh-opd-001-q036",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q011--p00": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q011--p01": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q011--p02": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q011--p03": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q011--p04": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q011--p05": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q011--p06": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q011--p07": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q011--p08": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q011--p09": {
+      "question_id": "sgh-opd-001-q011",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q059--p00": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q059--p01": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q059--p02": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q059--p03": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q059--p04": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q059--p05": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q059--p06": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q059--p07": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q059--p08": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q059--p09": {
+      "question_id": "sgh-opd-001-q059",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q065--p00": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q065--p01": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q065--p02": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q065--p03": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q065--p04": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q065--p05": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q065--p06": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q065--p07": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q065--p08": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q065--p09": {
+      "question_id": "sgh-opd-001-q065",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q013--p00": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q013--p01": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q013--p02": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q013--p03": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q013--p04": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q013--p05": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q013--p06": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q013--p07": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q013--p08": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q013--p09": {
+      "question_id": "sgh-opd-001-q013",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q003--p00": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q003--p01": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q003--p02": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q003--p03": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q003--p04": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q003--p05": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q003--p06": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q003--p07": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q003--p08": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q003--p09": {
+      "question_id": "sgh-opd-001-q003",
+      "producer": "rag-gpt"
+    },
+    "sgh-opd-001-q012--p00": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "prompt-gpt"
+    },
+    "sgh-opd-001-q012--p01": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "prompt-gemini"
+    },
+    "sgh-opd-001-q012--p02": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-opd-001-q012--p03": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-opd-001-q012--p04": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "ft-local-small"
+    },
+    "sgh-opd-001-q012--p05": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "ft-local-medium"
+    },
+    "sgh-opd-001-q012--p06": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "ft-local-large"
+    },
+    "sgh-opd-001-q012--p07": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-opd-001-q012--p08": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-opd-001-q012--p09": {
+      "question_id": "sgh-opd-001-q012",
+      "producer": "rag-gpt"
+    },
+    "sgh-ph-001-q003--p00": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ph-001-q003--p01": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ph-001-q003--p02": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ph-001-q003--p03": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ph-001-q003--p04": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "ft-local-small"
+    },
+    "sgh-ph-001-q003--p05": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ph-001-q003--p06": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "ft-local-large"
+    },
+    "sgh-ph-001-q003--p07": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ph-001-q003--p08": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ph-001-q003--p09": {
+      "question_id": "sgh-ph-001-q003",
+      "producer": "rag-gpt"
+    },
+    "sgh-ph-001-q002--p00": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ph-001-q002--p01": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ph-001-q002--p02": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ph-001-q002--p03": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ph-001-q002--p04": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "ft-local-small"
+    },
+    "sgh-ph-001-q002--p05": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ph-001-q002--p06": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "ft-local-large"
+    },
+    "sgh-ph-001-q002--p07": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ph-001-q002--p08": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ph-001-q002--p09": {
+      "question_id": "sgh-ph-001-q002",
+      "producer": "rag-gpt"
+    },
+    "sgh-ph-001-q023--p00": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ph-001-q023--p01": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ph-001-q023--p02": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ph-001-q023--p03": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ph-001-q023--p04": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "ft-local-small"
+    },
+    "sgh-ph-001-q023--p05": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ph-001-q023--p06": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "ft-local-large"
+    },
+    "sgh-ph-001-q023--p07": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ph-001-q023--p08": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ph-001-q023--p09": {
+      "question_id": "sgh-ph-001-q023",
+      "producer": "rag-gpt"
+    },
+    "sgh-ph-001-q008--p00": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ph-001-q008--p01": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ph-001-q008--p02": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ph-001-q008--p03": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ph-001-q008--p04": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "ft-local-small"
+    },
+    "sgh-ph-001-q008--p05": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ph-001-q008--p06": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "ft-local-large"
+    },
+    "sgh-ph-001-q008--p07": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ph-001-q008--p08": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ph-001-q008--p09": {
+      "question_id": "sgh-ph-001-q008",
+      "producer": "rag-gpt"
+    },
+    "sgh-ph-001-q019--p00": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ph-001-q019--p01": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ph-001-q019--p02": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ph-001-q019--p03": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ph-001-q019--p04": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "ft-local-small"
+    },
+    "sgh-ph-001-q019--p05": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ph-001-q019--p06": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "ft-local-large"
+    },
+    "sgh-ph-001-q019--p07": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ph-001-q019--p08": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ph-001-q019--p09": {
+      "question_id": "sgh-ph-001-q019",
+      "producer": "rag-gpt"
+    },
+    "sgh-ph-001-q007--p00": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "prompt-gpt"
+    },
+    "sgh-ph-001-q007--p01": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "prompt-gemini"
+    },
+    "sgh-ph-001-q007--p02": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-ph-001-q007--p03": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-ph-001-q007--p04": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "ft-local-small"
+    },
+    "sgh-ph-001-q007--p05": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "ft-local-medium"
+    },
+    "sgh-ph-001-q007--p06": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "ft-local-large"
+    },
+    "sgh-ph-001-q007--p07": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-ph-001-q007--p08": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-ph-001-q007--p09": {
+      "question_id": "sgh-ph-001-q007",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q001--p00": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q001--p01": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q001--p02": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q001--p03": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q001--p04": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q001--p05": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q001--p06": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q001--p07": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q001--p08": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q001--p09": {
+      "question_id": "sgh-pi-001-q001",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q010--p00": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q010--p01": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q010--p02": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q010--p03": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q010--p04": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q010--p05": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q010--p06": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q010--p07": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q010--p08": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q010--p09": {
+      "question_id": "sgh-pi-001-q010",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q028--p00": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q028--p01": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q028--p02": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q028--p03": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q028--p04": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q028--p05": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q028--p06": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q028--p07": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q028--p08": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q028--p09": {
+      "question_id": "sgh-pi-001-q028",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q024--p00": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q024--p01": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q024--p02": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q024--p03": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q024--p04": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q024--p05": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q024--p06": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q024--p07": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q024--p08": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q024--p09": {
+      "question_id": "sgh-pi-001-q024",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q021--p00": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q021--p01": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q021--p02": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q021--p03": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q021--p04": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q021--p05": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q021--p06": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q021--p07": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q021--p08": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q021--p09": {
+      "question_id": "sgh-pi-001-q021",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q008--p00": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q008--p01": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q008--p02": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q008--p03": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q008--p04": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q008--p05": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q008--p06": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q008--p07": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q008--p08": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q008--p09": {
+      "question_id": "sgh-pi-001-q008",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q031--p00": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q031--p01": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q031--p02": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q031--p03": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q031--p04": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q031--p05": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q031--p06": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q031--p07": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q031--p08": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q031--p09": {
+      "question_id": "sgh-pi-001-q031",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q027--p00": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q027--p01": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q027--p02": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q027--p03": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q027--p04": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q027--p05": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q027--p06": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q027--p07": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q027--p08": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q027--p09": {
+      "question_id": "sgh-pi-001-q027",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q037--p00": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q037--p01": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q037--p02": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q037--p03": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q037--p04": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q037--p05": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q037--p06": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q037--p07": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q037--p08": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q037--p09": {
+      "question_id": "sgh-pi-001-q037",
+      "producer": "rag-gpt"
+    },
+    "sgh-pi-001-q032--p00": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "prompt-gpt"
+    },
+    "sgh-pi-001-q032--p01": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "prompt-gemini"
+    },
+    "sgh-pi-001-q032--p02": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-pi-001-q032--p03": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-pi-001-q032--p04": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "ft-local-small"
+    },
+    "sgh-pi-001-q032--p05": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "ft-local-medium"
+    },
+    "sgh-pi-001-q032--p06": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "ft-local-large"
+    },
+    "sgh-pi-001-q032--p07": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-pi-001-q032--p08": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-pi-001-q032--p09": {
+      "question_id": "sgh-pi-001-q032",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q048--p00": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q048--p01": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q048--p02": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q048--p03": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q048--p04": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q048--p05": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q048--p06": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q048--p07": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q048--p08": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q048--p09": {
+      "question_id": "sgh-su-001-q048",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q037--p00": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q037--p01": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q037--p02": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q037--p03": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q037--p04": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q037--p05": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q037--p06": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q037--p07": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q037--p08": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q037--p09": {
+      "question_id": "sgh-su-001-q037",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q052--p00": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q052--p01": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q052--p02": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q052--p03": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q052--p04": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q052--p05": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q052--p06": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q052--p07": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q052--p08": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q052--p09": {
+      "question_id": "sgh-su-001-q052",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q047--p00": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q047--p01": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q047--p02": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q047--p03": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q047--p04": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q047--p05": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q047--p06": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q047--p07": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q047--p08": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q047--p09": {
+      "question_id": "sgh-su-001-q047",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q016--p00": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q016--p01": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q016--p02": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q016--p03": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q016--p04": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q016--p05": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q016--p06": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q016--p07": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q016--p08": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q016--p09": {
+      "question_id": "sgh-su-001-q016",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q054--p00": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q054--p01": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q054--p02": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q054--p03": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q054--p04": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q054--p05": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q054--p06": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q054--p07": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q054--p08": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q054--p09": {
+      "question_id": "sgh-su-001-q054",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q049--p00": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q049--p01": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q049--p02": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q049--p03": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q049--p04": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q049--p05": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q049--p06": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q049--p07": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q049--p08": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q049--p09": {
+      "question_id": "sgh-su-001-q049",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q010--p00": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q010--p01": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q010--p02": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q010--p03": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q010--p04": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q010--p05": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q010--p06": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q010--p07": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q010--p08": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q010--p09": {
+      "question_id": "sgh-su-001-q010",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q055--p00": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q055--p01": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q055--p02": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q055--p03": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q055--p04": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q055--p05": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q055--p06": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q055--p07": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q055--p08": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q055--p09": {
+      "question_id": "sgh-su-001-q055",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q002--p00": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q002--p01": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q002--p02": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q002--p03": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q002--p04": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q002--p05": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q002--p06": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q002--p07": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q002--p08": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q002--p09": {
+      "question_id": "sgh-su-001-q002",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q051--p00": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q051--p01": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q051--p02": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q051--p03": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q051--p04": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q051--p05": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q051--p06": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q051--p07": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q051--p08": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q051--p09": {
+      "question_id": "sgh-su-001-q051",
+      "producer": "rag-gpt"
+    },
+    "sgh-su-001-q053--p00": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "prompt-gpt"
+    },
+    "sgh-su-001-q053--p01": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "prompt-gemini"
+    },
+    "sgh-su-001-q053--p02": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "prompt-llama3.1-8b"
+    },
+    "sgh-su-001-q053--p03": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "prompt-qwen3.5-9b"
+    },
+    "sgh-su-001-q053--p04": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "ft-local-small"
+    },
+    "sgh-su-001-q053--p05": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "ft-local-medium"
+    },
+    "sgh-su-001-q053--p06": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "ft-local-large"
+    },
+    "sgh-su-001-q053--p07": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "ft-llama3.1-8b"
+    },
+    "sgh-su-001-q053--p08": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "rag-llama3.1-8b"
+    },
+    "sgh-su-001-q053--p09": {
+      "question_id": "sgh-su-001-q053",
+      "producer": "rag-gpt"
+    }
+  }
+}
