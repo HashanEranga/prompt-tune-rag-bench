@@ -23,10 +23,11 @@ env/
 
 # ---- IDE (JetBrains / VS Code) ----
 # Ignore IDE *state* (workspace.xml, caches, per-machine SDK paths) but SHIP the run
-# configurations: the numbered ladder 0_estimate -> 9_status IS the pipeline, and the
-# brief asks for something runnable from scratch. Note this must ignore .idea's CONTENTS,
+# configurations: the numbered ladder 0_estimate -> 15_judge_aggregate IS the pipeline, and
+# the brief asks for something runnable from scratch. Note this must ignore .idea's CONTENTS,
 # not the directory — git will not descend into an ignored directory to find the negation.
 .idea/*
+!.idea/runConfigurations/
 .vscode/
 
 # ---- OS cruft ----
