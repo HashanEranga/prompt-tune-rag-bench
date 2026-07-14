@@ -10,7 +10,8 @@
 > | `gemini-3.5-flash` — $1.50 / $9.00 | ✅ **verified** against Google's pricing page |
 > | `gpt-4.1` — $2.00 / $8.00 | ⚠️ **unverifiable** — OpenAI has delisted gpt-4.1 from its pricing page (current gen is gpt-5.x). The model still answers, but the rate can't be confirmed. **Check your OpenAI billing dashboard against the $0.1122 this project computed for 100 answers.** |
 > | OpenAI fine-tuning — $1.50–$25 / 1M trained | ❌ **MOOT — the product no longer exists.** Confirmed 2026-07-14 with a live `403 training_not_available`. Not a mispricing: it cannot be bought. The 3 `ft-openai-*` producers are removed. See *RESOLVED* at the bottom. |
-> | `claude-sonnet-4-5` — $3.00 / $15.00 | ⚠️ unverified |
+> | `claude-sonnet-5` — $3.00 / $15.00 | ⚠️ unverified. **The judge.** Introductory pricing ($2.00/$10.00 per 1M) runs to **2026-08-31**, and the Batches API halves whichever rate applies — so the real bill should land well under the list-rate ceiling below. |
+> | ~~`claude-sonnet-4-5`~~ | superseded as judge 2026-07-14; price row kept so earlier estimates still reproduce |
 >
 > `PRICES_VERIFIED` stays `False` in `models.py` until the above resolve.
 
@@ -18,22 +19,29 @@
 
 ## TL;DR
 
-| | ceiling | **actual so far** |
+| | ceiling | **actual** |
 |---|---|---|
-| Phase B — inference | $0.83 | **$0.2766** (Steps 1–2a done: 700/1,000 answers) |
-| Phase B — fine-tuning, one-off | **$4.00** | — (Together job, not yet run) |
-| Phase C — judge | $4.21 | — |
-| **PROJECT TOTAL** | **$9.04** | — |
+| Phase B — inference | $0.83 | **$0.3946** ✅ (1,000/1,000 answers) |
+| Phase B — fine-tuning, one-off | $4.00 | **$4.00** ✅ (Together, paid once) |
+| **Phase B TOTAL** | **$4.83** | **$4.39** ✅ |
+| Phase C — judge | **$6.87** *(batched)* | — *(not yet run; expect **$2.80–$4.20**)* |
+| **PROJECT TOTAL** | **~$11.70** | **$4.39 so far** |
+
+**Phase B landed at 91% of its ceiling — but only because the $4.00 training floor is not an
+estimate, it is a fixed price.** Strip that out and *inference* came in at **$0.3946 against a
+$0.83 ceiling — 48%**, exactly the overshoot predicted: answers averaged ~123 tokens against a
+300-token cap.
 
 **Every paid answer in this project is a prompting or RAG answer.** All four fine-tuned
 producers — 400 answers — cost **$0.00 to run**. The only fine-tuning charge in the entire
 project is a **single $4.00 training job**, and even that buys a file we keep.
 
-**Steps 1–2a came in at 33% of their ceiling.** The ceiling assumes every answer hits the
-300-token output cap; real answers average **~123 tokens**. Expect the same 3–5× overshoot on
-RAG — true *inference* spend is likely **$0.30–$0.50**, against a $0.83 ceiling.
-
 **Six of ten producers cost $0 to run** — everything on the RTX 4060 or through Ollama.
+
+> **The estimate called it.** Partway through Phase B this document predicted *"true inference
+> spend is likely **$0.30–$0.50**, against a $0.83 ceiling"* — because answers were averaging
+> ~123 tokens against the 300-token cap the ceiling charges. Final actual: **$0.3946.** The
+> ceiling method works, and it errs in the safe direction.
 
 ---
 
@@ -119,21 +127,39 @@ Re-training a *Qwen* rung on Together — same base, same data, same method as `
 would have paid the identical $4 to reproduce something the laptop already did free in 3.7
 minutes. **The floor is only worth paying when you're buying something you can't self-host.**
 
-### 3. The judge costs more than everything it judges
+### 3. The judge costs more than everything it judges — by 17×
 
-**Phase C ($4.21) > Phase B inference ($0.83), by 5×.** This surprises people, and the reason is
-structural: the judge reads *question + source section + candidate answer + rubric* for **every
-one of the 1,000 answers**, and it's a frontier model. Phase B's producers each read a 14-token
-question; the judge reads a whole document excerpt, 1,000 times.
+**Phase C ($6.87 batched ceiling) > Phase B inference ($0.3946 actual), by ~17×.** This surprises
+people, and the reason is structural and worth stating plainly:
+
+> **A producer is billed for the question it reads. The judge is billed for the whole document.**
+
+Phase B's producers each read a **14-token question**. The judge reads a **969-token source
+document** — plus the rubric, plus the answer — and it does that **1,000 times**. Mean judge input
+is **2,022 tokens per call**, ~144× the question a producer sees. The input side, which was
+rounding error all through Phase B, becomes the dominant term the moment you start judging.
+
+That is also why the judge's prompt design *is* a cost decision. Feeding it the full document
+rather than the tagged 100-token section is what pushes the input from ~380 to ~2,022 tokens/call
+— roughly **4× the Phase C bill**. We paid it deliberately: the section-only prompt would mark an
+answer unfaithful for correctly citing a *neighbouring* section, i.e. punish the model for our own
+segmentation. **$4 to not corrupt the measurement is the cheapest thing in this project.**
 
 **The judge does not care that six of your ten producers are free.** It pays the same per answer
 whether that answer came from `gpt-4.1` or from a free local adapter. Adding `ft-llama3.1-8b`
-cost **$0.00** in inference — and **$0.42** at the judge. Scaling the roster is nearly free on the
+cost **$0.00** in inference — and **~$0.69** at the judge. Scaling the roster is nearly free on the
 producer side and strictly linear on the judge side, and the judge side is the expensive one.
 
 **So the real price of a producer is its judge bill, not its inference bill.** That is the number
 to reason with when deciding whether a contender earns its place. `ft-llama3.1-8b` earns it: for
-$4.42 all-in it closes the TRIAD, which is the one comparison the whole project is named after.
+~$4.69 all-in it closes the TRIAD, which is the one comparison the whole project is named after.
+
+**Two knobs halve or double this, and both are deliberate:**
+
+| Knob | Effect |
+|---|---|
+| **Batches API** (on) | **−50% on every token.** Scoring is the least latency-sensitive job in the project; nothing waits on the verdicts. The synchronous premium would buy nothing at all. |
+| **Adaptive thinking** (off) | On would take the ceiling **$6.87 → $9.87**. The rubric is a bounded 5-field judgement against a document already in the prompt — not a puzzle. `--thinking` is there if you want to pay for a more deliberative judge. |
 
 ### 4. Half the project is free
 
@@ -239,13 +265,27 @@ never rent the one you already have.**
 
 ---
 
-## Reconciling estimate against reality
+## Reconciling estimate against reality — Phase B, closed
 
-After the run, `uv run python -m contenders status` prints **actual** spend per producer. Compare
-it to this document:
+Phase B has now run in full, so the estimate can be graded against the bill:
 
-- **Actual well under estimate** → expected. Answers came in under the 300-token cap.
-- **Actual near or above estimate** → the `PRICING` table is wrong. Fix it before Phase C, where
-  the judge is the larger bill and an error would be more expensive.
+| | ceiling | actual | |
+|---|---|---|---|
+| `prompt-gpt` | — | $0.1122 | |
+| `prompt-gemini` | — | $0.1643 | the most expensive producer in the project |
+| `rag-gpt` | — | $0.1181 | retrieval added ~$0.006/answer over `prompt-gpt` |
+| six local producers | $0.00 | **$0.00** | ✅ |
+| **inference total** | **$0.83** | **$0.3946** | **48% of ceiling** ✅ |
+| training (Together) | $4.00 | $4.00 | a floor, not an estimate — it cannot come in under |
 
-Better to learn that at $2 than at $50 — which is the entire reason this step exists.
+**The estimator was right, and right in the safe direction.** Inference landed at 48% of its
+ceiling, exactly as predicted, because answers averaged ~123 tokens against the 300-token cap
+charged. No `PRICING` row proved wrong. The one line that did *not* come in under was the
+Together training floor — because a floor is a price, not a projection.
+
+**The lesson transfers to Phase C.** The judge estimate ($6.87 batched) charges every verdict the
+full 512-token output cap; real verdicts run ~120 tokens. Expect the same 2–3× overshoot, landing
+around **$2.80–$4.20** — and if it lands *above* $6.87, the `PRICING` table is wrong and should be
+fixed before anything else is believed.
+
+Better to learn that at $3 than at $50 — which is the entire reason this step exists.

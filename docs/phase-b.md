@@ -1,12 +1,15 @@
-# Phase B — The Three Contenders (STEPS 1–2 DONE · STEP 3 RAG OUTSTANDING)
+# Phase B — The Three Contenders ✅ **COMPLETE**
 
 Answer the **100 locked test questions** (`data/qa/test.jsonl`) three ways, under
 **identical conditions**, logging `question_id · method · model · answer · latency · cost`
 for every answer so the judge (Phase C) can score them and the cost/speed columns
 feed the final verdict.
 
-The `contenders` package (`src/contenders/`) is written and imports clean. **Nothing
-has been run yet** — no API calls, no training, no spend. See *Execution ladder* below.
+**All three steps have run.** `results/answers.jsonl` holds **1,000 answers — 10 producers ×
+100 questions, 0 errors, 0 duplicates, one model per producer** (`assert_complete()` enforces
+it). Total spend: **$0.3946 inference + $4.00 one-off training = $4.39.**
+
+Phase C now scores every one of those answers → [phase-c.md](phase-c.md).
 
 > **Inputs frozen in Phase A:** `data/qa/test.jsonl` (100 eval Qs) and
 > `data/qa/train.jsonl` (300 fine-tuning pairs). Never let a test question leak
@@ -219,11 +222,12 @@ Total training: 13.2 minutes of GPU time, $0.00.
 
 ---
 
-## Step 2b · The rung this GPU cannot train  (`finetune --backend together`)
+## Step 2b · The rung this GPU cannot train  ✅ **COMPLETE**  (`finetune --backend together`)
 
-- [ ] Train `Llama-3.1-8B-Instruct` LoRA on Together — **$4.00, once**.
-- [ ] **Download the adapter** → `models/ft-llama3.1-8b/`, then answer **locally** for $0.
-- [ ] Completes the **TRIAD** (see roster above) — the report's headline.
+- [x] Trained `Llama-3.1-8B-Instruct` LoRA on Together — **$4.00, once**. Job `ft-7d574f7b-9565`.
+- [x] **Downloaded the adapter** → `models/ft-llama3.1-8b/`, answered **locally** for $0.
+- [x] **100/100 answers · 0 errors.** Mean latency **1.77 s**, served at 4-bit NF4 on the 4060.
+- [x] Completes the **TRIAD** (see roster above) — the report's headline.
 
 ### Why pay at all, when Step 2a was free?
 
@@ -261,16 +265,29 @@ make — which is also the one that closes the triad.
   either; swap back if Meta grants you the licence.
 - ⚠️ **Stop Ollama before answering** — the 8B 4-bit base needs ~5.5 GB of the same 8 GB.
 
-## Step 3 · RAG — retrieve, then answer  (`contenders rag`)
-- [ ] `--build-index` — embed the 126 Phase A sections **+ the 15 medical PDFs as distractors**
+## Step 3 · RAG — retrieve, then answer  ✅ **COMPLETE**  (`contenders rag`)
+- [x] `--build-index` — embedded the 126 Phase A sections **+ the 15 medical PDFs as distractors**
       → FAISS `IndexFlatIP` (L2-normalised = exact cosine). Free and fully local.
-- [ ] Retrieve top-3 → inject → answer. **One fixed config** across all 100; frozen to
-      `results/rag_config.json`.
-- [ ] Every answer logs *which* chunks were retrieved and whether they were distractors —
+- [x] Retrieved top-3 → injected → answered. **One fixed config** across all 100, frozen to
+      `results/rag_config.json`. **200/200 answers · 0 errors.**
+- [x] Every answer logs *which* chunks were retrieved and whether they were distractors —
       this is what lets Phase C tell **"the retriever missed"** from **"the model ignored
-      good context"**.
-- **Premise already validated:** given the real retrieved section, `llama3.1:8b` answers the
+      good context"**. `judge aggregate` cuts the table on exactly this.
+- **Premise validated:** given the real retrieved section, `llama3.1:8b` answers the
   AEC fee question **"1,000 LKR"** — exactly the gold answer it got wrong without documents.
+
+### The frozen retrieval config (`results/rag_config.json`)
+
+| | |
+|---|---|
+| Embeddings | `nomic-embed-text` (Ollama), 768-dim |
+| Index | `faiss.IndexFlatIP`, L2-normalised = exact cosine |
+| Chunks | **830 total** — 126 hospital + **704 distractor** |
+| `top_k` | **3**, identical for all 100 questions |
+
+**704 of 830 chunks are noise.** The right hospital section has to win against 5.6× its own
+volume in unrelated CDC/ECDC medical text — a retrieval test that can actually fail, not a toy
+index where nothing competes with the answer.
 
 > ⚠️ **`data/raw/medical/` is NOT in git** (25 MB of public CDC/ECDC PDFs, gitignored to keep
 > the repo lean). It's only needed for Step 3's distractors. Without it the index still builds
@@ -322,10 +339,41 @@ replaced by:
 > `pydev/` or `multiprocessing/`; none is ours. It fires **after** all work has completed and
 > been written. It is not a failure.
 
-## Phase B deliverable
-- [x] `results/answers.jsonl` — 1,000 answers, each with latency + cost. (`assert_complete()`
-      enforces exactly 100 per producer, zero errored rows.) **700/1,000 — Step 2b + RAG outstanding.**
-- [x] `results/finetune_jobs.json` — training **time + cost per rung**, both backends.
-- [ ] `results/rag_config.json` — the one frozen retrieval config.
+## Phase B deliverable ✅
 
-_Update the checkboxes and fill in real numbers as each step completes._
+- [x] `results/answers.jsonl` — **1,000 answers**, each with latency + cost. (`assert_complete()`
+      enforces exactly 100 per producer, zero errored rows.) **1,000/1,000 · 0 errors.**
+- [x] `results/finetune_jobs.json` — training **time + cost per rung**, both backends.
+- [x] `results/rag_config.json` — the one frozen retrieval config.
+
+### What actually ran — measured from `answers.jsonl`
+
+| Producer | Method | Answers | Spend | Mean latency |
+|---|---|---|---|---|
+| `prompt-gpt` | prompting | 100 | $0.1122 | 2.27 s |
+| `prompt-gemini` | prompting | 100 | $0.1643 | 1.99 s |
+| `prompt-llama3.1-8b` | prompting | 100 | $0.00 | 2.43 s |
+| `prompt-qwen3.5-9b` | prompting | 100 | $0.00 | 8.68 s |
+| `ft-local-small` | fine-tuned | 100 | $0.00 | **0.94 s** |
+| `ft-local-medium` | fine-tuned | 100 | $0.00 | 1.23 s |
+| `ft-local-large` | fine-tuned | 100 | $0.00 | 1.32 s |
+| `ft-llama3.1-8b` | fine-tuned | 100 | $0.00 *(+$4.00 training)* | 1.77 s |
+| `rag-llama3.1-8b` | RAG | 100 | $0.00 | 1.20 s |
+| `rag-gpt` | RAG | 100 | $0.1181 | 5.98 s |
+| | | **1,000** | **$0.3946** | |
+
+### Two findings are already visible — before the judge has scored anything
+
+**1. Fine-tuning won on speed, and it is not close.** The four fine-tuned rungs occupy four of
+the five fastest slots on the board; `ft-local-small` answers in **0.94 s**, roughly **9× faster
+than `prompt-qwen3.5-9b`** (8.68 s) and 2.4× faster than the same-family `prompt-llama3.1-8b`.
+Fine-tuning teaches *how to behave* — the tuned models emit a short, well-shaped answer
+immediately instead of preambling their way toward one.
+
+**2. Retrieval is not free, and the bill is latency.** `rag-gpt` costs **5.98 s** against
+`prompt-gpt`'s **2.27 s** — the same model, **2.6× slower**, purely because it must embed, search
+830 chunks, and read three injected sections before it may answer. That is the price of looking
+things up, and it belongs in the final verdict next to whatever quality RAG buys.
+
+Both of these are cost/speed findings that stand *independently of the judge*. Rule #4 exists
+precisely because these columns can crown a different winner than the score column does.
