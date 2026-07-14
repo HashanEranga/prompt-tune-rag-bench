@@ -7,14 +7,28 @@ track **what is actually done**.
 | Phase | Tracker | Status | Deliverable |
 |---|---|---|---|
 | **A** — Build the dataset | [phase-a.md](phase-a.md) | ✅ **Complete** | 100 locked test Qs + 300 train, frozen split |
-| **B** — Three contenders | [phase-b.md](phase-b.md) | 🟡 **Steps 1–2a done** (700/1,000) · Step 2b + RAG pending | 1,000 logged answers (prompting · fine-tuning · RAG) |
-| **C** — Judge & conclusions | [phase-c.md](phase-c.md) | ⬜ Not started | master results table + one-page verdict |
+| **B** — Three contenders | [phase-b.md](phase-b.md) | ✅ **Complete** | **1,000/1,000 answers · 0 errors** (prompting · fine-tuning · RAG) |
+| **C** — Judge & conclusions | [phase-c.md](phase-c.md) | ✅ **Judged** | **1,000/1,000 scored** → [`master_table.csv`](../results/master_table.csv) |
+| **D** — Retrieval engineering | [phase-d.md](phase-d.md) | ⬜ **Proposed, not built** | a fixed retriever — *no code exists for this yet* |
 
-**Phase B next step:** `cd src && uv run python -m contenders estimate` — zero API calls,
-prints the projected spend so you approve a number before anything costs money.
+## Where it landed
 
-💰 **[cost-analysis.md](cost-analysis.md)** — where the money goes: **$8.75** ceiling for the
-whole project, half the producers are free, and the judge costs more than everything it judges.
+The TRIAD — one model (`llama3.1:8b`), three methods, one judge:
+
+**prompted 1.927 → fine-tuned 2.529 → + documents 3.969.**
+
+Retrieval roughly triples faithfulness. Fine-tuning improves format, speed and safety but cannot
+install a fact. `rag-gpt` tops the table at **4.244**; `prompt-llama3.1-8b` sits at the bottom on
+**1.927**, with **26% of its answers flagged as potentially unsafe** against RAG's 3–5%.
+
+**Phase D exists because of one number.** On the 32 questions where the retriever actually found
+the right section, accuracy is **4.66** and completeness **4.84** — near-perfect. On the 30 where it
+missed, they collapse to **3.00** and **1.77**. The models are not the bottleneck; the retriever is.
+Two concrete root causes are identified in [phase-d.md](phase-d.md), both visible in data already on
+disk. **It is a proposal — nothing has been built or run.**
+
+💰 **[cost-analysis.md](cost-analysis.md)** — where the money goes. Phase B came in at
+**$4.39 actual** against a $4.83 ceiling; the judge costs more than everything it judges.
 
 **Status legend:** ✅ complete · 🟡 in progress · ⬜ not started
 
