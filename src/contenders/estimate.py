@@ -17,8 +17,6 @@ from .models import (FINETUNED, FT_INFERENCE_MULTIPLIER, JUDGE_MODEL, OPENAI, PR
 
 DEFAULT_EPOCHS = 3          # OpenAI FT default; --epochs to test sensitivity
 DEFAULT_TOP_K = 3           # RAG sections injected per question (the fixed config)
-JUDGE_RUBRIC_TOKENS = 250   # the 5-dimension scoring instructions, per Phase C call
-JUDGE_OUTPUT_TOKENS = 150   # the structured JSON verdict + one-line reason
 
 
 def _encoder():
@@ -133,20 +131,16 @@ def cmd_estimate(args) -> None:
         print(f"  {p.key:<{w}}  {TEST_SIZE:>5}  {in_tok:>9,}  {out_tok:>8,}  "
               f"{infer:>9.2f}  {train_cost:>9.2f}{tag}")
 
-    judge_in = sum(q + JUDGE_RUBRIC_TOKENS + sec_tokens + max_out for q in q_tokens) * len(PRODUCERS)
-    judge_out = JUDGE_OUTPUT_TOKENS * TEST_SIZE * len(PRODUCERS)
-    jr = PRICING[JUDGE_MODEL]
-    judge_cost = (judge_in * jr.inp + judge_out * jr.out) / 1_000_000
-
     n_answers = TEST_SIZE * len(PRODUCERS)
     print("  " + "-" * (w + 48))
     print(f"\n  Phase B — inference          $ {paid_total - train_total:7.2f}")
     print(f"  Phase B — FT training (1x)   $ {train_total:7.2f}")
     print(f"  Phase B TOTAL                $ {paid_total:7.2f}   ({n_answers:,} answers)")
-    print(f"\n  Phase C — judge ({JUDGE_MODEL})")
-    print(f"    {n_answers:,} answers x (question + source section + answer + rubric)")
-    print(f"  Phase C TOTAL                $ {judge_cost:7.2f}")
-    print(f"\n  PROJECT TOTAL                $ {paid_total + judge_cost:7.2f}\n")
+    # Phase C is NOT projected here. The judge's bill is dominated by the source document it
+    # reads on every call, and only `judge estimate` knows the real rubric and the real
+    # documents — so it owns that number. Two estimates of one figure is one too many.
+    print(f"\n  Phase C — judge ({JUDGE_MODEL}):  python -m judge estimate")
+    print("    (it reads the real rubric + the real source documents — also $0, no API calls)\n")
 
     if not PRICES_VERIFIED:
         print("  " + "=" * 68)

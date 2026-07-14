@@ -26,6 +26,8 @@ dependencies = [
     # ---- Phase C · judge + analysis ----
     "anthropic==0.116.0",     # THE JUDGE (Rule #3: different family than answerers).
     #   Also the Phase A Q&A-generation path.
+    "pydantic==2.13.4",       # validates every judge verdict on the way out of the batch.
+    #   Ships with anthropic, but the judge imports it directly -- so it is declared directly.
     "matplotlib==3.11.0",     # charts for the master results table / write-up
     "torch>=2.13.0",
 ]

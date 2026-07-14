@@ -84,7 +84,7 @@ TRIAD = ("prompt-llama3.1-8b", "ft-llama3.1-8b", "rag-llama3.1-8b")
 # The embedder is a different family than the Qwen answerer on purpose, so retrieval
 # quality isn't entangled with one lineage.
 EMBED_MODEL = "nomic-embed-text"
-JUDGE_MODEL = "claude-sonnet-4-5"  # Phase C only; priced here so `estimate` sees the whole project
+JUDGE_MODEL = "claude-sonnet-5"  # Phase C only; priced here so `estimate` sees the whole project
 
 
 @dataclass(frozen=True)
@@ -112,6 +112,12 @@ PRICING: dict[str, Price] = {
     # Retired: still in models.list(), but calling it 404s. Kept to price the 21 answers it
     # produced before the switch.
     "gemini-2.5-flash": Price(0.30, 2.50, None, "retired 2026 — new users get 404"),
+    # THE JUDGE. Standard list rate — introductory pricing ($2.00/$10.00 per 1M) runs to
+    # 2026-08-31, and the Batches API halves whichever applies, so the real bill lands under
+    # what `judge estimate` prints. A ceiling, like every other figure in this project.
+    "claude-sonnet-5": Price(3.00, 15.00, None, "https://www.anthropic.com/pricing#api"),
+    # Superseded as judge on 2026-07-14, kept so the earlier estimates still reproduce —
+    # same reason the retired gemini-2.5-flash row is still here.
     "claude-sonnet-4-5": Price(3.00, 15.00, None, "https://www.anthropic.com/pricing#api"),
     "llama3.1:8b": FREE,
     "qwen3.5:9b": FREE,
