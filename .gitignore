@@ -40,8 +40,19 @@ Thumbs.db
 # CDC/ECDC reports used only as RAG distractors: re-download rather than bloat git.
 data/raw/medical/
 
-# ---- Downloaded checkpoint archives ----
-# The Together adapter arrives as a ~158 MB .tar.zst which we extract into
-# models/<producer>/. The archive is a re-downloadable cache, not a deliverable, and it
-# is larger than GitHub's 100 MB per-file limit — keep it out of git.
-models/*.tar.zst
+# ---- Trained model artifacts (LoRA adapters + tokenizers) ----
+# This rule used to cover only the .tar.zst archive — and the EXTRACTED adapter was then
+# committed anyway, all 160 MB of it, which is over GitHub's 100 MB per-file hard limit and
+# made the repo unpushable. The rule now covers the whole directory (~222 MB).
+#
+# Weights are build artifacts, not deliverables. Nothing is lost:
+#   * the Qwen ladder retrains from scratch in 13.2 minutes for $0.00
+#         python -m contenders finetune --backend local
+#   * the 8B rung is the documented one-off $4 Together job
+#         python -m contenders finetune --backend together --train-only
+#   * results/finetune_jobs.json keeps the training time, cost, VRAM and model ids — the
+#     numbers the report actually cites survive in git; only the weights do not.
+#
+# What IS committed is every artifact the comparison rests on: the 1,000 answers, the 1,000
+# judge verdicts, the master table, and the frozen FAISS index.
+models/
