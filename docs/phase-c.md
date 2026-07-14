@@ -5,8 +5,13 @@ A **separate AI** scores every Phase B answer against the **source document**
 and a written verdict.
 
 > **Integrity Rule #3:** the judge must be a **different model family** than the
-> answerers (e.g. answer with GPT/Llama/Qwen → judge with Claude). A model judging
-> its own family may favour answers that "sound like itself."
+> answerers. A model judging its own family may favour answers that "sound like
+> itself."
+>
+> **This project's assignment:** answerers are GPT · Gemini · Llama · Qwen
+> (see the [Phase B roster](phase-b.md#the-answer-producer-roster)) → the judge is
+> **Claude** (`ANTHROPIC_API_KEY`). Claude therefore never produces an answer in
+> Phase B. Keep it that way.
 
 ---
 

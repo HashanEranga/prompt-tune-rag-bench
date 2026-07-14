@@ -63,13 +63,12 @@ anything but verified pairs, drops same-fact near-duplicates (Jaccard ≥ 0.8 on
 
 ## Reproduce from scratch
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+uv sync                            # creates .venv from pyproject.toml + uv.lock
 cd src
-python -m build_dataset clean      # PDFs  -> data/clean/*.md
-python -m build_dataset segment    # clean -> data/interim/sections.jsonl
-python -m build_dataset generate   # -> data/qa/pool.jsonl (+ verify_sheet.md)
-python -m build_dataset split      # verified pool -> train/test + MANIFEST.md
+uv run python -m build_dataset clean      # PDFs  -> data/clean/*.md
+uv run python -m build_dataset segment    # clean -> data/interim/sections.jsonl
+uv run python -m build_dataset generate   # -> data/qa/pool.jsonl (+ verify_sheet.md)
+uv run python -m build_dataset split      # verified pool -> train/test + MANIFEST.md
 ```
 
 > **Integrity rule (Rule #1):** train and test stay permanently separate — the 100

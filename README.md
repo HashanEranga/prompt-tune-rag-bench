@@ -233,7 +233,9 @@ A structure that satisfies "runnable from scratch by a stranger":
 ```
 serendib-eval/
 ├── README.md              # this file — how to run the whole thing, top to bottom
-├── requirements.txt
+├── pyproject.toml         # dependencies (managed with uv)
+├── uv.lock                # exact pinned versions — the "runs for a stranger" guarantee
+├── .env.example           # every API key the pipeline can use, and what needs which
 ├── docs/                  # per-phase progress trackers (see docs/README.md)
 │   ├── README.md          # progress index — A/B/C status at a glance
 │   ├── phase-a.md         # Phase A — dataset (complete)
@@ -253,12 +255,22 @@ serendib-eval/
 │   │   ├── segment.py         #   stage 2: Markdown → logical sections
 │   │   ├── generate.py        #   stage 3: sections → grounded Q&A pool + verify sheet
 │   │   └── split.py           #   stage 4: verified pool → train/test (seeded)
-│   ├── 1_prompting.py         # baseline answers, all models
-│   ├── 2_finetune.py          # train small/med/large, then answer
-│   ├── 3_rag.py               # index → retrieve → answer
-│   └── 4_judge.py             # score all answers, structured JSON
+│   ├── contenders/            # Phase B package: the 3 contenders + cost control
+│   │   ├── __main__.py        #   CLI: python -m contenders <estimate|check|prompt|finetune|rag|status>
+│   │   ├── models.py          #   THE registry: 10 producers, model ids, PRICING
+│   │   ├── clients.py         #   one call() for every provider; same prompt + decoding for all
+│   │   ├── answers.py         #   results/answers.jsonl contract + resume + completeness asserts
+│   │   ├── runner.py          #   the shared answer loop (identical harness for all 3 methods)
+│   │   ├── estimate.py        #   step 0: price the run BEFORE spending — zero API calls
+│   │   ├── prompt.py          #   step 1: baseline answers, NO documents
+│   │   ├── finetune.py        #   step 2: small/med/large — OpenAI FT API and/or local QLoRA
+│   │   ├── rag.py             #   step 3: index (+ distractors) → retrieve → answer
+│   │   └── status.py          #   progress + spend; `check` pings each provider
+│   └── 4_judge.py             # Phase C: score all answers, structured JSON
 ├── results/
-│   ├── answers.jsonl          # every answer + latency + cost
+│   ├── answers.jsonl          # every answer + latency + cost  (1,000 rows)
+│   ├── finetune_jobs.json     # training time + cost per size, both backends
+│   ├── rag_config.json        # the one frozen retrieval config
 │   ├── scores.csv             # judge output, one row per answer
 │   └── master_table.csv       # aggregated comparison
 └── report/
@@ -266,30 +278,74 @@ serendib-eval/
     └── reflection.md
 ```
 
-**Language:** Python. **PDF:** PyMuPDF/pdfplumber. **Q&A generation + judge:** Claude (Opus/Sonnet). **Prompting models:** Claude + GPT (frontier) and Llama/Qwen/Mistral via Ollama (open). **Fine-tuning:** OpenAI FT API *or* LoRA (unsloth/PEFT) on an open size-ladder. **RAG:** sentence-transformers + FAISS/Chroma. **Analysis:** pandas + matplotlib.
+**Language:** Python 3.14, dependencies via **uv**. **PDF:** PyMuPDF/pdfplumber. **Q&A generation:** Claude. **Analysis:** pandas + matplotlib.
+
+Who plays which role — note that **Rule #3 forces Claude out of Phase B**: it is the judge, so it never answers.
+
+| Role | Model | Key |
+|---|---|---|
+| **Prompting — frontier** | `gpt-4.1` · `gemini-3.5-flash` | `OPENAI_API_KEY` · `GOOGLE_API_KEY` |
+| **Prompting — small/open** | `llama3.1:8b` · `qwen3.5:9b` (local Ollama) | none — free |
+| **Fine-tuning** | OpenAI FT API (small/med/large) *or* local LoRA | `OPENAI_API_KEY` *or* `HF_TOKEN` |
+| **RAG** | `nomic-embed-text` (Ollama) → FAISS → an answerer above | none for retrieval |
+| 🧑‍⚖️ **Judge** | **Claude** — *different family than every answerer* | `ANTHROPIC_API_KEY` |
 
 **Setup:**
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate            # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+# 1. Install uv (once):  https://docs.astral.sh/uv/getting-started/installation/
+uv sync                              # creates .venv + installs exact pinned versions
+# uv sync --extra finetune-local     # ONLY if fine-tuning locally with LoRA (pulls torch)
 
-export ANTHROPIC_API_KEY=...         # e.g. the judge
-export OPENAI_API_KEY=...             # e.g. answerers / fine-tuning
-# Ollama (local open models) needs no key — just `ollama serve`
+# 2. API keys
+cp .env.example .env                 # then fill it in — .env is gitignored
+```
+
+`.env.example` documents every key and **which phase actually requires it** — the minimum to run end-to-end is `OPENAI_API_KEY` (answerers + fine-tuning) and `ANTHROPIC_API_KEY` (the judge). Everything else is optional.
+
+**Local models** (no key, no cost — just `ollama serve`):
+
+```bash
+ollama pull llama3.1:8b              # small open answerer
+ollama pull qwen3.5:9b               # second small open answerer
+ollama pull nomic-embed-text         # RAG embeddings
 ```
 
 **Run, top to bottom** (each step's output feeds the next):
 
 ```bash
-(cd src && python -m build_dataset clean && python -m build_dataset segment \
-       && python -m build_dataset generate && python -m build_dataset split)  # Phase A — foundation
-python src/1_prompting.py            # Phase B — baseline
-python src/2_finetune.py             # Phase B — small/medium/large
-python src/3_rag.py                  # Phase B — retrieve-then-answer
-python src/4_judge.py                # Phase C — score everything
+# Phase A — foundation (already committed; re-run only to rebuild from the PDFs)
+(cd src && uv run python -m build_dataset clean && uv run python -m build_dataset segment \
+        && uv run python -m build_dataset generate && uv run python -m build_dataset split)
+
+# Phase B — the three contenders. Cheapest and safest first; every step resumes.
+cd src
+uv run python -m contenders estimate                  # $0 — price the whole run, no API calls
+uv run python -m contenders check                     # cents — do the model ids and keys work?
+uv run python -m contenders rag --build-index         # $0 — local FAISS + Ollama embeddings
+uv run python -m contenders prompt --local-only --limit 3   # $0 — end-to-end smoke test
+uv run python -m contenders prompt                    # Step 1 — baseline, NO documents
+uv run python -m contenders finetune --backend local  # Step 2a — QLoRA on your GPU (free)
+uv run python -m contenders finetune --backend together --train-only   # Step 2b — $4.00, ONCE
+ollama stop llama3.1:8b                               # free the 8 GB card for the 8B
+uv run python -m contenders finetune --backend together --answer-only  # Step 2b — free, local
+uv run python -m contenders rag                       # Step 3 — retrieve, then answer
+uv run python -m contenders status                    # answers logged + spend so far
+
+uv run python src/4_judge.py          # Phase C — score everything
 ```
+
+**Or click it.** `.idea/runConfigurations/` ships the same ladder as PyCharm run configs
+(`0_estimate` → `9_status`), committed so a fresh clone gets them. Use **Run ▸**, not **Debug ▸** —
+the debugger prints a harmless `pydevd` shutdown traceback *after* the work completes.
+
+**Step 2b is split into two buttons on purpose.** `--train-only` is the single irreversible $4
+Together job; `--answer-only` is free, local and re-runnable. Separate commands means the paid one
+can't be triggered by reflex while you iterate on the free one.
+
+> **Start with `estimate`.** It makes zero API calls and prints a ceiling for the whole
+> project (Phase B + the Phase C judge) so you approve a number before spending anything.
+> Add `--limit N` to any answering command to try it on N questions first.
 
 ---
 
