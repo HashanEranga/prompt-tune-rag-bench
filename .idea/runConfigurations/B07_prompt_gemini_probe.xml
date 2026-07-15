@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="6 - STEP 2a finetune LOCAL [free]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="B07 - prompt GEMINI probe  [--limit 3]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <option name="SCRIPT_NAME" value="contenders" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="finetune --backend local" />
+    <option name="PARAMETERS" value="prompt --producer prompt-gemini --limit 3" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />

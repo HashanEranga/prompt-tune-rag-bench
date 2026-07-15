@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="7 - STEP 2b finetune TOGETHER · TRAIN [$4 PAID · RUN ONCE]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="A05 - dataset split --all  [$0, preview unverified]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -11,9 +11,9 @@
     <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
-    <option name="SCRIPT_NAME" value="contenders" />
+    <option name="SCRIPT_NAME" value="build_dataset" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="finetune --backend together --train-only" />
+    <option name="PARAMETERS" value="split --all" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />

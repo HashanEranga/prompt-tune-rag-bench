@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="7b - STEP 2b finetune TOGETHER · ANSWER [free · local GPU]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="B05 - smoke test PAID  [pennies]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <option name="SCRIPT_NAME" value="contenders" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="finetune --backend together --answer-only" />
+    <option name="PARAMETERS" value="prompt --limit 3" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />

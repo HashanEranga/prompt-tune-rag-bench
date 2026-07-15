@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="11 - PHASE C  judge submit --limit 5  [cents]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="C06 - judge aggregate  [-> master_table]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <option name="SCRIPT_NAME" value="judge" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="submit --limit 5" />
+    <option name="PARAMETERS" value="aggregate" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />

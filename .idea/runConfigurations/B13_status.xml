@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="13 - PHASE C  judge collect  [$0, resumes]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="B13 - status  [$0]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -11,9 +11,9 @@
     <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
-    <option name="SCRIPT_NAME" value="judge" />
+    <option name="SCRIPT_NAME" value="contenders" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="collect" />
+    <option name="PARAMETERS" value="status" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />

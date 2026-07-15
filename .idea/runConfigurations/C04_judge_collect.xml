@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="12 - PHASE C  judge submit  [THE SPEND, run once]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="C04 - judge collect  [$0, resumes]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <option name="SCRIPT_NAME" value="judge" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="submit" />
+    <option name="PARAMETERS" value="collect" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />

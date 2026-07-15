@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="2 - rag build-index  [$0, local]" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="B03 - rag build-index  [$0, local]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />

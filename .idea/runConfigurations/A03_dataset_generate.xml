@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="14 - PHASE C  judge status" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="A03 - dataset generate  [Anthropic API]" type="PythonConfigurationType" factoryName="Python">
     <module name="agenticai-miniproject-01" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -11,9 +11,9 @@
     <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
-    <option name="SCRIPT_NAME" value="judge" />
+    <option name="SCRIPT_NAME" value="build_dataset" />
     <option name="MODULE_MODE" value="true" />
-    <option name="PARAMETERS" value="status" />
+    <option name="PARAMETERS" value="generate" />
     <option name="EMULATE_TERMINAL" value="true" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />
